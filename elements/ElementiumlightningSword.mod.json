@@ -1,0 +1,32 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightning_sword",
+    "customModelName": "Normal",
+    "name": " Elementium Sword (Element:lightning)",
+    "specialInfo": [
+      "Strikes the target with lightning..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.3000000000000003,
+    "enchantability": 16,
+    "damageVsEntity": 19.6,
+    "usageCount": 2525,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ElementlighningSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

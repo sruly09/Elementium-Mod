@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Elementium Mod",
+    "icon": {
+      "value": "CUSTOM:ElementiumDiamond"
+    },
+    "showSearch": true
+  }
+}

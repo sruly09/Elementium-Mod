@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elementium_mod:elementium_diamond"
+    },
+    "1": {
+      "item": "elementium_mod:elementium_diamond"
+    },
+    "2": {
+      "item": "elementium_mod:elementium_diamond"
+    },
+    "3": {
+      "item": "elementium_mod:elementium_diamond"
+    },
+    "4": {
+      "item": "elementium_mod:elementium_diamond"
+    },
+    "5": {
+      "item": "elementium_mod:elementium_diamond"
+    },
+    "6": {
+      "item": "elementium_mod:elementium_diamond"
+    },
+    "7": {
+      "item": "elementium_mod:elementium_diamond"
+    },
+    "8": {
+      "item": "elementium_mod:elementium_diamond"
+    }
+  },
+  "result": {
+    "item": "elementium_mod:elementium_block",
+    "count": 1
+  }
+}

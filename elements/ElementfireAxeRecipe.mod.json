@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ElementfireDiamond"
+      },
+      {
+        "value": "CUSTOM:ElementfireDiamond"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ElementfireDiamond"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ElementfireAxe"
+    },
+    "name": "elementfire_axe_recipe",
+    "namespace": "mod"
+  }
+}

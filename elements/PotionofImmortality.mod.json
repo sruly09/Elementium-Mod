@@ -1,0 +1,75 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Immortality",
+    "splashName": "Splash Potion of  Immortality",
+    "lingeringName": "Lingering Potion of  Immortality",
+    "arrowName": "Arrow of  Immortality",
+    "effects": [
+      {
+        "effect": {
+          "value": "WATER_BREATHING"
+        },
+        "duration": 4600,
+        "amplifier": 52,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SLOW_FALLING"
+        },
+        "duration": 4600,
+        "amplifier": 50,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HEALTH_BOOST"
+        },
+        "duration": 4600,
+        "amplifier": 50,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "ABSORPTION"
+        },
+        "duration": 4600,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "RESISTANCE"
+        },
+        "duration": 4600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "REGENERATION"
+        },
+        "duration": 4600,
+        "amplifier": 75,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SATURATION"
+        },
+        "duration": 3600,
+        "amplifier": 25,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

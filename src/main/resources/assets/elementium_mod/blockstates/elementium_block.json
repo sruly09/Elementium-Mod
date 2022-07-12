@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "elementium_mod:block/elementium_block"
+    }
+  }
+}

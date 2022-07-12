@@ -1,0 +1,380 @@
+{
+  "mod_elements": [
+    {
+      "name": "ElementiumDiamond",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium_diamond"
+    },
+    {
+      "name": "ElementiumBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium_block"
+    },
+    {
+      "name": "ElementiumTab",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium_tab"
+    },
+    {
+      "name": "ElementiumOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium_ore"
+    },
+    {
+      "name": "FireEssence",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_essence"
+    },
+    {
+      "name": "ElementiumBlockRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium_block_recipe"
+    },
+    {
+      "name": "LightningEssence",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_essence"
+    },
+    {
+      "name": "EarthEssence",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_essence"
+    },
+    {
+      "name": "ElementiumDiamondRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium_diamond_recipe"
+    },
+    {
+      "name": "ElementfireSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementiumOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementfireSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_sword"
+    },
+    {
+      "name": "ElementfireDiamond",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_diamond"
+    },
+    {
+      "name": "ElementfireSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_sword_recipe"
+    },
+    {
+      "name": "PotionofImmortality",
+      "type": "potion",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionof_immortality"
+    },
+    {
+      "name": "ElementfirePickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementfirePickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_pickaxe"
+    },
+    {
+      "name": "PotionofImmortalityRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionof_immortality_recipe"
+    },
+    {
+      "name": "ElementfireBow",
+      "type": "rangeditem",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_bow"
+    },
+    {
+      "name": "ElementfirePaxel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_paxel"
+    },
+    {
+      "name": "ElementfireAxe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_axe"
+    },
+    {
+      "name": "ElementfireAxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_axe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementfireAxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_axe_recipe"
+    },
+    {
+      "name": "ElementfirePaxelRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_paxel_recipe"
+    },
+    {
+      "name": "ElementfireShovel",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_shovel"
+    },
+    {
+      "name": "ElementfirePaxelBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_paxel_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementlighningSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementlighning_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementiumlightningSword",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementiumlightning_sword"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.tipped_arrow.effect.potionof_immortality": "Arrow of  Immortality",
+      "item.elementium_mod.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
+      "block.elementium_mod.elementium_ore": "Elementium Ore",
+      "item.elementium_mod.fire_essence": "Fire Essence",
+      "item.minecraft.potion.effect.potionof_immortality": "Potion of Immortality",
+      "item.elementium_mod.elementfire_bow": "Elementium Bow (Element:fire)",
+      "item.elementium_mod.elementiumlightning_sword": " Elementium Sword (Element:lightning)",
+      "item.minecraft.splash_potion.effect.potionof_immortality": "Splash Potion of  Immortality",
+      "item.minecraft.lingering_potion.effect.potionof_immortality": "Lingering Potion of  Immortality",
+      "item.elementium_mod.elementfire_axe": "Elementium Axe (Element:fire)",
+      "block.elementium_mod.elementium_block": "Elementium Block",
+      "item.elementium_mod.elementfire_sword": "Elementium Sword (Element:fire)  ",
+      "item.elementium_mod.elementfire_shovel": "Elementfire Shovel",
+      "item.elementium_mod.lightning_essence": "Lightning Essence",
+      "item.elementium_mod.earth_essence": "Earth Essence",
+      "item.elementium_mod.elementfire_diamond": "Elemondium (Element:Fire)",
+      "item.elementium_mod.elementfire_paxel": "Elementium Paxel (Element:fire)",
+      "item.elementium_mod.elementium_diamond": "Elemondium",
+      "itemGroup.tabelementium_tab": "Elementium Mod"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "elementium_mod",
+    "modName": "Elementium Mod",
+    "version": "1.0.0",
+    "author": "sruly09",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.element.elementiummod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

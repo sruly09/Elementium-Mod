@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementfire_paxel",
+    "customModelName": "Normal",
+    "name": "Elementium Paxel (Element:fire)",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 5,
+    "efficiency": 8.5,
+    "attackSpeed": 2.4,
+    "enchantability": 12,
+    "damageVsEntity": 19.8,
+    "usageCount": 2750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElementfireDiamond"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

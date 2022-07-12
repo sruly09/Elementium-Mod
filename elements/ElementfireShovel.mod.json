@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementfireshovel",
+    "customModelName": "Normal",
+    "name": "Elementfire Shovel",
+    "specialInfo": [
+      "W.I.P."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 5,
+    "efficiency": 9.4,
+    "attackSpeed": 1.8,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElementfireDiamond"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "fire_sword",
+    "customModelName": "Normal",
+    "name": "Elementium Sword (Element:fire)  ",
+    "specialInfo": [
+      "lights target on fire..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 0.0,
+    "attackSpeed": 1.5999999999999999,
+    "enchantability": 15,
+    "damageVsEntity": 17.599999999999998,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElementfireDiamond"
+      },
+      {
+        "value": "CUSTOM:FireEssence"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ElementfireSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

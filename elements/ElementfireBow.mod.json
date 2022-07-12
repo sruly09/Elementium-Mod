@@ -1,0 +1,37 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementfirebow",
+    "customModelName": "Normal",
+    "name": "Elementium Bow (Element:fire)",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.ARROW"
+    },
+    "shootConstantly": false,
+    "usageCount": 750,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.8999999999999995,
+    "bulletKnockback": 3,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.ARROW"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

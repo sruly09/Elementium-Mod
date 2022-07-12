@@ -1,0 +1,21 @@
+{
+  "item.minecraft.tipped_arrow.effect.potionof_immortality": "Arrow of  Immortality",
+  "item.elementium_mod.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
+  "block.elementium_mod.elementium_ore": "Elementium Ore",
+  "item.elementium_mod.fire_essence": "Fire Essence",
+  "item.minecraft.potion.effect.potionof_immortality": "Potion of Immortality",
+  "item.elementium_mod.elementfire_bow": "Elementium Bow (Element:fire)",
+  "item.elementium_mod.elementiumlightning_sword": " Elementium Sword (Element:lightning)",
+  "item.minecraft.splash_potion.effect.potionof_immortality": "Splash Potion of  Immortality",
+  "item.minecraft.lingering_potion.effect.potionof_immortality": "Lingering Potion of  Immortality",
+  "item.elementium_mod.elementfire_axe": "Elementium Axe (Element:fire)",
+  "block.elementium_mod.elementium_block": "Elementium Block",
+  "item.elementium_mod.elementfire_sword": "Elementium Sword (Element:fire)  ",
+  "item.elementium_mod.elementfire_shovel": "Elementfire Shovel",
+  "item.elementium_mod.lightning_essence": "Lightning Essence",
+  "item.elementium_mod.earth_essence": "Earth Essence",
+  "item.elementium_mod.elementfire_diamond": "Elemondium (Element:Fire)",
+  "item.elementium_mod.elementfire_paxel": "Elementium Paxel (Element:fire)",
+  "item.elementium_mod.elementium_diamond": "Elemondium",
+  "itemGroup.tabelementium_tab": "Elementium Mod"
+}

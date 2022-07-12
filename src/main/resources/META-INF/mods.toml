@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="elementium_mod"
+version="1.0.0"
+displayName="Elementium Mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="sruly09"
+
+[[dependencies.elementium_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
