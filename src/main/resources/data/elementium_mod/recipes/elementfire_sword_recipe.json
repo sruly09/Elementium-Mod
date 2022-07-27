@@ -1,21 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "0",
-    "1",
-    "2"
-  ],
-  "key": {
-    "0": {
-      "item": "elementium_mod:elementfire_diamond"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elementium_mod:elementium_sword"
     },
-    "1": {
-      "item": "elementium_mod:elementfire_diamond"
-    },
-    "2": {
-      "item": "minecraft:blaze_rod"
+    {
+      "item": "elementium_mod:fire_essence"
     }
-  },
+  ],
   "result": {
     "item": "elementium_mod:elementfire_sword",
     "count": 1

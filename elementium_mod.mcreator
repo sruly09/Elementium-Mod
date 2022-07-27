@@ -113,14 +113,6 @@
       "registry_name": "elementfire_sword"
     },
     {
-      "name": "ElementfireDiamond",
-      "type": "item",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elementfire_diamond"
-    },
-    {
       "name": "ElementfireSwordRecipe",
       "type": "recipe",
       "sortid": 14,
@@ -327,31 +319,109 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementiumlightning_sword"
+    },
+    {
+      "name": "ElementiumlightningSwordRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementiumlightning_sword_recipe"
+    },
+    {
+      "name": "ElementiumSword",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium_sword"
+    },
+    {
+      "name": "ElementiumPickaxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium_pickaxe"
+    },
+    {
+      "name": "ElementfirePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementfire_pickaxe_recipe"
+    },
+    {
+      "name": "DoIhearpeoplescreaming",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_ihearpeoplescreaming"
+    },
+    {
+      "name": "ElementlightningPickaxe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementlightning_pickaxe"
+    },
+    {
+      "name": "ElementlightningPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementlightning_pickaxe_recipe"
+    },
+    {
+      "name": "ElementlightningAxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementlightning_axe"
+    },
+    {
+      "name": "ElementlightningShovel",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementlightning_shovel"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.minecraft.tipped_arrow.effect.potionof_immortality": "Arrow of  Immortality",
-      "item.elementium_mod.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
-      "block.elementium_mod.elementium_ore": "Elementium Ore",
-      "item.elementium_mod.fire_essence": "Fire Essence",
+      "advancements.do_ihearpeoplescreaming.title": "Do I hear people screaming?",
+      "item.elementium_mod.elementlightning_pickaxe": "Elementium Pickaxe (Element:lightning)",
       "item.minecraft.potion.effect.potionof_immortality": "Potion of Immortality",
-      "item.elementium_mod.elementfire_bow": "Elementium Bow (Element:fire)",
       "item.elementium_mod.elementiumlightning_sword": " Elementium Sword (Element:lightning)",
       "item.minecraft.splash_potion.effect.potionof_immortality": "Splash Potion of  Immortality",
-      "item.minecraft.lingering_potion.effect.potionof_immortality": "Lingering Potion of  Immortality",
-      "item.elementium_mod.elementfire_axe": "Elementium Axe (Element:fire)",
+      "item.elementium_mod.elementlightning_shovel": "Elementlightning Shovel",
       "block.elementium_mod.elementium_block": "Elementium Block",
       "item.elementium_mod.elementfire_sword": "Elementium Sword (Element:fire)  ",
       "item.elementium_mod.elementfire_shovel": "Elementfire Shovel",
       "item.elementium_mod.lightning_essence": "Lightning Essence",
+      "advancements.do_ihearpeoplescreaming.descr": "obtain earth essence",
+      "item.elementium_mod.elementlightning_axe": "Elementlightning Axe",
       "item.elementium_mod.earth_essence": "Earth Essence",
-      "item.elementium_mod.elementfire_diamond": "Elemondium (Element:Fire)",
+      "itemGroup.tabelementium_tab": "Elementium Mod",
+      "item.elementium_mod.elementium_pickaxe": "Elementium Pickaxe",
+      "item.minecraft.tipped_arrow.effect.potionof_immortality": "Arrow of  Immortality",
+      "item.elementium_mod.elementium_sword": "Elementium Sword",
+      "item.elementium_mod.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
+      "block.elementium_mod.elementium_ore": "Elementium Ore",
+      "item.elementium_mod.fire_essence": "Fire Essence",
+      "item.elementium_mod.elementfire_bow": "Elementium Bow (Element:fire)",
+      "item.minecraft.lingering_potion.effect.potionof_immortality": "Lingering Potion of  Immortality",
+      "item.elementium_mod.elementfire_axe": "Elementium Axe (Element:fire)",
       "item.elementium_mod.elementfire_paxel": "Elementium Paxel (Element:fire)",
-      "item.elementium_mod.elementium_diamond": "Elemondium",
-      "itemGroup.tabelementium_tab": "Elementium Mod"
+      "item.elementium_mod.elementium_diamond": "Elemondium"
     }
   },
   "foldersRoot": {

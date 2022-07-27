@@ -17,13 +17,13 @@
     "efficiency": 10.0,
     "attackSpeed": 1.8,
     "enchantability": 19,
-    "damageVsEntity": 20.0,
+    "damageVsEntity": 19.2,
     "usageCount": 2500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:ElementfireDiamond"
+        "value": "CUSTOM:FireEssence"
       }
     ],
     "immuneToFire": true,

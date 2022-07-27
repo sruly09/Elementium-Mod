@@ -3,25 +3,27 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "elementfire_paxel",
+    "texture": "elementlightningaxe",
     "customModelName": "Normal",
-    "name": "Elementium Paxel (Element:fire)",
-    "specialInfo": [],
+    "name": "Elementlightning Axe",
+    "specialInfo": [
+      "chops the whole tree with lightning... w.i.p."
+    ],
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "MultiTool",
+    "toolType": "Axe",
     "harvestLevel": 5,
-    "efficiency": 8.5,
-    "attackSpeed": 2.4,
-    "enchantability": 12,
-    "damageVsEntity": 19.8,
-    "usageCount": 2750,
+    "efficiency": 11.0,
+    "attackSpeed": 2.0,
+    "enchantability": 19,
+    "damageVsEntity": 25.599999999999998,
+    "usageCount": 2530,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:FireEssence"
+        "value": "CUSTOM:LightningEssence"
       }
     ],
     "immuneToFire": true,

@@ -22,10 +22,10 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ElementiumSword"
+        "value": "CUSTOM:ElementiumPickaxe"
       },
       {
-        "value": "CUSTOM:FireEssence"
+        "value": "CUSTOM:LightningEssence"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ElementfireSword"
+      "value": "CUSTOM:ElementlightningPickaxe"
     },
-    "name": "elementfire_sword_recipe",
+    "name": "elementlightning_pickaxe_recipe",
     "namespace": "mod"
   }
 }

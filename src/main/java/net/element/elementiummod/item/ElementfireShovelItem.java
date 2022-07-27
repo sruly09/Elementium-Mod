@@ -40,7 +40,7 @@ public class ElementfireShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(ElementiumModModItems.ELEMENTFIRE_DIAMOND.get()));
+				return Ingredient.of(new ItemStack(ElementiumModModItems.FIRE_ESSENCE.get()));
 			}
 		}, 1, -2.2f, new Item.Properties().tab(ElementiumModModTabs.TAB_ELEMENTIUM_TAB).fireResistant());
 	}

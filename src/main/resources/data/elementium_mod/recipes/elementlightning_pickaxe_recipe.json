@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elementium_mod:elementium_pickaxe"
+    },
+    {
+      "item": "elementium_mod:lightning_essence"
+    }
+  ],
+  "result": {
+    "item": "elementium_mod:elementlightning_pickaxe",
+    "count": 1
+  }
+}

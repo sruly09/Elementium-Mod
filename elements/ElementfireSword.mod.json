@@ -23,9 +23,6 @@
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:ElementfireDiamond"
-      },
-      {
         "value": "CUSTOM:FireEssence"
       }
     ],

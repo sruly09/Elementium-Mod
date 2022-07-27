@@ -21,7 +21,11 @@
     "usageCount": 2525,
     "blocksAffected": [],
     "hasGlow": true,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:LightningEssence"
+      }
+    ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,

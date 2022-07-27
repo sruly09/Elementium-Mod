@@ -3,25 +3,27 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "elementfire_paxel",
+    "texture": "elementlightning_pickaxe",
     "customModelName": "Normal",
-    "name": "Elementium Paxel (Element:fire)",
-    "specialInfo": [],
+    "name": "Elementium Pickaxe (Element:lightning)",
+    "specialInfo": [
+      "w.i.p."
+    ],
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "MultiTool",
+    "toolType": "Pickaxe",
     "harvestLevel": 5,
-    "efficiency": 8.5,
-    "attackSpeed": 2.4,
-    "enchantability": 12,
-    "damageVsEntity": 19.8,
+    "efficiency": 10.5,
+    "attackSpeed": 1.9000000000000001,
+    "enchantability": 18,
+    "damageVsEntity": 19.6,
     "usageCount": 2750,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:FireEssence"
+        "value": "CUSTOM:LightningEssence"
       }
     ],
     "immuneToFire": true,

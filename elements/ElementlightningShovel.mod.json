@@ -3,25 +3,27 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "elementfire_paxel",
+    "texture": "elementlightningshovel",
     "customModelName": "Normal",
-    "name": "Elementium Paxel (Element:fire)",
-    "specialInfo": [],
+    "name": "Elementlightning Shovel",
+    "specialInfo": [
+      "W.I.P."
+    ],
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "MultiTool",
+    "toolType": "Spade",
     "harvestLevel": 5,
-    "efficiency": 8.5,
-    "attackSpeed": 2.4,
-    "enchantability": 12,
-    "damageVsEntity": 19.8,
-    "usageCount": 2750,
+    "efficiency": 9.999,
+    "attackSpeed": 2.0,
+    "enchantability": 20,
+    "damageVsEntity": 12.3,
+    "usageCount": 2525,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [
       {
-        "value": "CUSTOM:FireEssence"
+        "value": "CUSTOM:LightningEssence"
       }
     ],
     "immuneToFire": true,
