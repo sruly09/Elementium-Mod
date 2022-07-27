@@ -165,14 +165,6 @@
       "registry_name": "elementfire_pickaxe"
     },
     {
-      "name": "PotionofImmortalityRecipe",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potionof_immortality_recipe"
-    },
-    {
       "name": "ElementfireBow",
       "type": "rangeditem",
       "sortid": 18,
@@ -391,6 +383,42 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_shovel"
+    },
+    {
+      "name": "ElementlightningBow",
+      "type": "rangeditem",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementlightning_bow"
+    },
+    {
+      "name": "ElementlightningBowProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementlightning_bow_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -410,6 +438,7 @@
       "advancements.do_ihearpeoplescreaming.descr": "obtain earth essence",
       "item.elementium_mod.elementlightning_axe": "Elementlightning Axe",
       "item.elementium_mod.earth_essence": "Earth Essence",
+      "item.elementium_mod.elementlightning_bow": "Elementium Bow (Element:lightning)",
       "itemGroup.tabelementium_tab": "Elementium Mod",
       "item.elementium_mod.elementium_pickaxe": "Elementium Pickaxe",
       "item.minecraft.tipped_arrow.effect.potionof_immortality": "Arrow of  Immortality",

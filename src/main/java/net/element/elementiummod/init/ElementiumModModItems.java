@@ -17,6 +17,7 @@ import net.element.elementiummod.item.LightningEssenceItem;
 import net.element.elementiummod.item.FireEssenceItem;
 import net.element.elementiummod.item.ElementlightningShovelItem;
 import net.element.elementiummod.item.ElementlightningPickaxeItem;
+import net.element.elementiummod.item.ElementlightningBowItem;
 import net.element.elementiummod.item.ElementlightningAxeItem;
 import net.element.elementiummod.item.ElementiumlightningSwordItem;
 import net.element.elementiummod.item.ElementiumSwordItem;
@@ -55,6 +56,7 @@ public class ElementiumModModItems {
 	public static final RegistryObject<Item> ELEMENTLIGHTNING_AXE = REGISTRY.register("elementlightning_axe", () -> new ElementlightningAxeItem());
 	public static final RegistryObject<Item> ELEMENTLIGHTNING_SHOVEL = REGISTRY.register("elementlightning_shovel",
 			() -> new ElementlightningShovelItem());
+	public static final RegistryObject<Item> ELEMENTLIGHTNING_BOW = REGISTRY.register("elementlightning_bow", () -> new ElementlightningBowItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

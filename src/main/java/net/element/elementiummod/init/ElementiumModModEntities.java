@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.element.elementiummod.entity.ElementlightningBowEntity;
 import net.element.elementiummod.entity.ElementfireBowEntity;
 import net.element.elementiummod.ElementiumModMod;
 
@@ -25,6 +26,10 @@ public class ElementiumModModEntities {
 	public static final RegistryObject<EntityType<ElementfireBowEntity>> ELEMENTFIRE_BOW = register("projectile_elementfire_bow",
 			EntityType.Builder.<ElementfireBowEntity>of(ElementfireBowEntity::new, MobCategory.MISC).setCustomClientFactory(ElementfireBowEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ElementlightningBowEntity>> ELEMENTLIGHTNING_BOW = register("projectile_elementlightning_bow",
+			EntityType.Builder.<ElementlightningBowEntity>of(ElementlightningBowEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(ElementlightningBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

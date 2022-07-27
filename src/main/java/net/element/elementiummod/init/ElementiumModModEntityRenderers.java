@@ -16,5 +16,6 @@ public class ElementiumModModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ElementiumModModEntities.ELEMENTFIRE_BOW.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ElementiumModModEntities.ELEMENTLIGHTNING_BOW.get(), ThrownItemRenderer::new);
 	}
 }
