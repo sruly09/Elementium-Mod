@@ -1,0 +1,36 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementearth_pickaxe",
+    "customModelName": "Normal",
+    "name": "Elementium Pickaxe (Element:earth)",
+    "specialInfo": [
+      "mines in a 3 by 3 area... w.i.p."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 6,
+    "efficiency": 9.5,
+    "attackSpeed": 0.6,
+    "enchantability": 2,
+    "damageVsEntity": 40.0,
+    "usageCount": 3355,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EarthEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "ElementearthPickaxeDestroyedWithTool"
+    }
+  }
+}

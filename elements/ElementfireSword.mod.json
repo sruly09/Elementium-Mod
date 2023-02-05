@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "fire_sword",
+    "texture": "elementfire_sword",
     "customModelName": "Normal",
     "name": "Elementium Sword (Element:fire)  ",
     "specialInfo": [

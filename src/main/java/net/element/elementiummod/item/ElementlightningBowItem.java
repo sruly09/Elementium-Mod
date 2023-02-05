@@ -57,8 +57,7 @@ public class ElementlightningBowItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					ElementlightningBowEntity entityarrow = ElementlightningBowEntity.shoot(world, entity, world.getRandom(), 1f, 6.199999999999999,
-							1);
+					ElementlightningBowEntity entityarrow = ElementlightningBowEntity.shoot(world, entity, world.getRandom(), 1f, 4.5, 1);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

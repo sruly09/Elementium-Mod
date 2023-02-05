@@ -57,7 +57,7 @@ public class ElementfireBowItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					ElementfireBowEntity entityarrow = ElementfireBowEntity.shoot(world, entity, world.getRandom(), 1f, 5.8999999999999995, 3);
+					ElementfireBowEntity entityarrow = ElementfireBowEntity.shoot(world, entity, world.getRandom(), 1f, 4.7, 2);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

@@ -24,12 +24,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.0,
-    "bulletDamage": 5.8999999999999995,
-    "bulletKnockback": 3,
+    "bulletDamage": 4.7,
+    "bulletKnockback": 2,
     "bulletParticles": false,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {
-      "value": "Items.ARROW"
+      "value": "CUSTOM:FireEssence"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": ""

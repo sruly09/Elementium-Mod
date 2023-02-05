@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementice_pickaxe",
+    "customModelName": "Normal",
+    "name": "Elementium Pickaxe (Element:ice)",
+    "specialInfo": [
+      "freezes the block you mined....w.i.p."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 6,
+    "efficiency": 9.4,
+    "attackSpeed": 2.0,
+    "enchantability": 19,
+    "damageVsEntity": 18.4,
+    "usageCount": 1111,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:IceEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

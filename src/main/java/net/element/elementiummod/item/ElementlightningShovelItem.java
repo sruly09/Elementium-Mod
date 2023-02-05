@@ -27,7 +27,7 @@ public class ElementlightningShovelItem extends ShovelItem {
 			}
 
 			public float getSpeed() {
-				return 9.999f;
+				return 9.9f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -35,7 +35,7 @@ public class ElementlightningShovelItem extends ShovelItem {
 			}
 
 			public int getLevel() {
-				return 5;
+				return 6;
 			}
 
 			public int getEnchantmentValue() {

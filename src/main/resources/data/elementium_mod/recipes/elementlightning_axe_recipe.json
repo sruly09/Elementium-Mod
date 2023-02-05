@@ -1,0 +1,16 @@
+{
+  "group": "elementium_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elementium_mod:elementium_axe"
+    },
+    {
+      "item": "elementium_mod:lightning_essence"
+    }
+  ],
+  "result": {
+    "item": "elementium_mod:elementlightning_axe",
+    "count": 1
+  }
+}

@@ -32,7 +32,7 @@ public class ElementfireShovelItem extends ShovelItem {
 			}
 
 			public int getLevel() {
-				return 5;
+				return 6;
 			}
 
 			public int getEnchantmentValue() {

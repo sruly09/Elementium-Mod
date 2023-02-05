@@ -1,0 +1,36 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementice_sword",
+    "customModelName": "Normal",
+    "name": "Elementium Sword (Element:ice)",
+    "specialInfo": [
+      "freezes enemies on hit..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 4.0,
+    "attackSpeed": 1.8,
+    "enchantability": 13,
+    "damageVsEntity": 12.3,
+    "usageCount": 1111,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:IceEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ElementiceSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

@@ -1,10 +1,5 @@
 package net.element.elementiummod.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.world.BlockEvent;
-
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelAccessor;
@@ -17,20 +12,8 @@ import net.minecraft.core.BlockPos;
 
 import net.element.elementiummod.init.ElementiumModModItems;
 
-import javax.annotation.Nullable;
-
-@Mod.EventBusSubscriber
 public class ElementfireAxeBlockDestroyedWithToolProcedure {
-	@SubscribeEvent
-	public static void onBlockBreak(BlockEvent.BreakEvent event) {
-		execute(event, event.getWorld(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ());
-	}
-
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		execute(null, world, x, y, z);
-	}
-
-	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
 		boolean removeBlock = false;
 		if (ElementiumModModItems.ELEMENTFIRE_AXE.get().isCorrectToolForDrops((world.getBlockState(new BlockPos(x, y, z)))) == true) {
 			if (!(((world instanceof Level _lvlSmeltResult && _lvlSmeltResult.getRecipeManager()

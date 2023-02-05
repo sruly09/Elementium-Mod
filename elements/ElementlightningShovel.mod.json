@@ -13,8 +13,8 @@
       "value": "CUSTOM:ElementiumTab"
     },
     "toolType": "Spade",
-    "harvestLevel": 5,
-    "efficiency": 9.999,
+    "harvestLevel": 6,
+    "efficiency": 9.9,
     "attackSpeed": 2.0,
     "enchantability": 20,
     "damageVsEntity": 12.3,

@@ -1,0 +1,29 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementium_pickaxe",
+    "customModelName": "Normal",
+    "name": "Elementium Pickaxe",
+    "specialInfo": [
+      "Just a normal pickaxe..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 8.4,
+    "attackSpeed": 1.5,
+    "enchantability": 12,
+    "damageVsEntity": 11.6,
+    "usageCount": 1750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

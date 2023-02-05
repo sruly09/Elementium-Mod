@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "elementium_mod",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IceEssence"
+      },
+      {
+        "value": "CUSTOM:ElementiumDiamond"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Blocks.POWDER_SNOW"
+      },
+      {
+        "value": "CUSTOM:IceEssence"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "CUSTOM:IceEssence"
+      },
+      {
+        "value": "CUSTOM:ElementiumDiamond"
+      },
+      {
+        "value": "Items.STRING"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ElementiceBow"
+    },
+    "name": "elementice_bow_recipe",
+    "namespace": "mod"
+  }
+}

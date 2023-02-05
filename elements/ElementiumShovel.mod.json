@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementiumshovel",
+    "customModelName": "Normal",
+    "name": "Elementium Shovel",
+    "specialInfo": [
+      "just a normal shovel..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 5,
+    "efficiency": 8.2,
+    "attackSpeed": 1.5,
+    "enchantability": 12,
+    "damageVsEntity": 9.299999999999999,
+    "usageCount": 1750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElementiumDiamond"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

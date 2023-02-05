@@ -6,12 +6,14 @@
     "texture": "elementfire_paxel",
     "customModelName": "Normal",
     "name": "Elementium Paxel (Element:fire)",
-    "specialInfo": [],
+    "specialInfo": [
+      "Autosmelts..."
+    ],
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
     "toolType": "MultiTool",
-    "harvestLevel": 5,
+    "harvestLevel": 6,
     "efficiency": 8.5,
     "attackSpeed": 2.4,
     "enchantability": 12,

@@ -18,6 +18,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.element.elementiummod.init.ElementiumModModItems;
 import net.element.elementiummod.init.ElementiumModModEntities;
 
 import java.util.Random;
@@ -48,7 +49,7 @@ public class ElementfireBowEntity extends AbstractArrow implements ItemSupplier 
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Items.ARROW);
+		return new ItemStack(ElementiumModModItems.FIRE_ESSENCE.get());
 	}
 
 	@Override
@@ -91,8 +92,8 @@ public class ElementfireBowEntity extends AbstractArrow implements ItemSupplier 
 		double dz = target.getZ() - entity.getZ();
 		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(5.8999999999999995);
-		entityarrow.setKnockback(3);
+		entityarrow.setBaseDamage(4.7);
+		entityarrow.setKnockback(2);
 		entityarrow.setCritArrow(false);
 		entityarrow.setSecondsOnFire(100);
 		entity.level.addFreshEntity(entityarrow);

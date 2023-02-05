@@ -6,23 +6,11 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "",
-    "recipeShapeless": false,
+    "group": "elementium_mod",
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:ElementfireDiamond"
-      },
-      {
-        "value": "CUSTOM:ElementfireDiamond"
-      },
-      {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:ElementfireDiamond"
-      },
-      {
-        "value": "Items.BLAZE_ROD"
       },
       {
         "value": ""
@@ -31,7 +19,19 @@
         "value": ""
       },
       {
-        "value": "Items.BLAZE_ROD"
+        "value": "CUSTOM:ElementiumAxe"
+      },
+      {
+        "value": "CUSTOM:FireEssence"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""

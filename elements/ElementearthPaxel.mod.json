@@ -1,0 +1,35 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementearth_paxel",
+    "customModelName": "Normal",
+    "name": "Elementium Paxel (Element:earth)",
+    "specialInfo": [
+      "mines in a 3x3 area (stone: 3x3",
+      "wood: 1 or 4xdepends on how high the tree is",
+      "dirt: 3x3"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 6,
+    "efficiency": 1000.0,
+    "attackSpeed": 1.0,
+    "enchantability": 13,
+    "damageVsEntity": 44.4,
+    "usageCount": 3355,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EarthEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

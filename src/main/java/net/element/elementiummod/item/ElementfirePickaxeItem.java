@@ -28,7 +28,7 @@ public class ElementfirePickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 1.5f;
+				return 8.4f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -36,7 +36,7 @@ public class ElementfirePickaxeItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 5;
+				return 6;
 			}
 
 			public int getEnchantmentValue() {

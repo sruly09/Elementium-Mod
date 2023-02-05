@@ -13,8 +13,8 @@
       "value": "CUSTOM:ElementiumTab"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 5,
-    "efficiency": 1.5,
+    "harvestLevel": 6,
+    "efficiency": 8.4,
     "attackSpeed": 1.7999999999999998,
     "enchantability": 18,
     "damageVsEntity": 19.200000000000003,

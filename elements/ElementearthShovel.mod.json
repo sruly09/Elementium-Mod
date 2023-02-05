@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementearthshovel",
+    "customModelName": "Normal",
+    "name": "Elementearth Shovel",
+    "specialInfo": [
+      "dig in a 3 by 3 area  w.i.p."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 6,
+    "efficiency": 1.8,
+    "attackSpeed": 0.7,
+    "enchantability": 22,
+    "damageVsEntity": 38.2,
+    "usageCount": 3355,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EarthEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

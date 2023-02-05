@@ -1,0 +1,42 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementicebow",
+    "customModelName": "Normal",
+    "name": "Elementium Bow (Element:ice)",
+    "specialInfo": [
+      "freezes the enemy on hit (arrow)"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Blocks.PACKED_ICE"
+    },
+    "shootConstantly": false,
+    "usageCount": 1111,
+    "actionSound": {
+      "value": "entity.snowball.throw"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 4.800000000000001,
+    "bulletKnockback": 4,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.TIPPED_ARROW"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "ElementiceBowProjectileHitsLivingEntity"
+    }
+  }
+}

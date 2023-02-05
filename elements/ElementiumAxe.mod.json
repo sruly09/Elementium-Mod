@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementium_axe",
+    "customModelName": "Normal",
+    "name": "Elementium Axe",
+    "specialInfo": [
+      "just a normal axe..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 5,
+    "efficiency": 8.3,
+    "attackSpeed": 1.7,
+    "enchantability": 12,
+    "damageVsEntity": 19.0,
+    "usageCount": 1750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElementiumDiamond"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -33,9 +33,7 @@
       }
     ],
     "name": "Elementium Block",
-    "specialInfo": [
-      "you need to combine this with  elementium essence"
-    ],
+    "specialInfo": [],
     "hardness": 2.1,
     "resistance": 12.0,
     "hasGravity": false,

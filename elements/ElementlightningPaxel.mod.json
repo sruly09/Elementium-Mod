@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementlightning_paxel",
+    "customModelName": "Normal",
+    "name": "Elementium Paxel (Element:lightning)",
+    "specialInfo": [
+      "W.I.P."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 6,
+    "efficiency": 9.5,
+    "attackSpeed": 2.8,
+    "enchantability": 14,
+    "damageVsEntity": 26.2,
+    "usageCount": 3000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LightningEssence"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

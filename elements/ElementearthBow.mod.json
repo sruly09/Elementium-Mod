@@ -1,0 +1,39 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementearthbow",
+    "customModelName": "Normal",
+    "name": "Elementium Bow (Element:earth)",
+    "specialInfo": [
+      "It has a pretty high attack damage"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:EarthEssence"
+    },
+    "shootConstantly": false,
+    "usageCount": 3355,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.2000000000000002,
+    "bulletDamage": 40.0,
+    "bulletKnockback": 6,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:EarthEssence"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

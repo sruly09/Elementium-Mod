@@ -34,6 +34,14 @@
     }
   },
   "rewards": {
-    "experience": 7
+    "experience": 7,
+    "recipes": [
+      "elementium_mod:elementearth_sword_recipe",
+      "elementium_mod:elementearth_pickaxe_recipe",
+      "elementium_mod:elementearth_axe_recipe",
+      "elementium_mod:elementearth_shovel_recipe",
+      "elementium_mod:elementearth_paxel_recipe",
+      "elementium_mod:elementearth_bow_recipe"
+    ]
   }
 }
