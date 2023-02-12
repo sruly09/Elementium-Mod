@@ -3,10 +3,12 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "elementfirebow",
+    "texture": "elementairbow",
     "customModelName": "Normal",
-    "name": "Elementium Bow (Element:fire)",
-    "specialInfo": [],
+    "name": "Elementium Bow (Element:air)",
+    "specialInfo": [
+      "levitates the enemy on hit..."
+    ],
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
@@ -15,23 +17,26 @@
       "value": "Items.ARROW"
     },
     "shootConstantly": false,
-    "usageCount": 750,
+    "usageCount": 1122,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
     "animation": "bow",
     "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
-    "bulletPower": 1.0,
-    "bulletDamage": 4.7,
-    "bulletKnockback": 2,
+    "damageVsEntity": 9.3,
+    "bulletPower": 1.2,
+    "bulletDamage": 9.3,
+    "bulletKnockback": 5,
     "bulletParticles": true,
-    "bulletIgnitesFire": true,
+    "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "CUSTOM:FireEssence"
+      "value": "CUSTOM:AirEssence"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": ""
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "ElementairBowProjectileHitsLivingEntity"
+    }
   }
 }

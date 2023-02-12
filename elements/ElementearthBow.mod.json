@@ -28,7 +28,7 @@
     "bulletPower": 1.2000000000000002,
     "bulletDamage": 40.0,
     "bulletKnockback": 6,
-    "bulletParticles": false,
+    "bulletParticles": true,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
       "value": "CUSTOM:EarthEssence"

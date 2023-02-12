@@ -13,8 +13,8 @@ import net.element.elementiummod.init.ElementiumModModTabs;
 
 import java.util.List;
 
-public class IceEssenceItem extends Item {
-	public IceEssenceItem() {
+public class WaterEssenceItem extends Item {
+	public WaterEssenceItem() {
 		super(new Item.Properties().tab(ElementiumModModTabs.TAB_ELEMENTIUM_TAB).stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 
@@ -26,6 +26,7 @@ public class IceEssenceItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("brrr..."));
+		list.add(new TextComponent("Is water"));
+		list.add(new TextComponent("wet...? w.i.p."));
 	}
 }

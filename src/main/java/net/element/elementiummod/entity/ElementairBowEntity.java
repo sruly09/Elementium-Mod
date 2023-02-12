@@ -7,7 +7,9 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -17,26 +19,27 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.element.elementiummod.procedures.ElementairBowProjectileHitsLivingEntityProcedure;
 import net.element.elementiummod.init.ElementiumModModItems;
 import net.element.elementiummod.init.ElementiumModModEntities;
 
 import java.util.Random;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
-public class ElementearthBowEntity extends AbstractArrow implements ItemSupplier {
-	public ElementearthBowEntity(PlayMessages.SpawnEntity packet, Level world) {
-		super(ElementiumModModEntities.ELEMENTEARTH_BOW.get(), world);
+public class ElementairBowEntity extends AbstractArrow implements ItemSupplier {
+	public ElementairBowEntity(PlayMessages.SpawnEntity packet, Level world) {
+		super(ElementiumModModEntities.ELEMENTAIR_BOW.get(), world);
 	}
 
-	public ElementearthBowEntity(EntityType<? extends ElementearthBowEntity> type, Level world) {
+	public ElementairBowEntity(EntityType<? extends ElementairBowEntity> type, Level world) {
 		super(type, world);
 	}
 
-	public ElementearthBowEntity(EntityType<? extends ElementearthBowEntity> type, double x, double y, double z, Level world) {
+	public ElementairBowEntity(EntityType<? extends ElementairBowEntity> type, double x, double y, double z, Level world) {
 		super(type, x, y, z, world);
 	}
 
-	public ElementearthBowEntity(EntityType<? extends ElementearthBowEntity> type, LivingEntity entity, Level world) {
+	public ElementairBowEntity(EntityType<? extends ElementairBowEntity> type, LivingEntity entity, Level world) {
 		super(type, entity, world);
 	}
 
@@ -48,12 +51,12 @@ public class ElementearthBowEntity extends AbstractArrow implements ItemSupplier
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(ElementiumModModItems.EARTH_ESSENCE.get());
+		return new ItemStack(ElementiumModModItems.AIR_ESSENCE.get());
 	}
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return new ItemStack(ElementiumModModItems.EARTH_ESSENCE.get());
+		return new ItemStack(Items.ARROW);
 	}
 
 	@Override
@@ -63,14 +66,20 @@ public class ElementearthBowEntity extends AbstractArrow implements ItemSupplier
 	}
 
 	@Override
+	public void onHitEntity(EntityHitResult entityHitResult) {
+		super.onHitEntity(entityHitResult);
+		ElementairBowProjectileHitsLivingEntityProcedure.execute(entityHitResult.getEntity());
+	}
+
+	@Override
 	public void tick() {
 		super.tick();
 		if (this.inGround)
 			this.discard();
 	}
 
-	public static ElementearthBowEntity shoot(Level world, LivingEntity entity, Random random, float power, double damage, int knockback) {
-		ElementearthBowEntity entityarrow = new ElementearthBowEntity(ElementiumModModEntities.ELEMENTEARTH_BOW.get(), entity, world);
+	public static ElementairBowEntity shoot(Level world, LivingEntity entity, Random random, float power, double damage, int knockback) {
+		ElementairBowEntity entityarrow = new ElementairBowEntity(ElementiumModModEntities.ELEMENTAIR_BOW.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(true);
@@ -83,15 +92,15 @@ public class ElementearthBowEntity extends AbstractArrow implements ItemSupplier
 		return entityarrow;
 	}
 
-	public static ElementearthBowEntity shoot(LivingEntity entity, LivingEntity target) {
-		ElementearthBowEntity entityarrow = new ElementearthBowEntity(ElementiumModModEntities.ELEMENTEARTH_BOW.get(), entity, entity.level);
+	public static ElementairBowEntity shoot(LivingEntity entity, LivingEntity target) {
+		ElementairBowEntity entityarrow = new ElementairBowEntity(ElementiumModModEntities.ELEMENTAIR_BOW.get(), entity, entity.level);
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
-		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1.2000000000000002f * 2, 12.0F);
+		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1.2f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(40);
-		entityarrow.setKnockback(6);
+		entityarrow.setBaseDamage(9.3);
+		entityarrow.setKnockback(5);
 		entityarrow.setCritArrow(true);
 		entity.level.addFreshEntity(entityarrow);
 		entity.level.playSound(null, entity.getX(), entity.getY(), entity.getZ(),

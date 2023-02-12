@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementair_paxel",
+    "customModelName": "Normal",
+    "name": "Elementium Paxel (Element:air)",
+    "specialInfo": [
+      "w.i.p."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 6,
+    "efficiency": 14.8,
+    "attackSpeed": 1.2,
+    "enchantability": 20,
+    "damageVsEntity": 10.2,
+    "usageCount": 1122,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AirEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

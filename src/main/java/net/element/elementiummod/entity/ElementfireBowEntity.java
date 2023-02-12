@@ -74,7 +74,7 @@ public class ElementfireBowEntity extends AbstractArrow implements ItemSupplier 
 		ElementfireBowEntity entityarrow = new ElementfireBowEntity(ElementiumModModEntities.ELEMENTFIRE_BOW.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
-		entityarrow.setCritArrow(false);
+		entityarrow.setCritArrow(true);
 		entityarrow.setBaseDamage(damage);
 		entityarrow.setKnockback(knockback);
 		entityarrow.setSecondsOnFire(100);
@@ -94,7 +94,7 @@ public class ElementfireBowEntity extends AbstractArrow implements ItemSupplier 
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(4.7);
 		entityarrow.setKnockback(2);
-		entityarrow.setCritArrow(false);
+		entityarrow.setCritArrow(true);
 		entityarrow.setSecondsOnFire(100);
 		entity.level.addFreshEntity(entityarrow);
 		entity.level.playSound(null, entity.getX(), entity.getY(), entity.getZ(),

@@ -20,6 +20,7 @@ import net.element.elementiummod.entity.ElementlightningBowEntity;
 import net.element.elementiummod.entity.ElementiceBowEntity;
 import net.element.elementiummod.entity.ElementfireBowEntity;
 import net.element.elementiummod.entity.ElementearthBowEntity;
+import net.element.elementiummod.entity.ElementairBowEntity;
 import net.element.elementiummod.ElementiumModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -38,6 +39,9 @@ public class ElementiumModModEntities {
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<ElementiceBowEntity>> ELEMENTICE_BOW = register("projectile_elementice_bow",
 			EntityType.Builder.<ElementiceBowEntity>of(ElementiceBowEntity::new, MobCategory.MISC).setCustomClientFactory(ElementiceBowEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ElementairBowEntity>> ELEMENTAIR_BOW = register("projectile_elementair_bow",
+			EntityType.Builder.<ElementairBowEntity>of(ElementairBowEntity::new, MobCategory.MISC).setCustomClientFactory(ElementairBowEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

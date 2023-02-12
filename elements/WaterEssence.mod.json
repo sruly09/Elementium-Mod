@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ice_essence",
+    "texture": "water_essence",
     "customModelName": "Normal",
-    "name": "Ice Essence",
+    "name": "Water Essence",
     "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
@@ -25,7 +25,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "brrr..."
+      "Is water",
+      "wet...? w.i.p."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
