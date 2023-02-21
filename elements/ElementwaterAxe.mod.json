@@ -1,0 +1,33 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementwater_axe",
+    "customModelName": "Normal",
+    "name": "Elementium Axe (Element:water)",
+    "specialInfo": [
+      "wip"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 6,
+    "efficiency": 16.0,
+    "attackSpeed": 5.1,
+    "enchantability": 21,
+    "damageVsEntity": 19.1,
+    "usageCount": 1566,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:WaterEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

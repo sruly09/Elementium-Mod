@@ -30,6 +30,7 @@ import net.element.elementiummod.init.ElementiumModModTabs;
 import net.element.elementiummod.init.ElementiumModModPotions;
 import net.element.elementiummod.init.ElementiumModModItems;
 import net.element.elementiummod.init.ElementiumModModEntities;
+import net.element.elementiummod.init.ElementiumModModEnchantments;
 import net.element.elementiummod.init.ElementiumModModBlocks;
 
 import java.util.function.Supplier;
@@ -51,6 +52,8 @@ public class ElementiumModMod {
 		ElementiumModModBlocks.REGISTRY.register(bus);
 		ElementiumModModItems.REGISTRY.register(bus);
 		ElementiumModModEntities.REGISTRY.register(bus);
+
+		ElementiumModModEnchantments.REGISTRY.register(bus);
 
 		ElementiumModModPotions.REGISTRY.register(bus);
 

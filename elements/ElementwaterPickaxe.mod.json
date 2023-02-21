@@ -1,0 +1,33 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementwater_pickaxe",
+    "customModelName": "Normal",
+    "name": "Elementium Pickaxe (Element:water)",
+    "specialInfo": [
+      "w.i.p."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 6,
+    "efficiency": 16.0,
+    "attackSpeed": 5.0,
+    "enchantability": 21,
+    "damageVsEntity": 10.1,
+    "usageCount": 1566,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:WaterEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "enchantment",
+  "definition": {
+    "name": "CATEST",
+    "type": "ARMOR",
+    "rarity": "COMMON",
+    "minLevel": 1,
+    "maxLevel": 705,
+    "damageModifier": 1024,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [],
+    "excludeItems": true,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}

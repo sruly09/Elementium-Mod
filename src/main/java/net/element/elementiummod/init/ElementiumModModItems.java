@@ -17,6 +17,9 @@ import net.element.elementiummod.item.WaterEssenceItem;
 import net.element.elementiummod.item.LightningEssenceItem;
 import net.element.elementiummod.item.IceEssenceItem;
 import net.element.elementiummod.item.FireEssenceItem;
+import net.element.elementiummod.item.ElementwaterSwordItem;
+import net.element.elementiummod.item.ElementwaterPickaxeItem;
+import net.element.elementiummod.item.ElementwaterAxeItem;
 import net.element.elementiummod.item.ElementlightningShovelItem;
 import net.element.elementiummod.item.ElementlightningPickaxeItem;
 import net.element.elementiummod.item.ElementlightningPaxelItem;
@@ -64,8 +67,9 @@ public class ElementiumModModItems {
 	public static final RegistryObject<Item> ELEMENTIUM_ORE = block(ElementiumModModBlocks.ELEMENTIUM_ORE, ElementiumModModTabs.TAB_ELEMENTIUM_TAB);
 	public static final RegistryObject<Item> FIRE_ESSENCE = REGISTRY.register("fire_essence", () -> new FireEssenceItem());
 	public static final RegistryObject<Item> AIR_ESSENCE = REGISTRY.register("air_essence", () -> new AirEssenceItem());
-	public static final RegistryObject<Item> ICE_ESSENCE = REGISTRY.register("ice_essence", () -> new IceEssenceItem());
+	public static final RegistryObject<Item> WATER_ESSENCE = REGISTRY.register("water_essence", () -> new WaterEssenceItem());
 	public static final RegistryObject<Item> EARTH_ESSENCE = REGISTRY.register("earth_essence", () -> new EarthEssenceItem());
+	public static final RegistryObject<Item> ICE_ESSENCE = REGISTRY.register("ice_essence", () -> new IceEssenceItem());
 	public static final RegistryObject<Item> LIGHTNING_ESSENCE = REGISTRY.register("lightning_essence", () -> new LightningEssenceItem());
 	public static final RegistryObject<Item> ELEMENTFIRE_SWORD = REGISTRY.register("elementfire_sword", () -> new ElementfireSwordItem());
 	public static final RegistryObject<Item> ELEMENTFIRE_BOW = REGISTRY.register("elementfire_bow", () -> new ElementfireBowItem());
@@ -101,11 +105,13 @@ public class ElementiumModModItems {
 	public static final RegistryObject<Item> ELEMENTICE_SHOVEL = REGISTRY.register("elementice_shovel", () -> new ElementiceShovelItem());
 	public static final RegistryObject<Item> ELEMENTAIR_SWORD = REGISTRY.register("elementair_sword", () -> new ElementairSwordItem());
 	public static final RegistryObject<Item> ELEMENTAIR_BOW = REGISTRY.register("elementair_bow", () -> new ElementairBowItem());
+	public static final RegistryObject<Item> ELEMENTAIR_PAXEL = REGISTRY.register("elementair_paxel", () -> new ElementairPaxelItem());
 	public static final RegistryObject<Item> ELEMENTAIR_PICKAXE = REGISTRY.register("elementair_pickaxe", () -> new ElementairPickaxeItem());
 	public static final RegistryObject<Item> ELEMENTAIR_AXE = REGISTRY.register("elementair_axe", () -> new ElementairAxeItem());
 	public static final RegistryObject<Item> ELEMENTAIR_SHOVEL = REGISTRY.register("elementair_shovel", () -> new ElementairShovelItem());
-	public static final RegistryObject<Item> WATER_ESSENCE = REGISTRY.register("water_essence", () -> new WaterEssenceItem());
-	public static final RegistryObject<Item> ELEMENTAIR_PAXEL = REGISTRY.register("elementair_paxel", () -> new ElementairPaxelItem());
+	public static final RegistryObject<Item> ELEMENTWATER_SWORD = REGISTRY.register("elementwater_sword", () -> new ElementwaterSwordItem());
+	public static final RegistryObject<Item> ELEMENTWATER_PICKAXE = REGISTRY.register("elementwater_pickaxe", () -> new ElementwaterPickaxeItem());
+	public static final RegistryObject<Item> ELEMENTWATER_AXE = REGISTRY.register("elementwater_axe", () -> new ElementwaterAxeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

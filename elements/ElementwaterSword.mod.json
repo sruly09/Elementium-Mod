@@ -1,0 +1,36 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementwater_sword",
+    "customModelName": "Normal",
+    "name": "Elementium Sword (Element:water)",
+    "specialInfo": [
+      "It does more damege to the mobs in the nether..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 4.2,
+    "enchantability": 14,
+    "damageVsEntity": 12.5,
+    "usageCount": 1569,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:WaterEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ElementwaterSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

@@ -41,9 +41,9 @@ public class ElementearthPickaxeDestroyedWithToolProcedure {
 				&& !((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.BEDROCK)) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
-			posX = x - 3;
-			posY = y - 3;
-			posZ = z - 3;
+			posX = x - 1;
+			posY = y - 1;
+			posZ = z - 1;
 			for (int index0 = 0; index0 < (int) (3); index0++) {
 				for (int index1 = 0; index1 < (int) (3); index1++) {
 					for (int index2 = 0; index2 < (int) (3); index2++) {
