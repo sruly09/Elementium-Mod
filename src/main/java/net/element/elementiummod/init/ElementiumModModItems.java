@@ -20,6 +20,7 @@ import net.element.elementiummod.item.FireEssenceItem;
 import net.element.elementiummod.item.ElementwaterSwordItem;
 import net.element.elementiummod.item.ElementwaterShovelItem;
 import net.element.elementiummod.item.ElementwaterPickaxeItem;
+import net.element.elementiummod.item.ElementwaterBowItem;
 import net.element.elementiummod.item.ElementwaterAxeItem;
 import net.element.elementiummod.item.ElementlightningShovelItem;
 import net.element.elementiummod.item.ElementlightningPickaxeItem;
@@ -114,6 +115,7 @@ public class ElementiumModModItems {
 	public static final RegistryObject<Item> ELEMENTWATER_PICKAXE = REGISTRY.register("elementwater_pickaxe", () -> new ElementwaterPickaxeItem());
 	public static final RegistryObject<Item> ELEMENTWATER_AXE = REGISTRY.register("elementwater_axe", () -> new ElementwaterAxeItem());
 	public static final RegistryObject<Item> ELEMENTWATER_SHOVEL = REGISTRY.register("elementwater_shovel", () -> new ElementwaterShovelItem());
+	public static final RegistryObject<Item> ELEMENTWATER_BOW = REGISTRY.register("elementwater_bow", () -> new ElementwaterBowItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

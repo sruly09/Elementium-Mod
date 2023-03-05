@@ -20,5 +20,6 @@ public class ElementiumModModEntityRenderers {
 		event.registerEntityRenderer(ElementiumModModEntities.ELEMENTEARTH_BOW.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ElementiumModModEntities.ELEMENTICE_BOW.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ElementiumModModEntities.ELEMENTAIR_BOW.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ElementiumModModEntities.ELEMENTWATER_BOW.get(), ThrownItemRenderer::new);
 	}
 }
