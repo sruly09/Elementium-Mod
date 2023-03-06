@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "elementwatershovel",
+    "texture": "elementwater_paxel",
     "customModelName": "Normal",
-    "name": "Elementium Shovel (Element:water)",
+    "name": "Elementium Paxel (Element:water)",
     "specialInfo": [
-      "digs sand",
-      "dirt",
-      "snow",
-      "gravel 10% faster... w.i.p."
+      "mines stone",
+      "cobblestone",
+      "granite",
+      "diorite 10% faster... w.i.p."
     ],
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Spade",
+    "toolType": "MultiTool",
     "harvestLevel": 6,
-    "efficiency": 14.5,
-    "attackSpeed": 5.0,
+    "efficiency": 17.0,
+    "attackSpeed": 5.4,
     "enchantability": 21,
-    "damageVsEntity": 8.2,
-    "usageCount": 1566,
+    "damageVsEntity": 20.0,
+    "usageCount": 1588,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

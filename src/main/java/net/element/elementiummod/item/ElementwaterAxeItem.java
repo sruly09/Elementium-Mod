@@ -48,6 +48,6 @@ public class ElementwaterAxeItem extends AxeItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("wip"));
+		list.add(new TextComponent("w.i.p."));
 	}
 }

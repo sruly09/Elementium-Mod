@@ -48,6 +48,9 @@ public class ElementwaterShovelItem extends ShovelItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("w.i.p."));
+		list.add(new TextComponent("digs sand"));
+		list.add(new TextComponent("dirt"));
+		list.add(new TextComponent("snow"));
+		list.add(new TextComponent("gravel 10% faster... w.i.p."));
 	}
 }

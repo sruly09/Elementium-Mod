@@ -7,7 +7,10 @@
     "customModelName": "Normal",
     "name": "Elementium Pickaxe (Element:water)",
     "specialInfo": [
-      "w.i.p."
+      "mines stone",
+      "cobblestone",
+      "granite",
+      "diorite 10% faster... w.i.p."
     ],
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"

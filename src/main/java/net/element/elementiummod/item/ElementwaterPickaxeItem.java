@@ -48,6 +48,9 @@ public class ElementwaterPickaxeItem extends PickaxeItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("w.i.p."));
+		list.add(new TextComponent("mines stone"));
+		list.add(new TextComponent("cobblestone"));
+		list.add(new TextComponent("granite"));
+		list.add(new TextComponent("diorite 10% faster... w.i.p."));
 	}
 }
