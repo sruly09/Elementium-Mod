@@ -1,0 +1,36 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementnature_blade",
+    "customModelName": "Normal",
+    "name": "Elementium Blade (Element:nature)",
+    "specialInfo": [
+      "poisons on hit..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 5.0,
+    "enchantability": 22,
+    "damageVsEntity": 7.0,
+    "usageCount": 1212,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:NatureEssence"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ElementnatureBladeLivingEntityIsHitWithTool"
+    }
+  }
+}
