@@ -10,7 +10,6 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
@@ -59,6 +58,6 @@ public class ElementearthPickaxeItem extends PickaxeItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("mines in a 3 by 3 area... w.i.p."));
+		list.add(Component.literal("mines in a 3 by 3 area... w.i.p."));
 	}
 }

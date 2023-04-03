@@ -18,7 +18,6 @@ import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
@@ -115,8 +114,8 @@ public class ElementearthPaxelItem extends TieredItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("mines in a 3x3 area (stone: 3x3"));
-		list.add(new TextComponent("wood: 1 or 4xdepends on how high the tree is"));
-		list.add(new TextComponent("dirt: 3x3"));
+		list.add(Component.literal("mines in a 3x3 area (stone: 3x3"));
+		list.add(Component.literal("wood: 1 or 4xdepends on how high the tree is"));
+		list.add(Component.literal("dirt: 3x3"));
 	}
 }

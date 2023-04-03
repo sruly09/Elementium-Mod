@@ -18,7 +18,6 @@ import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
@@ -115,6 +114,6 @@ public class ElementicePaxelItem extends TieredItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("freezes the block you mined....w.i.p."));
+		list.add(Component.literal("freezes the block you mined....w.i.p."));
 	}
 }

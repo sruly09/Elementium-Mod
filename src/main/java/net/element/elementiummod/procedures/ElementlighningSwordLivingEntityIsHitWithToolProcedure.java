@@ -8,11 +8,11 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
 import java.util.stream.Collectors;
-import java.util.Random;
 import java.util.List;
 import java.util.Comparator;
 
@@ -35,7 +35,7 @@ public class ElementlighningSwordLivingEntityIsHitWithToolProcedure {
 					}
 					{
 						ItemStack _ist = itemstack;
-						if (_ist.hurt(1, new Random(), null)) {
+						if (_ist.hurt(1, RandomSource.create(), null)) {
 							_ist.shrink(1);
 							_ist.setDamageValue(0);
 						}

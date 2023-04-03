@@ -8,7 +8,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.element.elementiummod.init.ElementiumModModTabs;
@@ -48,9 +47,9 @@ public class ElementwaterShovelItem extends ShovelItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("digs sand"));
-		list.add(new TextComponent("dirt"));
-		list.add(new TextComponent("snow"));
-		list.add(new TextComponent("gravel 10% faster... w.i.p."));
+		list.add(Component.literal("digs sand"));
+		list.add(Component.literal("dirt"));
+		list.add(Component.literal("snow"));
+		list.add(Component.literal("gravel 10% faster... w.i.p."));
 	}
 }

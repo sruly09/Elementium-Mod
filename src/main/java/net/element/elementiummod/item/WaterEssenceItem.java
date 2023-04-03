@@ -6,7 +6,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.element.elementiummod.init.ElementiumModModTabs;
@@ -21,7 +20,7 @@ public class WaterEssenceItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Is water"));
-		list.add(new TextComponent("wet...? w.i.p."));
+		list.add(Component.literal("Is water"));
+		list.add(Component.literal("wet...? w.i.p."));
 	}
 }

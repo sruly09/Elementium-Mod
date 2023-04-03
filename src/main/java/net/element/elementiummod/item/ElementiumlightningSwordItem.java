@@ -14,7 +14,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.element.elementiummod.procedures.ElementlighningSwordLivingEntityIsHitWithToolProcedure;
@@ -62,7 +61,7 @@ public class ElementiumlightningSwordItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Strikes the target with lightning..."));
+		list.add(Component.literal("Strikes the target with lightning..."));
 	}
 
 	@Override

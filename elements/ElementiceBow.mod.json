@@ -14,7 +14,7 @@
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": "Blocks.PACKED_ICE"
+      "value": "Blocks.ICE"
     },
     "shootConstantly": false,
     "usageCount": 1111,

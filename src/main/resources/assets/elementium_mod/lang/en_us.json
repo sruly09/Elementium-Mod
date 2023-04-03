@@ -23,16 +23,19 @@
   "item.elementium_mod.elementearth_pickaxe": "Elementium Pickaxe (Element:earth)",
   "enchantment.elementium_mod.cat": "CATEST",
   "item.elementium_mod.elementwater_bow": "Elementium Bow (Element:water)",
+  "item.elementium_mod.elementnature_shovel": "Elementium Shovel (Element:nature)",
   "item.elementium_mod.elementearth_sword": "Elementium Sword (Element:earth)",
   "item.elementium_mod.elementfire_paxel": "Elementium Paxel (Element:fire)",
   "item.elementium_mod.elementnature_blade": "Elementium Blade (Element:nature)",
   "item.elementium_mod.elementice_sword": "Elementium Sword (Element:ice)",
   "item.elementium_mod.water_essence": "Water Essence",
+  "item.elementium_mod.elementnature_bow": "Elementium Bow (Element:nature)",
   "item.elementium_mod.elementium_diamond": "Elemondium",
   "item.elementium_mod.elementlightning_paxel": "Elementium Paxel (Element:lightning)",
   "item.elementium_mod.elementium_axe": "Elementium Axe",
   "item.elementium_mod.elementearth_paxel": "Elementium Paxel (Element:earth)",
   "item.elementium_mod.elementice_paxel": "Elementium Paxel (Element:ice)",
+  "item.elementium_mod.elementnature_pickaxe": "Elementium Pickaxe (Element:nature)",
   "item.minecraft.potion.effect.potionof_immortality": "Potion of Immortality",
   "item.elementium_mod.elementiumlightning_sword": " Elementium Sword (Element:lightning)",
   "item.minecraft.splash_potion.effect.potionof_immortality": "Splash Potion of  Immortality",
@@ -59,5 +62,6 @@
   "item.elementium_mod.elementwater_paxel": "Elementium Paxel (Element:water)",
   "item.elementium_mod.elementair_sword": "Elementium Sword (Element:air)",
   "item.elementium_mod.elementwater_axe": "Elementium Axe (Element:water)",
-  "item.elementium_mod.ice_essence": "Ice Essence"
+  "item.elementium_mod.ice_essence": "Ice Essence",
+  "item.elementium_mod.elementnature_axe": "Elementium Axe (Element:nature)"
 }

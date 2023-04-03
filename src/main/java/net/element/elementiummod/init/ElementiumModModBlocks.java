@@ -7,10 +7,9 @@ package net.element.elementiummod.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
@@ -27,16 +26,12 @@ public class ElementiumModModBlocks {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
-		public static void clientSetup(FMLClientSetupEvent event) {
-		}
-
-		@SubscribeEvent
-		public static void blockColorLoad(ColorHandlerEvent.Block event) {
+		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 			ElementiumBlockBlock.blockColorLoad(event);
 		}
 
 		@SubscribeEvent
-		public static void itemColorLoad(ColorHandlerEvent.Item event) {
+		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
 			ElementiumBlockBlock.itemColorLoad(event);
 		}
 	}

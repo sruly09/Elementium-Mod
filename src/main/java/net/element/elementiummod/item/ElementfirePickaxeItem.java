@@ -10,7 +10,6 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
@@ -59,6 +58,6 @@ public class ElementfirePickaxeItem extends PickaxeItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Autosmelts ores and blocks..."));
+		list.add(Component.literal("Autosmelts ores and blocks..."));
 	}
 }

@@ -6,9 +6,7 @@
     "texture": "elementearthaxe",
     "customModelName": "Normal",
     "name": "Elementium Axe (Element:earth)",
-    "specialInfo": [
-      "Chops  down  the whole tree..  w.i.p."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },

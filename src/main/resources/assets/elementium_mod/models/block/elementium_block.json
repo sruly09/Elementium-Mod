@@ -8,5 +8,6 @@
     "south": "elementium_mod:blocks/elementium_block",
     "west": "elementium_mod:blocks/elementium_block",
     "particle": "elementium_mod:blocks/elementium_block"
-  }
+  },
+  "render_type": "solid"
 }

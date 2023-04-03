@@ -1,0 +1,42 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementnaturebow",
+    "customModelName": "Normal",
+    "name": "Elementium Bow (Element:nature)",
+    "specialInfo": [
+      "poisons on  hit..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.ARROW"
+    },
+    "shootConstantly": false,
+    "usageCount": 1212,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 4.199999999999999,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:NatureEssence"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "ElementnatureBowProjectileHitsLivingEntity"
+    }
+  }
+}

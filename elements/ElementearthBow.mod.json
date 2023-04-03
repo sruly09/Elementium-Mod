@@ -14,7 +14,7 @@
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": "CUSTOM:EarthEssence"
+      "value": "Items.ARROW"
     },
     "shootConstantly": false,
     "usageCount": 3355,

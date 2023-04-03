@@ -15,7 +15,6 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.element.elementiummod.init.ElementiumModModTabs;
@@ -37,7 +36,7 @@ public class ElementiceBowItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("freezes the enemy on hit (arrow)"));
+		list.add(Component.literal("freezes the enemy on hit (arrow)"));
 	}
 
 	@Override
@@ -57,11 +56,11 @@ public class ElementiceBowItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == Blocks.PACKED_ICE.asItem());
+				ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == Blocks.ICE.asItem());
 				if (stack == ItemStack.EMPTY) {
 					for (int i = 0; i < entity.getInventory().items.size(); i++) {
 						ItemStack teststack = entity.getInventory().items.get(i);
-						if (teststack != null && teststack.getItem() == Blocks.PACKED_ICE.asItem()) {
+						if (teststack != null && teststack.getItem() == Blocks.ICE.asItem()) {
 							stack = teststack;
 							break;
 						}
@@ -73,7 +72,7 @@ public class ElementiceBowItem extends Item {
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
 					} else {
-						if (new ItemStack(Blocks.PACKED_ICE).isDamageableItem()) {
+						if (new ItemStack(Blocks.ICE).isDamageableItem()) {
 							if (stack.hurt(1, world.getRandom(), entity)) {
 								stack.shrink(1);
 								stack.setDamageValue(0);

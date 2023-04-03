@@ -5,6 +5,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ProjectileWeaponItem;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -14,11 +15,9 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.element.elementiummod.init.ElementiumModModTabs;
-import net.element.elementiummod.init.ElementiumModModItems;
 import net.element.elementiummod.entity.ElementearthBowEntity;
 
 import java.util.List;
@@ -37,7 +36,7 @@ public class ElementearthBowItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("It has a pretty high attack damage"));
+		list.add(Component.literal("It has a pretty high attack damage"));
 	}
 
 	@Override
@@ -57,11 +56,11 @@ public class ElementearthBowItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == ElementiumModModItems.EARTH_ESSENCE.get());
+				ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == Items.ARROW);
 				if (stack == ItemStack.EMPTY) {
 					for (int i = 0; i < entity.getInventory().items.size(); i++) {
 						ItemStack teststack = entity.getInventory().items.get(i);
-						if (teststack != null && teststack.getItem() == ElementiumModModItems.EARTH_ESSENCE.get()) {
+						if (teststack != null && teststack.getItem() == Items.ARROW) {
 							stack = teststack;
 							break;
 						}
@@ -73,7 +72,7 @@ public class ElementearthBowItem extends Item {
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
 					} else {
-						if (new ItemStack(ElementiumModModItems.EARTH_ESSENCE.get()).isDamageableItem()) {
+						if (new ItemStack(Items.ARROW).isDamageableItem()) {
 							if (stack.hurt(1, world.getRandom(), entity)) {
 								stack.shrink(1);
 								stack.setDamageValue(0);

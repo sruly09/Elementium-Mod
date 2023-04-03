@@ -8,5 +8,6 @@
     "south": "elementium_mod:blocks/elemetium_ore",
     "west": "elementium_mod:blocks/elemetium_ore",
     "particle": "elementium_mod:blocks/elemetium_ore"
-  }
+  },
+  "render_type": "solid"
 }

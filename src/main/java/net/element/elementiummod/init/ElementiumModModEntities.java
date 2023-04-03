@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.element.elementiummod.entity.ElementwaterBowEntity;
+import net.element.elementiummod.entity.ElementnatureBowEntity;
 import net.element.elementiummod.entity.ElementlightningBowEntity;
 import net.element.elementiummod.entity.ElementiceBowEntity;
 import net.element.elementiummod.entity.ElementfireBowEntity;
@@ -26,20 +27,9 @@ import net.element.elementiummod.ElementiumModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ElementiumModModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, ElementiumModMod.MODID);
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, ElementiumModMod.MODID);
 	public static final RegistryObject<EntityType<ElementfireBowEntity>> ELEMENTFIRE_BOW = register("projectile_elementfire_bow",
 			EntityType.Builder.<ElementfireBowEntity>of(ElementfireBowEntity::new, MobCategory.MISC).setCustomClientFactory(ElementfireBowEntity::new)
-					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<ElementlightningBowEntity>> ELEMENTLIGHTNING_BOW = register("projectile_elementlightning_bow",
-			EntityType.Builder.<ElementlightningBowEntity>of(ElementlightningBowEntity::new, MobCategory.MISC)
-					.setCustomClientFactory(ElementlightningBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<ElementearthBowEntity>> ELEMENTEARTH_BOW = register("projectile_elementearth_bow",
-			EntityType.Builder.<ElementearthBowEntity>of(ElementearthBowEntity::new, MobCategory.MISC)
-					.setCustomClientFactory(ElementearthBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<ElementiceBowEntity>> ELEMENTICE_BOW = register("projectile_elementice_bow",
-			EntityType.Builder.<ElementiceBowEntity>of(ElementiceBowEntity::new, MobCategory.MISC).setCustomClientFactory(ElementiceBowEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<ElementairBowEntity>> ELEMENTAIR_BOW = register("projectile_elementair_bow",
 			EntityType.Builder.<ElementairBowEntity>of(ElementairBowEntity::new, MobCategory.MISC).setCustomClientFactory(ElementairBowEntity::new)
@@ -47,6 +37,21 @@ public class ElementiumModModEntities {
 	public static final RegistryObject<EntityType<ElementwaterBowEntity>> ELEMENTWATER_BOW = register("projectile_elementwater_bow",
 			EntityType.Builder.<ElementwaterBowEntity>of(ElementwaterBowEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(ElementwaterBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ElementearthBowEntity>> ELEMENTEARTH_BOW = register("projectile_elementearth_bow",
+			EntityType.Builder.<ElementearthBowEntity>of(ElementearthBowEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(ElementearthBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ElementlightningBowEntity>> ELEMENTLIGHTNING_BOW = register("projectile_elementlightning_bow",
+			EntityType.Builder.<ElementlightningBowEntity>of(ElementlightningBowEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(ElementlightningBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ElementiceBowEntity>> ELEMENTICE_BOW = register("projectile_elementice_bow",
+			EntityType.Builder.<ElementiceBowEntity>of(ElementiceBowEntity::new, MobCategory.MISC).setCustomClientFactory(ElementiceBowEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ElementnatureBowEntity>> ELEMENTNATURE_BOW = register("projectile_elementnature_bow",
+			EntityType.Builder.<ElementnatureBowEntity>of(ElementnatureBowEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(ElementnatureBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

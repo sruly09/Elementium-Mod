@@ -11,7 +11,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.element.elementiummod.init.ElementiumModModTabs;
@@ -51,7 +50,7 @@ public class ElementlightningShovelItem extends ShovelItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("W.I.P."));
+		list.add(Component.literal("W.I.P."));
 	}
 
 	@Override
