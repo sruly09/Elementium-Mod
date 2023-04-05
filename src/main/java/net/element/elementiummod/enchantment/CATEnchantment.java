@@ -8,12 +8,12 @@ import net.minecraft.world.damagesource.DamageSource;
 
 public class CATEnchantment extends Enchantment {
 	public CATEnchantment(EquipmentSlot... slots) {
-		super(Enchantment.Rarity.COMMON, EnchantmentCategory.ARMOR, slots);
+		super(Enchantment.Rarity.COMMON, EnchantmentCategory.TRIDENT, slots);
 	}
 
 	@Override
 	public int getMaxLevel() {
-		return 705;
+		return 25380;
 	}
 
 	@Override

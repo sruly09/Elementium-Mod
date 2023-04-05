@@ -3,10 +3,10 @@
   "_type": "enchantment",
   "definition": {
     "name": "CATEST",
-    "type": "ARMOR",
+    "type": "TRIDENT",
     "rarity": "COMMON",
     "minLevel": 1,
-    "maxLevel": 705,
+    "maxLevel": 25380,
     "damageModifier": 1024,
     "compatibleEnchantments": [],
     "excludeEnchantments": false,

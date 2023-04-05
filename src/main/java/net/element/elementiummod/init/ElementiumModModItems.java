@@ -26,6 +26,7 @@ import net.element.elementiummod.item.ElementwaterBowItem;
 import net.element.elementiummod.item.ElementwaterAxeItem;
 import net.element.elementiummod.item.ElementnatureShovelItem;
 import net.element.elementiummod.item.ElementnaturePickaxeItem;
+import net.element.elementiummod.item.ElementnaturePaxelItem;
 import net.element.elementiummod.item.ElementnatureBowItem;
 import net.element.elementiummod.item.ElementnatureBladeItem;
 import net.element.elementiummod.item.ElementnatureAxeItem;
@@ -127,6 +128,7 @@ public class ElementiumModModItems {
 	public static final RegistryObject<Item> ELEMENTICE_SHOVEL = REGISTRY.register("elementice_shovel", () -> new ElementiceShovelItem());
 	public static final RegistryObject<Item> ELEMENTNATURE_BLADE = REGISTRY.register("elementnature_blade", () -> new ElementnatureBladeItem());
 	public static final RegistryObject<Item> ELEMENTNATURE_BOW = REGISTRY.register("elementnature_bow", () -> new ElementnatureBowItem());
+	public static final RegistryObject<Item> ELEMENTNATURE_PAXEL = REGISTRY.register("elementnature_paxel", () -> new ElementnaturePaxelItem());
 	public static final RegistryObject<Item> ELEMENTNATURE_PICKAXE = REGISTRY.register("elementnature_pickaxe", () -> new ElementnaturePickaxeItem());
 	public static final RegistryObject<Item> ELEMENTNATURE_AXE = REGISTRY.register("elementnature_axe", () -> new ElementnatureAxeItem());
 	public static final RegistryObject<Item> ELEMENTNATURE_SHOVEL = REGISTRY.register("elementnature_shovel", () -> new ElementnatureShovelItem());
