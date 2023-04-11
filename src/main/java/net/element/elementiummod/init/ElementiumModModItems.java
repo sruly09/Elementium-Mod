@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.element.elementiummod.item.WaterEssenceItem;
+import net.element.elementiummod.item.VoidEssenceItem;
 import net.element.elementiummod.item.NatureEssenceItem;
 import net.element.elementiummod.item.LightningEssenceItem;
 import net.element.elementiummod.item.IceEssenceItem;
@@ -24,6 +25,7 @@ import net.element.elementiummod.item.ElementwaterPickaxeItem;
 import net.element.elementiummod.item.ElementwaterPaxelItem;
 import net.element.elementiummod.item.ElementwaterBowItem;
 import net.element.elementiummod.item.ElementwaterAxeItem;
+import net.element.elementiummod.item.ElementvoidSwordItem;
 import net.element.elementiummod.item.ElementnatureShovelItem;
 import net.element.elementiummod.item.ElementnaturePickaxeItem;
 import net.element.elementiummod.item.ElementnaturePaxelItem;
@@ -132,6 +134,8 @@ public class ElementiumModModItems {
 	public static final RegistryObject<Item> ELEMENTNATURE_PICKAXE = REGISTRY.register("elementnature_pickaxe", () -> new ElementnaturePickaxeItem());
 	public static final RegistryObject<Item> ELEMENTNATURE_AXE = REGISTRY.register("elementnature_axe", () -> new ElementnatureAxeItem());
 	public static final RegistryObject<Item> ELEMENTNATURE_SHOVEL = REGISTRY.register("elementnature_shovel", () -> new ElementnatureShovelItem());
+	public static final RegistryObject<Item> VOID_ESSENCE = REGISTRY.register("void_essence", () -> new VoidEssenceItem());
+	public static final RegistryObject<Item> ELEMENTVOID_SWORD = REGISTRY.register("elementvoid_sword", () -> new ElementvoidSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

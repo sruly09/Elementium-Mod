@@ -1102,6 +1102,78 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_paxel"
+    },
+    {
+      "name": "VoidEssence",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_essence"
+    },
+    {
+      "name": "WdassOnDispenseAttemptWithResult",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wdass_on_dispense_attempt_with_result",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidEssenceshootoutdispencer",
+      "type": "itemextension",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_essenceshootoutdispencer"
+    },
+    {
+      "name": "VoidEssenceshootoutdispencerOnDispenseAttemptWithResult",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_essenceshootoutdispencer_on_dispense_attempt_with_result",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementvoidSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementvoid_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementvoidSword",
+      "type": "tool",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementvoid_sword"
     }
   ],
   "variable_elements": [],
@@ -1117,10 +1189,10 @@
       "item.elementium_mod.elementair_bow": "Elementium Bow (Element:air)",
       "item.elementium_mod.elementearth_bow": "Elementium Bow (Element:earth)",
       "item.elementium_mod.lightning_essence": "Lightning Essence",
-      "advancements.do_ihearpeoplescreaming.descr": "obtain earth essence",
       "item.elementium_mod.elementice_bow": "Elementium Bow (Element:ice)",
-      "item.elementium_mod.elementlightning_bow": "Elementium Bow (Element:lightning)",
+      "advancements.do_ihearpeoplescreaming.descr": "obtain earth essence",
       "item.elementium_mod.elementair_pickaxe": "Elementium Pickaxe (Element:air)",
+      "item.elementium_mod.elementlightning_bow": "Elementium Bow (Element:lightning)",
       "item.elementium_mod.elementwater_pickaxe": "Elementium Pickaxe (Element:water)",
       "item.elementium_mod.elementearth_shovel": "Elementearth Shovel",
       "item.elementium_mod.air_essence": "Air Essence",
@@ -1150,6 +1222,7 @@
       "item.minecraft.splash_potion.effect.potionof_immortality": "Splash Potion of  Immortality",
       "item.elementium_mod.elementfire_sword": "Elementium Sword (Element:fire)  ",
       "block.elementium_mod.elementium_block": "Elementium Block",
+      "item.elementium_mod.elementvoid_sword": "Elementium Sword (Element:void)",
       "item.elementium_mod.elementlightning_axe": "Elementlightning Axe",
       "item.elementium_mod.earth_essence": "Earth Essence",
       "item.elementium_mod.elementearth_axe": "Elementium Axe (Element:earth)",
@@ -1159,6 +1232,7 @@
       "itemGroup.tabelementium_tab": "Elementium Mod",
       "item.elementium_mod.elementium_pickaxe": "Elementium Pickaxe",
       "item.elementium_mod.elementnature_paxel": "Elementium Paxel (Element:nature)",
+      "item.elementium_mod.void_essence": "Void Essence",
       "item.minecraft.tipped_arrow.effect.potionof_immortality": "Arrow of  Immortality",
       "item.elementium_mod.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
       "item.elementium_mod.elementium_sword": "Elementium Sword",

@@ -1,0 +1,36 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementvoid_sword",
+    "customModelName": "Normal",
+    "name": "Elementium Sword (Element:void)",
+    "specialInfo": [
+      "use this to wither your enemies..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 2.0,
+    "enchantability": 23,
+    "damageVsEntity": 11.0,
+    "usageCount": 9110,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:VoidEssence"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ElementvoidSwordLivingEntityIsHitWithTool"
+    }
+  }
+}
