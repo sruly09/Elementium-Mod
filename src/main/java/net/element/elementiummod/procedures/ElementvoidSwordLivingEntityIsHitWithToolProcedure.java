@@ -10,6 +10,6 @@ public class ElementvoidSwordLivingEntityIsHitWithToolProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 80, 2, (true), (true)));
+			_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 85, 2, (false), (true)));
 	}
 }

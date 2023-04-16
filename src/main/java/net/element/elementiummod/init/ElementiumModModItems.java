@@ -26,6 +26,8 @@ import net.element.elementiummod.item.ElementwaterPaxelItem;
 import net.element.elementiummod.item.ElementwaterBowItem;
 import net.element.elementiummod.item.ElementwaterAxeItem;
 import net.element.elementiummod.item.ElementvoidSwordItem;
+import net.element.elementiummod.item.ElementvoidPickaxeItem;
+import net.element.elementiummod.item.ElementvoidAxeItem;
 import net.element.elementiummod.item.ElementnatureShovelItem;
 import net.element.elementiummod.item.ElementnaturePickaxeItem;
 import net.element.elementiummod.item.ElementnaturePaxelItem;
@@ -136,6 +138,8 @@ public class ElementiumModModItems {
 	public static final RegistryObject<Item> ELEMENTNATURE_SHOVEL = REGISTRY.register("elementnature_shovel", () -> new ElementnatureShovelItem());
 	public static final RegistryObject<Item> VOID_ESSENCE = REGISTRY.register("void_essence", () -> new VoidEssenceItem());
 	public static final RegistryObject<Item> ELEMENTVOID_SWORD = REGISTRY.register("elementvoid_sword", () -> new ElementvoidSwordItem());
+	public static final RegistryObject<Item> ELEMENTVOID_PICKAXE = REGISTRY.register("elementvoid_pickaxe", () -> new ElementvoidPickaxeItem());
+	public static final RegistryObject<Item> ELEMENTVOID_AXE = REGISTRY.register("elementvoid_axe", () -> new ElementvoidAxeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

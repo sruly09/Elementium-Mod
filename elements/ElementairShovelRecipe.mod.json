@@ -2,42 +2,19 @@
   "_fv": 34,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smithing",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "elementium_mod",
-    "recipeShapeless": true,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ElementiumShovel"
-      },
-      {
-        "value": "CUSTOM:AirEssence"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ElementiumShovel"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:AirEssence"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:ElementairShovel"
     },
     "name": "elementair_shovel_recipe",

@@ -3,7 +3,7 @@
   "_type": "enchantment",
   "definition": {
     "name": "CATEST",
-    "type": "TRIDENT",
+    "type": "FISHING_ROD",
     "rarity": "COMMON",
     "minLevel": 1,
     "maxLevel": 25380,

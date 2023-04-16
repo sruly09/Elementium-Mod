@@ -1,19 +1,12 @@
 {
-  "group": "elementium_mod",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "01"
-  ],
-  "key": {
-    "0": {
-      "item": "elementium_mod:elementium_shovel"
-    },
-    "1": {
-      "item": "elementium_mod:ice_essence"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "elementium_mod:elementium_shovel"
+  },
+  "addition": {
+    "item": "elementium_mod:ice_essence"
   },
   "result": {
-    "item": "elementium_mod:elementice_shovel",
-    "count": 1
+    "item": "elementium_mod:elementice_shovel"
   }
 }

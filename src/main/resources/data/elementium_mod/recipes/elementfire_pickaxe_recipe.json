@@ -1,16 +1,12 @@
 {
-  "group": "elementium_mod",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "elementium_mod:elementium_pickaxe"
-    },
-    {
-      "item": "elementium_mod:fire_essence"
-    }
-  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "elementium_mod:elementium_pickaxe"
+  },
+  "addition": {
+    "item": "elementium_mod:fire_essence"
+  },
   "result": {
-    "item": "elementium_mod:elementfire_pickaxe",
-    "count": 1
+    "item": "elementium_mod:elementfire_pickaxe"
   }
 }

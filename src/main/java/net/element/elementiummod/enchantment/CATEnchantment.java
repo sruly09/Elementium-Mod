@@ -8,7 +8,7 @@ import net.minecraft.world.damagesource.DamageSource;
 
 public class CATEnchantment extends Enchantment {
 	public CATEnchantment(EquipmentSlot... slots) {
-		super(Enchantment.Rarity.COMMON, EnchantmentCategory.TRIDENT, slots);
+		super(Enchantment.Rarity.COMMON, EnchantmentCategory.FISHING_ROD, slots);
 	}
 
 	@Override

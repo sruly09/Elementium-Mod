@@ -1,16 +1,12 @@
 {
-  "group": "elementium_mod",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "elementium_mod:elementium_sword"
-    },
-    {
-      "item": "elementium_mod:air_essence"
-    }
-  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "elementium_mod:elementium_sword"
+  },
+  "addition": {
+    "item": "elementium_mod:air_essence"
+  },
   "result": {
-    "item": "elementium_mod:elementair_sword",
-    "count": 1
+    "item": "elementium_mod:elementair_sword"
   }
 }

@@ -9,15 +9,15 @@
     "group": "elementium_mod",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "CUSTOM:ElementiumPickaxe"
+      "value": "CUSTOM:ElementiumSword"
     },
     "smithingInputAdditionStack": {
-      "value": "CUSTOM:EarthEssence"
+      "value": "CUSTOM:WaterEssence"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:ElementearthPickaxe"
+      "value": "CUSTOM:ElementwaterSword"
     },
-    "name": "elementearth_pickaxe_recipe",
+    "name": "elementwater_sword_recipe",
     "namespace": "mod"
   }
 }

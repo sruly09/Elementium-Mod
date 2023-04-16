@@ -2,42 +2,19 @@
   "_fv": 34,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smithing",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "elementium_mod",
-    "recipeShapeless": true,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ElementiumSword"
-      },
-      {
-        "value": "CUSTOM:AirEssence"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ElementiumSword"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:AirEssence"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:ElementairSword"
     },
     "name": "elementair_sword_recipe",

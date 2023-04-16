@@ -2,42 +2,19 @@
   "_fv": 34,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smithing",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "elementium_mod",
-    "recipeShapeless": true,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ElementiumAxe"
-      },
-      {
-        "value": "CUSTOM:LightningEssence"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ElementiumAxe"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:LightningEssence"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:ElementlightningAxe"
     },
     "name": "elementlightning_axe_recipe",

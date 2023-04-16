@@ -1174,6 +1174,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_sword"
+    },
+    {
+      "name": "ElementvoidPickaxe",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementvoid_pickaxe"
+    },
+    {
+      "name": "ElementvoidAxe",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementvoid_axe"
+    },
+    {
+      "name": "ElementairPaxelRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementair_paxel_recipe"
+    },
+    {
+      "name": "ElementwaterSwordRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementwater_sword_recipe"
     }
   ],
   "variable_elements": [],
@@ -1212,6 +1244,7 @@
       "item.elementium_mod.water_essence": "Water Essence",
       "item.elementium_mod.elementnature_bow": "Elementium Bow (Element:nature)",
       "item.elementium_mod.elementium_diamond": "Elemondium",
+      "item.elementium_mod.elementvoid_axe": "Elementium Axe (Element:void)",
       "item.elementium_mod.elementlightning_paxel": "Elementium Paxel (Element:lightning)",
       "item.elementium_mod.elementium_axe": "Elementium Axe",
       "item.elementium_mod.elementearth_paxel": "Elementium Paxel (Element:earth)",
@@ -1247,7 +1280,8 @@
       "item.elementium_mod.elementair_sword": "Elementium Sword (Element:air)",
       "item.elementium_mod.elementwater_axe": "Elementium Axe (Element:water)",
       "item.elementium_mod.ice_essence": "Ice Essence",
-      "item.elementium_mod.elementnature_axe": "Elementium Axe (Element:nature)"
+      "item.elementium_mod.elementnature_axe": "Elementium Axe (Element:nature)",
+      "item.elementium_mod.elementvoid_pickaxe": "Elementium Pickaxe (Element:void)"
     }
   },
   "foldersRoot": {
