@@ -3,21 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "elementvoid_pickaxe",
+    "texture": "elementvoidshovel",
     "customModelName": "Normal",
-    "name": "Elementium Pickaxe (Element:void)",
-    "specialInfo": [
-      "w.i.p."
-    ],
+    "name": "Elementium Shovel (Element:shadow)",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Pickaxe",
-    "harvestLevel": 6,
-    "efficiency": 18.0,
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 17.5,
     "attackSpeed": 2.0,
-    "enchantability": 23,
-    "damageVsEntity": 9.0,
+    "enchantability": 22,
+    "damageVsEntity": 8.0,
     "usageCount": 9110,
     "blocksAffected": [],
     "hasGlow": false,

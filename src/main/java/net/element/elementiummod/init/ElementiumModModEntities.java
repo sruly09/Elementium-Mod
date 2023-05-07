@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.element.elementiummod.entity.ElementwaterBowEntity;
+import net.element.elementiummod.entity.ElementvoidBowEntity;
 import net.element.elementiummod.entity.ElementnatureBowEntity;
 import net.element.elementiummod.entity.ElementlightningBowEntity;
 import net.element.elementiummod.entity.ElementiceBowEntity;
@@ -42,6 +43,9 @@ public class ElementiumModModEntities {
 			EntityType.Builder.<ElementearthBowEntity>of(ElementearthBowEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(ElementearthBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ElementvoidBowEntity>> ELEMENTVOID_BOW = register("projectile_elementvoid_bow",
+			EntityType.Builder.<ElementvoidBowEntity>of(ElementvoidBowEntity::new, MobCategory.MISC).setCustomClientFactory(ElementvoidBowEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<ElementlightningBowEntity>> ELEMENTLIGHTNING_BOW = register("projectile_elementlightning_bow",
 			EntityType.Builder.<ElementlightningBowEntity>of(ElementlightningBowEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(ElementlightningBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)

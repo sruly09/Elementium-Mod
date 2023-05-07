@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.element.elementiummod.init.ElementiumModModTabs;
 import net.element.elementiummod.init.ElementiumModModPotions;
 import net.element.elementiummod.init.ElementiumModModItems;
+import net.element.elementiummod.init.ElementiumModModFeatures;
 import net.element.elementiummod.init.ElementiumModModEntities;
 import net.element.elementiummod.init.ElementiumModModEnchantments;
 import net.element.elementiummod.init.ElementiumModModBlocks;
@@ -56,6 +57,8 @@ public class ElementiumModMod {
 		ElementiumModModBlocks.REGISTRY.register(bus);
 		ElementiumModModItems.REGISTRY.register(bus);
 		ElementiumModModEntities.REGISTRY.register(bus);
+
+		ElementiumModModFeatures.REGISTRY.register(bus);
 
 		ElementiumModModPotions.REGISTRY.register(bus);
 		ElementiumModModEnchantments.REGISTRY.register(bus);

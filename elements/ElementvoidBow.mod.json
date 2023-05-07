@@ -1,0 +1,40 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "elementvoidbow",
+    "customModelName": "Normal",
+    "name": "Elementium Bow (Element:void)",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:VoidEssence"
+    },
+    "shootConstantly": false,
+    "usageCount": 9110,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.2,
+    "bulletDamage": 4.6000000000000005,
+    "bulletKnockback": 4,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:VoidEssence"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "ElementvoidBowProjectileHitsLivingEntity"
+    }
+  }
+}
