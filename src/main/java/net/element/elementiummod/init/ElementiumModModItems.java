@@ -148,6 +148,7 @@ public class ElementiumModModItems {
 	public static final RegistryObject<Item> ELEMENTNATURE_PICKAXE = REGISTRY.register("elementnature_pickaxe", () -> new ElementnaturePickaxeItem());
 	public static final RegistryObject<Item> ELEMENTNATURE_AXE = REGISTRY.register("elementnature_axe", () -> new ElementnatureAxeItem());
 	public static final RegistryObject<Item> ELEMENTNATURE_SHOVEL = REGISTRY.register("elementnature_shovel", () -> new ElementnatureShovelItem());
+	public static final RegistryObject<Item> AIR_ESSENCE_ORE = block(ElementiumModModBlocks.AIR_ESSENCE_ORE, ElementiumModModTabs.TAB_ELEMENTIUM_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

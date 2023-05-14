@@ -1254,6 +1254,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_essence_ore"
+    },
+    {
+      "name": "AirEssenceOre",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_essence_ore"
     }
   ],
   "variable_elements": [],
@@ -1290,6 +1298,7 @@
       "item.elementium_mod.elementearth_sword": "Elementium Sword (Element:earth)",
       "item.elementium_mod.elementfire_paxel": "Elementium Paxel (Element:fire)",
       "item.elementium_mod.elementnature_blade": "Elementium Blade (Element:nature)",
+      "block.elementium_mod.air_essence_ore": "Air Essence Ore",
       "item.elementium_mod.elementice_sword": "Elementium Sword (Element:ice)",
       "item.elementium_mod.water_essence": "Water Essence",
       "item.elementium_mod.elementnature_bow": "Elementium Bow (Element:nature)",
