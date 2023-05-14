@@ -3,6 +3,7 @@
   "values": [
     "elementium_mod:elementium_block",
     "elementium_mod:elementium_ore",
-    "elementium_mod:fire_essence_ore"
+    "elementium_mod:fire_essence_ore",
+    "elementium_mod:air_essence_ore"
   ]
 }
