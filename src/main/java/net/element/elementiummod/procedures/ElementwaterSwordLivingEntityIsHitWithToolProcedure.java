@@ -10,8 +10,7 @@ public class ElementwaterSwordLivingEntityIsHitWithToolProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY,
-				new ResourceLocation("minecraft:blaze,ghast,thoglin,magmacube,piglin,piglin brute,strider,witherskeleton,zoglin,zombifiedpiglin")))) {
+		if (entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY, new ResourceLocation("minecraft:blaze,ghast,thoglin,magmacube,piglin,piglin brute,strider,witherskeleton,zoglin,zombifiedpiglin")))) {
 			entity.hurt(DamageSource.HOT_FLOOR, 5);
 		}
 	}

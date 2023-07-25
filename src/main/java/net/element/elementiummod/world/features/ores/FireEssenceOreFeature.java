@@ -34,11 +34,9 @@ public class FireEssenceOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new FireEssenceOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("elementium_mod:fire_essence_ore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.NETHERRACK.defaultBlockState()),
-						ElementiumModModBlocks.FIRE_ESSENCE_ORE.get().defaultBlockState())), 16));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.NETHERRACK.defaultBlockState()), ElementiumModModBlocks.FIRE_ESSENCE_ORE.get().defaultBlockState())), 7));
 		PLACED_FEATURE = PlacementUtils.register("elementium_mod:fire_essence_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(12), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(-4), VerticalAnchor.absolute(6)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(12), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(42), VerticalAnchor.absolute(55)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

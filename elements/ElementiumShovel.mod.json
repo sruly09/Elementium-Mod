@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -23,7 +23,7 @@
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:ElementiumDiamond"
+        "value": "CUSTOM:Elemondium"
       }
     ],
     "immuneToFire": true,

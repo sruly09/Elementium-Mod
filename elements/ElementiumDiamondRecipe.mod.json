@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ElementiumDiamond"
+      "value": "CUSTOM:Elemondium"
     },
     "name": "elementium_diamond_recipe",
     "namespace": "mod"

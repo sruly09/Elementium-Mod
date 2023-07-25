@@ -1,20 +1,20 @@
 {
   "mod_elements": [
     {
-      "name": "ElementiumDiamond",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elementium_diamond"
-    },
-    {
       "name": "ElementiumBlock",
       "type": "block",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementium_block"
+      "registry_name": "elementium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/blockstates/elementium_block.json",
+          "src/main/java/net/element/elementiummod/block/ElementiumBlockBlock.java",
+          "src/main/resources/assets/elementium_mod/models/block/elementium_block.json",
+          "src/main/resources/assets/elementium_mod/models/item/elementium_block.json"
+        ]
+      }
     },
     {
       "name": "ElementiumTab",
@@ -22,7 +22,10 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementium_tab"
+      "registry_name": "elementium_tab",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "ElementiumOre",
@@ -30,7 +33,15 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementium_ore"
+      "registry_name": "elementium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/block/ElementiumOreBlock.java",
+          "src/main/resources/assets/elementium_mod/models/block/elementium_ore.json",
+          "src/main/resources/assets/elementium_mod/blockstates/elementium_ore.json",
+          "src/main/resources/assets/elementium_mod/models/item/elementium_ore.json"
+        ]
+      }
     },
     {
       "name": "FireEssence",
@@ -38,7 +49,13 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fire_essence"
+      "registry_name": "fire_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/fire_essence.json",
+          "src/main/java/net/element/elementiummod/item/FireEssenceItem.java"
+        ]
+      }
     },
     {
       "name": "ElementiumBlockRecipe",
@@ -46,7 +63,12 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementium_block_recipe"
+      "registry_name": "elementium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementium_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "LightningEssence",
@@ -54,7 +76,13 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lightning_essence"
+      "registry_name": "lightning_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/lightning_essence.json",
+          "src/main/java/net/element/elementiummod/item/LightningEssenceItem.java"
+        ]
+      }
     },
     {
       "name": "EarthEssence",
@@ -62,7 +90,13 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "earth_essence"
+      "registry_name": "earth_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/EarthEssenceItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/earth_essence.json"
+        ]
+      }
     },
     {
       "name": "ElementiumDiamondRecipe",
@@ -70,7 +104,12 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementium_diamond_recipe"
+      "registry_name": "elementium_diamond_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementium_diamond_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementfireSwordLivingEntityIsHitWithTool",
@@ -80,6 +119,9 @@
       "locked_code": false,
       "registry_name": "elementfire_sword_living_entity_is_hit_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementfireSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -96,6 +138,9 @@
       "locked_code": false,
       "registry_name": "elementium_ore_block_destroyed_by_player",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementiumOreBlockDestroyedByPlayerProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -110,7 +155,13 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_sword"
+      "registry_name": "elementfire_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementfire_sword.json",
+          "src/main/java/net/element/elementiummod/item/ElementfireSwordItem.java"
+        ]
+      }
     },
     {
       "name": "ElementfireSwordRecipe",
@@ -118,7 +169,12 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_sword_recipe"
+      "registry_name": "elementfire_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementfire_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "PotionofImmortality",
@@ -126,7 +182,10 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "potionof_immortality"
+      "registry_name": "potionof_immortality",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "ElementfirePickaxeBlockDestroyedWithTool",
@@ -136,6 +195,9 @@
       "locked_code": false,
       "registry_name": "elementfire_pickaxe_block_destroyed_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementfirePickaxeBlockDestroyedWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -162,7 +224,13 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_pickaxe"
+      "registry_name": "elementfire_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementfirePickaxeItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementfire_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "ElementfirePaxel",
@@ -170,7 +238,13 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_paxel"
+      "registry_name": "elementfire_paxel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementfire_paxel.json",
+          "src/main/java/net/element/elementiummod/item/ElementfirePaxelItem.java"
+        ]
+      }
     },
     {
       "name": "ElementfireAxe",
@@ -178,7 +252,13 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_axe"
+      "registry_name": "elementfire_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementfire_axe.json",
+          "src/main/java/net/element/elementiummod/item/ElementfireAxeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementfireAxeBlockDestroyedWithTool",
@@ -188,6 +268,9 @@
       "locked_code": false,
       "registry_name": "elementfire_axe_block_destroyed_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementfireAxeBlockDestroyedWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -214,7 +297,12 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_axe_recipe"
+      "registry_name": "elementfire_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementfire_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementfirePaxelRecipe",
@@ -222,7 +310,12 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_paxel_recipe"
+      "registry_name": "elementfire_paxel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementfire_paxel_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementfireShovel",
@@ -230,7 +323,13 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_shovel"
+      "registry_name": "elementfire_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementfire_shovel.json",
+          "src/main/java/net/element/elementiummod/item/ElementfireShovelItem.java"
+        ]
+      }
     },
     {
       "name": "ElementfirePaxelBlockDestroyedWithTool",
@@ -240,6 +339,9 @@
       "locked_code": false,
       "registry_name": "elementfire_paxel_block_destroyed_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementfirePaxelBlockDestroyedWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -268,6 +370,9 @@
       "locked_code": false,
       "registry_name": "elementlighning_sword_living_entity_is_hit_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementlighningSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -302,7 +407,13 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementiumlightning_sword"
+      "registry_name": "elementiumlightning_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementiumlightning_sword.json",
+          "src/main/java/net/element/elementiummod/item/ElementiumlightningSwordItem.java"
+        ]
+      }
     },
     {
       "name": "ElementiumlightningSwordRecipe",
@@ -310,7 +421,12 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementiumlightning_sword_recipe"
+      "registry_name": "elementiumlightning_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementiumlightning_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementiumSword",
@@ -318,7 +434,13 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementium_sword"
+      "registry_name": "elemondium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementiumSwordItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elemondium_sword.json"
+        ]
+      }
     },
     {
       "name": "ElementiumPickaxe",
@@ -326,7 +448,13 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementium_pickaxe"
+      "registry_name": "elementium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementiumPickaxeItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementium_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "ElementfirePickaxeRecipe",
@@ -334,7 +462,12 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_pickaxe_recipe"
+      "registry_name": "elementfire_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementfire_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "DoIhearpeoplescreaming",
@@ -342,7 +475,12 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "do_ihearpeoplescreaming"
+      "registry_name": "do_ihearpeoplescreaming",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/advancements/do_ihearpeoplescreaming.json"
+        ]
+      }
     },
     {
       "name": "ElementlightningPickaxe",
@@ -350,7 +488,13 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementlightning_pickaxe"
+      "registry_name": "elementlightning_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementlightningPickaxeItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementlightning_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "ElementlightningPickaxeRecipe",
@@ -358,7 +502,12 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementlightning_pickaxe_recipe"
+      "registry_name": "elementlightning_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementlightning_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementlightningAxe",
@@ -366,7 +515,13 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementlightning_axe"
+      "registry_name": "elementlightning_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementlightning_axe.json",
+          "src/main/java/net/element/elementiummod/item/ElementlightningAxeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementlightningShovel",
@@ -374,7 +529,13 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementlightning_shovel"
+      "registry_name": "elementlightning_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementlightning_shovel.json",
+          "src/main/java/net/element/elementiummod/item/ElementlightningShovelItem.java"
+        ]
+      }
     },
     {
       "name": "ElementlightningBow",
@@ -382,7 +543,14 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementlightning_bow"
+      "registry_name": "elementlightning_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/entity/ElementlightningBowEntity.java",
+          "src/main/java/net/element/elementiummod/item/ElementlightningBowItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementlightning_bow.json"
+        ]
+      }
     },
     {
       "name": "ElementlightningBowProjectileHitsLivingEntity",
@@ -392,6 +560,9 @@
       "locked_code": false,
       "registry_name": "elementlightning_bow_projectile_hits_living_entity",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementlightningBowProjectileHitsLivingEntityProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -418,7 +589,13 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementlightning_paxel"
+      "registry_name": "elementlightning_paxel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementlightningPaxelItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementlightning_paxel.json"
+        ]
+      }
     },
     {
       "name": "ElementearthSword",
@@ -426,7 +603,13 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_sword"
+      "registry_name": "elementearth_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementearth_sword.json",
+          "src/main/java/net/element/elementiummod/item/ElementearthSwordItem.java"
+        ]
+      }
     },
     {
       "name": "ElementearthPickaxe",
@@ -434,7 +617,13 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_pickaxe"
+      "registry_name": "elementearth_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementearthPickaxeItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementearth_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "ElementearthAxe",
@@ -442,7 +631,13 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_axe"
+      "registry_name": "elementearth_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementearthAxeItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementearth_axe.json"
+        ]
+      }
     },
     {
       "name": "ElementearthShovel",
@@ -450,7 +645,13 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_shovel"
+      "registry_name": "elementearth_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementearthShovelItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementearth_shovel.json"
+        ]
+      }
     },
     {
       "name": "ElementfireBow",
@@ -458,7 +659,14 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_bow"
+      "registry_name": "elementfire_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementfireBowItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementfire_bow.json",
+          "src/main/java/net/element/elementiummod/entity/ElementfireBowEntity.java"
+        ]
+      }
     },
     {
       "name": "IceEssence",
@@ -466,7 +674,13 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ice_essence"
+      "registry_name": "ice_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/IceEssenceItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/ice_essence.json"
+        ]
+      }
     },
     {
       "name": "ElementearthPaxel",
@@ -474,7 +688,13 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_paxel"
+      "registry_name": "elementearth_paxel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementearth_paxel.json",
+          "src/main/java/net/element/elementiummod/item/ElementearthPaxelItem.java"
+        ]
+      }
     },
     {
       "name": "ElementiumAxe",
@@ -482,7 +702,13 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementium_axe"
+      "registry_name": "elementium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementium_axe.json",
+          "src/main/java/net/element/elementiummod/item/ElementiumAxeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementlightningAxeRecipe",
@@ -490,7 +716,12 @@
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementlightning_axe_recipe"
+      "registry_name": "elementlightning_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementlightning_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementearthAxeRecipe",
@@ -498,7 +729,12 @@
       "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_axe_recipe"
+      "registry_name": "elementearth_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementearth_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementlightningPaxelRecipe",
@@ -506,7 +742,12 @@
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementlightning_paxel_recipe"
+      "registry_name": "elementlightning_paxel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementlightning_paxel_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementearthPaxelRecipe",
@@ -514,7 +755,12 @@
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_paxel_recipe"
+      "registry_name": "elementearth_paxel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementearth_paxel_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementiumShovel",
@@ -522,7 +768,13 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementium_shovel"
+      "registry_name": "elementium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementiumShovelItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementium_shovel.json"
+        ]
+      }
     },
     {
       "name": "ElementiceSword",
@@ -530,7 +782,13 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_sword"
+      "registry_name": "elementice_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementiceSwordItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementice_sword.json"
+        ]
+      }
     },
     {
       "name": "ElementiceSwordLivingEntityIsHitWithTool",
@@ -540,6 +798,9 @@
       "locked_code": false,
       "registry_name": "elementice_sword_living_entity_is_hit_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementiceSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -554,7 +815,13 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_pickaxe"
+      "registry_name": "elementice_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementice_pickaxe.json",
+          "src/main/java/net/element/elementiummod/item/ElementicePickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementiceAxe",
@@ -562,7 +829,13 @@
       "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_axe"
+      "registry_name": "elementice_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementice_axe.json",
+          "src/main/java/net/element/elementiummod/item/ElementiceAxeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementiceSwordRecipe",
@@ -570,7 +843,12 @@
       "sortid": 88,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_sword_recipe"
+      "registry_name": "elementice_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementice_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementicePickaxeRecipe",
@@ -578,7 +856,12 @@
       "sortid": 89,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_pickaxe_recipe"
+      "registry_name": "elementice_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementice_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementiceAxeRecipe",
@@ -586,7 +869,12 @@
       "sortid": 90,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_axe_recipe"
+      "registry_name": "elementice_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementice_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementfirePickaxeBlockDestroyedWit2hTool",
@@ -596,6 +884,9 @@
       "locked_code": false,
       "registry_name": "elementfire_pickaxe_block_destroyed_wit_2h_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementfirePickaxeBlockDestroyedWit2hToolProcedure.java"
+        ],
         "dependencies": []
       }
     },
@@ -607,6 +898,9 @@
       "locked_code": false,
       "registry_name": "elementearth_pickaxe_destroyed_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementearthPickaxeDestroyedWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -641,7 +935,13 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_shovel"
+      "registry_name": "elementice_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementiceShovelItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementice_shovel.json"
+        ]
+      }
     },
     {
       "name": "ElementiceShovelRecipe",
@@ -649,7 +949,12 @@
       "sortid": 93,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_shovel_recipe"
+      "registry_name": "elementice_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementice_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementearthSwordRecipe",
@@ -657,7 +962,12 @@
       "sortid": 94,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_sword_recipe"
+      "registry_name": "elementearth_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementearth_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementearthPickaxeRecipe",
@@ -665,7 +975,12 @@
       "sortid": 95,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_pickaxe_recipe"
+      "registry_name": "elementearth_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementearth_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementearthShovelRecipe",
@@ -673,7 +988,12 @@
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_shovel_recipe"
+      "registry_name": "elementearth_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementearth_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementicePaxel",
@@ -681,7 +1001,13 @@
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_paxel"
+      "registry_name": "elementice_paxel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementicePaxelItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementice_paxel.json"
+        ]
+      }
     },
     {
       "name": "ElementearthBow",
@@ -689,7 +1015,14 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_bow"
+      "registry_name": "elementearth_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementearthBowItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementearth_bow.json",
+          "src/main/java/net/element/elementiummod/entity/ElementearthBowEntity.java"
+        ]
+      }
     },
     {
       "name": "ElementiceBowProjectileHitsLivingEntity",
@@ -699,6 +1032,9 @@
       "locked_code": false,
       "registry_name": "elementice_bow_projectile_hits_living_entity",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementiceBowProjectileHitsLivingEntityProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -713,7 +1049,14 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_bow"
+      "registry_name": "elementice_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementiceBowItem.java",
+          "src/main/java/net/element/elementiummod/entity/ElementiceBowEntity.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementice_bow.json"
+        ]
+      }
     },
     {
       "name": "ElementfireBowRecipe",
@@ -721,7 +1064,12 @@
       "sortid": 98,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementfire_bow_recipe"
+      "registry_name": "elementfire_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementfire_bow_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementlightingBowRecipe",
@@ -729,7 +1077,12 @@
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementlighting_bow_recipe"
+      "registry_name": "elementlighting_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementlighting_bow_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementearthBowRecipe",
@@ -737,7 +1090,12 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementearth_bow_recipe"
+      "registry_name": "elementearth_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementearth_bow_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementiceBowRecipe",
@@ -745,7 +1103,12 @@
       "sortid": 101,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementice_bow_recipe"
+      "registry_name": "elementice_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementice_bow_recipe.json"
+        ]
+      }
     },
     {
       "name": "AirEssence",
@@ -753,7 +1116,13 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "air_essence"
+      "registry_name": "air_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/air_essence.json",
+          "src/main/java/net/element/elementiummod/item/AirEssenceItem.java"
+        ]
+      }
     },
     {
       "name": "AirEssencePlayerFinishesUsingItem",
@@ -763,6 +1132,9 @@
       "locked_code": false,
       "registry_name": "air_essence_player_finishes_using_item",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/AirEssencePlayerFinishesUsingItemProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -777,7 +1149,12 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ooooh_air_heads"
+      "registry_name": "ooooh_air_heads",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/advancements/ooooh_air_heads.json"
+        ]
+      }
     },
     {
       "name": "ElementairSwordLivingEntityIsHitWithTool",
@@ -787,6 +1164,9 @@
       "locked_code": false,
       "registry_name": "elementair_sword_living_entity_is_hit_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementairSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -801,7 +1181,13 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_sword"
+      "registry_name": "elementair_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementair_sword.json",
+          "src/main/java/net/element/elementiummod/item/ElementairSwordItem.java"
+        ]
+      }
     },
     {
       "name": "ElementairPickaxe",
@@ -809,7 +1195,13 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_pickaxe"
+      "registry_name": "elementair_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementairPickaxeItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementair_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "ElementairAxe",
@@ -817,7 +1209,13 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_axe"
+      "registry_name": "elementair_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementair_axe.json",
+          "src/main/java/net/element/elementiummod/item/ElementairAxeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementairSwordRecipe",
@@ -825,7 +1223,12 @@
       "sortid": 105,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_sword_recipe"
+      "registry_name": "elementair_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementair_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementairPickaxeRecipe",
@@ -833,7 +1236,12 @@
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_pickaxe_recipe"
+      "registry_name": "elementair_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementair_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementairAxeRecipe",
@@ -841,7 +1249,12 @@
       "sortid": 107,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_axe_recipe"
+      "registry_name": "elementair_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementair_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementairShovel",
@@ -849,7 +1262,13 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_shovel"
+      "registry_name": "elementair_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementairShovelItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementair_shovel.json"
+        ]
+      }
     },
     {
       "name": "ElementairBowProjectileHitsLivingEntity",
@@ -859,6 +1278,9 @@
       "locked_code": false,
       "registry_name": "elementair_bow_projectile_hits_living_entity",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementairBowProjectileHitsLivingEntityProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -873,7 +1295,14 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_bow"
+      "registry_name": "elementair_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementairBowItem.java",
+          "src/main/java/net/element/elementiummod/entity/ElementairBowEntity.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementair_bow.json"
+        ]
+      }
     },
     {
       "name": "ElementairShovelRecipe",
@@ -881,7 +1310,12 @@
       "sortid": 109,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_shovel_recipe"
+      "registry_name": "elementair_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementair_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementairBowRecipe",
@@ -889,7 +1323,12 @@
       "sortid": 110,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_bow_recipe"
+      "registry_name": "elementair_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementair_bow_recipe.json"
+        ]
+      }
     },
     {
       "name": "WaterEssence",
@@ -897,7 +1336,13 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "water_essence"
+      "registry_name": "water_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/WaterEssenceItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/water_essence.json"
+        ]
+      }
     },
     {
       "name": "ElementairPaxel",
@@ -905,7 +1350,13 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_paxel"
+      "registry_name": "elementair_paxel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementairPaxelItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementair_paxel.json"
+        ]
+      }
     },
     {
       "name": "ElementwaterSwordLivingEntityIsHitWithTool",
@@ -915,6 +1366,9 @@
       "locked_code": false,
       "registry_name": "elementwater_sword_living_entity_is_hit_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementwaterSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -929,7 +1383,13 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementwater_sword"
+      "registry_name": "elementwater_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementwaterSwordItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementwater_sword.json"
+        ]
+      }
     },
     {
       "name": "ElementwaterPickaxe",
@@ -937,7 +1397,13 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementwater_pickaxe"
+      "registry_name": "elementwater_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementwater_pickaxe.json",
+          "src/main/java/net/element/elementiummod/item/ElementwaterPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "CAT",
@@ -945,7 +1411,12 @@
       "sortid": 112,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cat"
+      "registry_name": "cat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/enchantment/CATEnchantment.java"
+        ]
+      }
     },
     {
       "name": "ElementwaterAxe",
@@ -953,7 +1424,13 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementwater_axe"
+      "registry_name": "elementwater_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementwaterAxeItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementwater_axe.json"
+        ]
+      }
     },
     {
       "name": "ElementwaterShovel",
@@ -961,7 +1438,13 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementwater_shovel"
+      "registry_name": "elementwater_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementwaterShovelItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementwater_shovel.json"
+        ]
+      }
     },
     {
       "name": "ElementwaterBow",
@@ -969,7 +1452,14 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementwater_bow"
+      "registry_name": "elementwater_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/entity/ElementwaterBowEntity.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementwater_bow.json",
+          "src/main/java/net/element/elementiummod/item/ElementwaterBowItem.java"
+        ]
+      }
     },
     {
       "name": "ElementwaterPaxel",
@@ -977,7 +1467,13 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementwater_paxel"
+      "registry_name": "elementwater_paxel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementwater_paxel.json",
+          "src/main/java/net/element/elementiummod/item/ElementwaterPaxelItem.java"
+        ]
+      }
     },
     {
       "name": "NatureEssence",
@@ -985,7 +1481,13 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nature_essence"
+      "registry_name": "nature_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/nature_essence.json",
+          "src/main/java/net/element/elementiummod/item/NatureEssenceItem.java"
+        ]
+      }
     },
     {
       "name": "ElementnatureBladeLivingEntityIsHitWithTool",
@@ -995,6 +1497,9 @@
       "locked_code": false,
       "registry_name": "elementnature_blade_living_entity_is_hit_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementnatureBladeLivingEntityIsHitWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1009,7 +1514,13 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementnature_blade"
+      "registry_name": "elementnature_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementnature_blade.json",
+          "src/main/java/net/element/elementiummod/item/ElementnatureBladeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementnaturePickaxe",
@@ -1017,7 +1528,13 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementnature_pickaxe"
+      "registry_name": "elementnature_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementnature_pickaxe.json",
+          "src/main/java/net/element/elementiummod/item/ElementnaturePickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementnatureAxe",
@@ -1025,7 +1542,13 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementnature_axe"
+      "registry_name": "elementnature_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementnature_axe.json",
+          "src/main/java/net/element/elementiummod/item/ElementnatureAxeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementnatureAxeRightclickedOnBlock",
@@ -1035,6 +1558,9 @@
       "locked_code": false,
       "registry_name": "elementnature_axe_rightclicked_on_block",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementnatureAxeRightclickedOnBlockProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1069,7 +1595,13 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementnature_shovel"
+      "registry_name": "elementnature_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementnatureShovelItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementnature_shovel.json"
+        ]
+      }
     },
     {
       "name": "ElementnatureBowProjectileHitsLivingEntity",
@@ -1079,6 +1611,9 @@
       "locked_code": false,
       "registry_name": "elementnature_bow_projectile_hits_living_entity",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementnatureBowProjectileHitsLivingEntityProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1093,7 +1628,14 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementnature_bow"
+      "registry_name": "elementnature_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementnature_bow.json",
+          "src/main/java/net/element/elementiummod/entity/ElementnatureBowEntity.java",
+          "src/main/java/net/element/elementiummod/item/ElementnatureBowItem.java"
+        ]
+      }
     },
     {
       "name": "ElementnaturePaxel",
@@ -1101,7 +1643,13 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementnature_paxel"
+      "registry_name": "elementnature_paxel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementnaturePaxelItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementnature_paxel.json"
+        ]
+      }
     },
     {
       "name": "VoidEssence",
@@ -1109,7 +1657,13 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_essence"
+      "registry_name": "void_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/VoidEssenceItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/void_essence.json"
+        ]
+      }
     },
     {
       "name": "WdassOnDispenseAttemptWithResult",
@@ -1119,22 +1673,9 @@
       "locked_code": false,
       "registry_name": "wdass_on_dispense_attempt_with_result",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "VoidEssenceshootoutdispencerOnDispenseAttemptWithResult",
-      "type": "procedure",
-      "sortid": 117,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_essenceshootoutdispencer_on_dispense_attempt_with_result",
-      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/WdassOnDispenseAttemptWithResultProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1151,6 +1692,9 @@
       "locked_code": false,
       "registry_name": "elementvoid_sword_living_entity_is_hit_with_tool",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementvoidSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1165,7 +1709,13 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementvoid_sword"
+      "registry_name": "elementvoid_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElementvoidSwordItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementvoid_sword.json"
+        ]
+      }
     },
     {
       "name": "ElementvoidPickaxe",
@@ -1173,7 +1723,13 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementvoid_pickaxe"
+      "registry_name": "elementvoid_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementvoid_pickaxe.json",
+          "src/main/java/net/element/elementiummod/item/ElementvoidPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementvoidAxe",
@@ -1181,7 +1737,13 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementvoid_axe"
+      "registry_name": "elementvoid_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementvoid_axe.json",
+          "src/main/java/net/element/elementiummod/item/ElementvoidAxeItem.java"
+        ]
+      }
     },
     {
       "name": "ElementairPaxelRecipe",
@@ -1189,7 +1751,12 @@
       "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementair_paxel_recipe"
+      "registry_name": "elementair_paxel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementair_paxel_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementwaterSwordRecipe",
@@ -1197,7 +1764,12 @@
       "sortid": 120,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementwater_sword_recipe"
+      "registry_name": "elementwater_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elementwater_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "ElementshadowShovel",
@@ -1205,7 +1777,13 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementshadow_shovel"
+      "registry_name": "elementshadow_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementshadow_shovel.json",
+          "src/main/java/net/element/elementiummod/item/ElementshadowShovelItem.java"
+        ]
+      }
     },
     {
       "name": "ElementvoidPaxel",
@@ -1213,7 +1791,13 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementvoid_paxel"
+      "registry_name": "elementvoid_paxel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/elementvoid_paxel.json",
+          "src/main/java/net/element/elementiummod/item/ElementvoidPaxelItem.java"
+        ]
+      }
     },
     {
       "name": "ElementvoidBowProjectileHitsLivingEntity",
@@ -1223,6 +1807,9 @@
       "locked_code": false,
       "registry_name": "elementvoid_bow_projectile_hits_living_entity",
       "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/ElementvoidBowProjectileHitsLivingEntityProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1237,7 +1824,14 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elementvoid_bow"
+      "registry_name": "elementvoid_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/entity/ElementvoidBowEntity.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementvoid_bow.json",
+          "src/main/java/net/element/elementiummod/item/ElementvoidBowItem.java"
+        ]
+      }
     },
     {
       "name": "PillagerLootTable",
@@ -1245,7 +1839,12 @@
       "sortid": 122,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pillager_loot_table"
+      "registry_name": "pillager_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/pillager_loot_table.json"
+        ]
+      }
     },
     {
       "name": "FireEssenceOre",
@@ -1253,7 +1852,17 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fire_essence_ore"
+      "registry_name": "fire_essence_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/blockstates/fire_essence_ore.json",
+          "src/main/java/net/element/elementiummod/world/features/ores/FireEssenceOreFeature.java",
+          "src/main/resources/data/elementium_mod/forge/biome_modifier/fire_essence_ore_biome_modifier.json",
+          "src/main/java/net/element/elementiummod/block/FireEssenceOreBlock.java",
+          "src/main/resources/assets/elementium_mod/models/block/fire_essence_ore.json",
+          "src/main/resources/assets/elementium_mod/models/item/fire_essence_ore.json"
+        ]
+      }
     },
     {
       "name": "AirEssenceOre",
@@ -1261,7 +1870,122 @@
       "sortid": 123,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "air_essence_ore"
+      "registry_name": "air_essence_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/item/air_essence_ore.json",
+          "src/main/resources/assets/elementium_mod/models/block/air_essence_ore.json",
+          "src/main/resources/assets/elementium_mod/blockstates/air_essence_ore.json",
+          "src/main/java/net/element/elementiummod/block/AirEssenceOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Elemondium",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elemondium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/ElemondiumItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elemondium.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterEssenceOre",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_essence_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/blockstates/water_essence_ore.json",
+          "src/main/java/net/element/elementiummod/block/WaterEssenceOreBlock.java",
+          "src/main/resources/assets/elementium_mod/models/item/water_essence_ore.json",
+          "src/main/resources/assets/elementium_mod/models/block/water_essence_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ElemondiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elemondium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elemondium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianInfusedElemondium",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elemondium_infused_obsidian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementium_mod/models/block/elemondium_infused_obsidian.json",
+          "src/main/resources/assets/elementium_mod/models/item/elemondium_infused_obsidian.json",
+          "src/main/java/net/element/elementiummod/block/ObsidianInfusedElemondiumBlock.java",
+          "src/main/resources/assets/elementium_mod/blockstates/elemondium_infused_obsidian.json"
+        ]
+      }
+    },
+    {
+      "name": "ElemondiumInfusedObsidianRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elemondium_infused_obsidian_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementium_mod/recipes/elemondium_infused_obsidian_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Elementium",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/world/biome/ElementiumBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "ElementiumDimension",
+      "type": "dimension",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementium_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/block/ElementiumDimensionPortalBlock.java",
+          "src/main/java/net/element/elementiummod/item/ElementiumDimensionItem.java",
+          "src/main/resources/assets/elementium_mod/models/item/elementium_dimension.json",
+          "src/main/java/net/element/elementiummod/world/dimension/ElementiumDimensionDimension.java",
+          "src/main/resources/data/elementium_mod/dimension_type/elementium_dimension.json",
+          "src/main/resources/assets/elementium_mod/models/block/elementium_dimension_portal_ew.json",
+          "src/main/java/net/element/elementiummod/world/teleporter/ElementiumDimensionTeleporter.java",
+          "src/main/java/net/element/elementiummod/world/teleporter/ElementiumDimensionPortalShape.java",
+          "src/main/resources/assets/elementium_mod/blockstates/elementium_dimension_portal.json",
+          "src/main/resources/assets/elementium_mod/models/block/elementium_dimension_portal_ns.json",
+          "src/main/resources/data/elementium_mod/dimension/elementium_dimension.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1272,9 +1996,11 @@
       "advancements.do_ihearpeoplescreaming.title": "Do I hear people screaming?",
       "block.elementium_mod.fire_essence_ore": "Fire Essence Ore",
       "item.elementium_mod.elementlightning_pickaxe": "Elementium Pickaxe (Element:lightning)",
+      "block.elementium_mod.elemondium_infused_obsidian": "Obsidian Infused Elemondium",
       "item.elementium_mod.elementair_shovel": "Elementium Shovel (Element:air)",
       "item.elementium_mod.elementlightning_shovel": "Elementlightning Shovel",
       "item.elementium_mod.elementfire_shovel": "Elementfire Shovel",
+      "item.elementium_mod.elemondium_sword": "Elemondium Sword",
       "item.elementium_mod.elementair_bow": "Elementium Bow (Element:air)",
       "item.elementium_mod.elementearth_bow": "Elementium Bow (Element:earth)",
       "item.elementium_mod.lightning_essence": "Lightning Essence",
@@ -1285,6 +2011,7 @@
       "item.elementium_mod.elementwater_pickaxe": "Elementium Pickaxe (Element:water)",
       "item.elementium_mod.elementearth_shovel": "Elementearth Shovel",
       "item.elementium_mod.elementshadow_shovel": "Elementium Shovel (Element:shadow)",
+      "block.elementium_mod.water_essence_ore": "Water Essence Ore",
       "item.elementium_mod.air_essence": "Air Essence",
       "block.elementium_mod.elementium_ore": "Elementium Ore",
       "item.elementium_mod.elementwater_sword": "Elementium Sword (Element:water)",
@@ -1302,7 +2029,6 @@
       "item.elementium_mod.elementice_sword": "Elementium Sword (Element:ice)",
       "item.elementium_mod.water_essence": "Water Essence",
       "item.elementium_mod.elementnature_bow": "Elementium Bow (Element:nature)",
-      "item.elementium_mod.elementium_diamond": "Elemondium",
       "item.elementium_mod.elementvoid_axe": "Elementium Axe (Element:void)",
       "item.elementium_mod.elementlightning_paxel": "Elementium Paxel (Element:lightning)",
       "item.elementium_mod.elementium_axe": "Elementium Axe",
@@ -1325,11 +2051,12 @@
       "item.elementium_mod.elementium_pickaxe": "Elementium Pickaxe",
       "item.elementium_mod.elementnature_paxel": "Elementium Paxel (Element:nature)",
       "item.elementium_mod.void_essence": "Void Essence",
+      "item.elementium_mod.elemondium": "Elemondium",
       "item.minecraft.tipped_arrow.effect.potionof_immortality": "Arrow of  Immortality",
       "item.elementium_mod.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
-      "item.elementium_mod.elementium_sword": "Elementium Sword",
       "advancements.ooooh_air_heads.descr": "obtain Air Essence",
       "item.elementium_mod.fire_essence": "Fire Essence",
+      "biome.elementium_mod.elementium": "Elementium",
       "item.elementium_mod.elementfire_bow": "Elementium Bow (Element:fire)",
       "item.elementium_mod.elementair_paxel": "Elementium Paxel (Element:air)",
       "item.elementium_mod.elementwater_shovel": "Elementium Shovel (Element:water)",
@@ -1342,6 +2069,7 @@
       "item.elementium_mod.elementvoid_paxel": "Elementium Paxel (Element:void)",
       "item.elementium_mod.elementnature_axe": "Elementium Axe (Element:nature)",
       "item.elementium_mod.elementvoid_bow": "Elementium Bow (Element:void)",
+      "item.elementium_mod.elementium_dimension": "Flint and Elemondium",
       "item.elementium_mod.elementvoid_pickaxe": "Elementium Pickaxe (Element:void)"
     }
   },
@@ -1367,5 +2095,5 @@
     "modElementsPackage": "net.element.elementiummod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202300110610
 }

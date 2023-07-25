@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -10,16 +10,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:LightningEssence"
-      },
-      {
-        "value": "CUSTOM:ElementiumDiamond"
-      },
-      {
-        "value": "Items.STRING"
-      },
-      {
-        "value": "Items.COPPER_INGOT"
+        "value": ""
       },
       {
         "value": "CUSTOM:LightningEssence"
@@ -31,7 +22,16 @@
         "value": "CUSTOM:LightningEssence"
       },
       {
-        "value": "CUSTOM:ElementiumDiamond"
+        "value": "CUSTOM:Elemondium"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LightningEssence"
       },
       {
         "value": "Items.STRING"

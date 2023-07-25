@@ -1,11 +1,11 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "elementium_sword",
     "customModelName": "Normal",
-    "name": "Elementium Sword",
+    "name": "Elemondium Sword",
     "specialInfo": [
       "Just a normal sword..."
     ],

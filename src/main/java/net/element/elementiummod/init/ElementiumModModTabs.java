@@ -14,7 +14,7 @@ public class ElementiumModModTabs {
 		TAB_ELEMENTIUM_TAB = new CreativeModeTab("tabelementium_tab") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(ElementiumModModItems.ELEMENTIUM_DIAMOND.get());
+				return new ItemStack(ElementiumModModItems.ELEMONDIUM.get());
 			}
 
 			@Override

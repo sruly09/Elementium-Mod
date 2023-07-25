@@ -17,10 +17,9 @@ import java.util.List;
 
 public class AirEssenceItem extends Item {
 	public AirEssenceItem() {
-		super(new Item.Properties().tab(ElementiumModModTabs.TAB_ELEMENTIUM_TAB).stacksTo(64).rarity(Rarity.UNCOMMON)
-				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f)
+		super(new Item.Properties().tab(ElementiumModModTabs.TAB_ELEMENTIUM_TAB).stacksTo(64).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f)
 
-						.build()));
+				.build()));
 	}
 
 	@Override

@@ -12,7 +12,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.sounds.SoundEvent;
@@ -28,11 +28,8 @@ import java.util.Collections;
 public class ElementiumBlockBlock extends Block {
 	public ElementiumBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("block.amethyst_block.break")),
-						() -> new SoundEvent(new ResourceLocation("block.amethyst_block.chime")),
-						() -> new SoundEvent(new ResourceLocation("block.netherite_block.place")),
-						() -> new SoundEvent(new ResourceLocation("block.netherite_block.hit")),
-						() -> new SoundEvent(new ResourceLocation("block.netherite_block.fall"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("block.amethyst_block.break")), () -> new SoundEvent(new ResourceLocation("block.amethyst_block.chime")),
+						() -> new SoundEvent(new ResourceLocation("block.netherite_block.place")), () -> new SoundEvent(new ResourceLocation("block.netherite_block.hit")), () -> new SoundEvent(new ResourceLocation("block.netherite_block.fall"))))
 				.strength(2.1f, 12f).requiresCorrectToolForDrops());
 	}
 
@@ -43,7 +40,7 @@ public class ElementiumBlockBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 4;
 		return false;
 	}

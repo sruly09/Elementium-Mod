@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -10,16 +10,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "CUSTOM:ElementiumDiamond"
-      },
-      {
-        "value": "Items.STRING"
-      },
-      {
-        "value": "CUSTOM:ElementiumDiamond"
+        "value": ""
       },
       {
         "value": "CUSTOM:EarthEssence"
@@ -28,10 +19,19 @@
         "value": "Items.STRING"
       },
       {
-        "value": "Blocks.DIRT"
+        "value": "CUSTOM:EarthEssence"
       },
       {
-        "value": "CUSTOM:ElementiumDiamond"
+        "value": "CUSTOM:Elemondium"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EarthEssence"
       },
       {
         "value": "Items.STRING"

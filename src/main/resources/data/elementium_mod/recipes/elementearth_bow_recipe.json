@@ -2,34 +2,28 @@
   "group": "elementium_mod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
+    " 12",
     "345",
-    "678"
+    " 78"
   ],
   "key": {
-    "0": {
-      "tag": "forge:stone"
-    },
     "1": {
-      "item": "elementium_mod:elementium_diamond"
+      "item": "elementium_mod:earth_essence"
     },
     "2": {
       "item": "minecraft:string"
     },
     "3": {
-      "item": "elementium_mod:elementium_diamond"
+      "item": "elementium_mod:earth_essence"
     },
     "4": {
-      "item": "elementium_mod:earth_essence"
+      "item": "elementium_mod:elemondium"
     },
     "5": {
       "item": "minecraft:string"
     },
-    "6": {
-      "item": "minecraft:dirt"
-    },
     "7": {
-      "item": "elementium_mod:elementium_diamond"
+      "item": "elementium_mod:earth_essence"
     },
     "8": {
       "item": "minecraft:string"

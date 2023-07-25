@@ -17,28 +17,17 @@ public class ElementfirePickaxeBlockDestroyedWithToolProcedure {
 		boolean removeBlock = false;
 		boolean removeItem = false;
 		if (ElementiumModModItems.ELEMENTFIRE_PICKAXE.get().isCorrectToolForDrops((world.getBlockState(new BlockPos(x, y, z)))) == true) {
-			if (!(((world instanceof Level _lvlSmeltResult && _lvlSmeltResult.getRecipeManager()
-					.getRecipeFor(RecipeType.SMELTING, new SimpleContainer((new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))),
-							_lvlSmeltResult)
-					.isPresent())
-							? _lvlSmeltResult.getRecipeManager()
-									.getRecipeFor(RecipeType.SMELTING,
-											new SimpleContainer((new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))),
-											_lvlSmeltResult)
-									.get().getResultItem().copy()
+			if (!(((world instanceof Level _lvlSmeltResult
+					&& _lvlSmeltResult.getRecipeManager().getRecipeFor(RecipeType.SMELTING, new SimpleContainer((new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))), _lvlSmeltResult).isPresent())
+							? _lvlSmeltResult.getRecipeManager().getRecipeFor(RecipeType.SMELTING, new SimpleContainer((new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))), _lvlSmeltResult).get().getResultItem().copy()
 							: ItemStack.EMPTY)
 					.getItem() == Blocks.AIR.asItem())) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5),
-							((world instanceof Level _lvlSmeltResult && _lvlSmeltResult.getRecipeManager().getRecipeFor(RecipeType.SMELTING,
-									new SimpleContainer((new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))), _lvlSmeltResult)
-									.isPresent())
-											? _lvlSmeltResult.getRecipeManager()
-													.getRecipeFor(RecipeType.SMELTING,
-															new SimpleContainer(
-																	(new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))),
-															_lvlSmeltResult)
-													.get().getResultItem().copy()
+							((world instanceof Level _lvlSmeltResult
+									&& _lvlSmeltResult.getRecipeManager().getRecipeFor(RecipeType.SMELTING, new SimpleContainer((new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))), _lvlSmeltResult).isPresent())
+											? _lvlSmeltResult.getRecipeManager().getRecipeFor(RecipeType.SMELTING, new SimpleContainer((new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))), _lvlSmeltResult).get().getResultItem()
+													.copy()
 											: ItemStack.EMPTY));
 					entityToSpawn.setPickUpDelay(10);
 					_level.addFreshEntity(entityToSpawn);

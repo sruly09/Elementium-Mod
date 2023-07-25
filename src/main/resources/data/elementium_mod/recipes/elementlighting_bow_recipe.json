@@ -2,34 +2,28 @@
   "group": "elementium_mod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
+    " 12",
     "345",
-    "678"
+    " 78"
   ],
   "key": {
-    "0": {
-      "item": "elementium_mod:lightning_essence"
-    },
     "1": {
-      "item": "elementium_mod:elementium_diamond"
+      "item": "elementium_mod:lightning_essence"
     },
     "2": {
       "item": "minecraft:string"
     },
     "3": {
-      "item": "minecraft:copper_ingot"
+      "item": "elementium_mod:lightning_essence"
     },
     "4": {
-      "item": "elementium_mod:lightning_essence"
+      "item": "elementium_mod:elemondium"
     },
     "5": {
       "item": "minecraft:string"
     },
-    "6": {
-      "item": "elementium_mod:lightning_essence"
-    },
     "7": {
-      "item": "elementium_mod:elementium_diamond"
+      "item": "elementium_mod:lightning_essence"
     },
     "8": {
       "item": "minecraft:string"

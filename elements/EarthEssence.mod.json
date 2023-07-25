@@ -1,9 +1,9 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "earth_essence",
+    "texture": "eerth_essence",
     "customModelName": "Normal",
     "name": "Earth Essence",
     "rarity": "UNCOMMON",

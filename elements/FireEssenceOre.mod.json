@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "block",
   "definition": {
     "texture": "fire_essence_ore",
@@ -101,13 +101,7 @@
     "luminance": 2,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -143,8 +137,8 @@
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 12,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": -4,
-    "maxGenerateHeight": 6
+    "frequencyOnChunk": 7,
+    "minGenerateHeight": 42,
+    "maxGenerateHeight": 55
   }
 }

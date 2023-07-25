@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "elementium_mod:elementium_sword"
+    "item": "elementium_mod:elemondium_sword"
   },
   "addition": {
     "item": "elementium_mod:fire_essence"

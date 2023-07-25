@@ -11,7 +11,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.chat.Component;
@@ -25,8 +25,7 @@ import java.util.Collections;
 
 public class FireEssenceOreBlock extends Block {
 	public FireEssenceOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHERRACK).strength(1.6f, 13f).lightLevel(s -> 2)
-				.requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHERRACK).strength(1.6f, 13f).lightLevel(s -> 2).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override
@@ -52,7 +51,7 @@ public class FireEssenceOreBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}

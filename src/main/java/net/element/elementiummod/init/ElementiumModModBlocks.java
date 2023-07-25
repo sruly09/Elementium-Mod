@@ -14,8 +14,11 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.element.elementiummod.block.WaterEssenceOreBlock;
+import net.element.elementiummod.block.ObsidianInfusedElemondiumBlock;
 import net.element.elementiummod.block.FireEssenceOreBlock;
 import net.element.elementiummod.block.ElementiumOreBlock;
+import net.element.elementiummod.block.ElementiumDimensionPortalBlock;
 import net.element.elementiummod.block.ElementiumBlockBlock;
 import net.element.elementiummod.block.AirEssenceOreBlock;
 import net.element.elementiummod.ElementiumModMod;
@@ -26,6 +29,9 @@ public class ElementiumModModBlocks {
 	public static final RegistryObject<Block> ELEMENTIUM_ORE = REGISTRY.register("elementium_ore", () -> new ElementiumOreBlock());
 	public static final RegistryObject<Block> FIRE_ESSENCE_ORE = REGISTRY.register("fire_essence_ore", () -> new FireEssenceOreBlock());
 	public static final RegistryObject<Block> AIR_ESSENCE_ORE = REGISTRY.register("air_essence_ore", () -> new AirEssenceOreBlock());
+	public static final RegistryObject<Block> WATER_ESSENCE_ORE = REGISTRY.register("water_essence_ore", () -> new WaterEssenceOreBlock());
+	public static final RegistryObject<Block> ELEMONDIUM_INFUSED_OBSIDIAN = REGISTRY.register("elemondium_infused_obsidian", () -> new ObsidianInfusedElemondiumBlock());
+	public static final RegistryObject<Block> ELEMENTIUM_DIMENSION_PORTAL = REGISTRY.register("elementium_dimension_portal", () -> new ElementiumDimensionPortalBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

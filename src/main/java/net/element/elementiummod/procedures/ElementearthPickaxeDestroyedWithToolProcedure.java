@@ -29,13 +29,10 @@ public class ElementearthPickaxeDestroyedWithToolProcedure {
 		if (itemstack.getItem() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()
 				&& (((world.getBlockState(new BlockPos(x, y, z))).getMaterial() == net.minecraft.world.level.material.Material.STONE) == true
 						|| ((world.getBlockState(new BlockPos(x, y, z))).getMaterial() == net.minecraft.world.level.material.Material.METAL) == true
-						|| ((world.getBlockState(new BlockPos(x, y, z)))
-								.getMaterial() == net.minecraft.world.level.material.Material.HEAVY_METAL) == true
+						|| ((world.getBlockState(new BlockPos(x, y, z))).getMaterial() == net.minecraft.world.level.material.Material.HEAVY_METAL) == true
 						|| ((world.getBlockState(new BlockPos(x, y, z))).getMaterial() == net.minecraft.world.level.material.Material.ICE) == true
-						|| ((world.getBlockState(new BlockPos(x, y, z)))
-								.getMaterial() == net.minecraft.world.level.material.Material.ICE_SOLID) == true
-						|| ((world.getBlockState(new BlockPos(x, y, z)))
-								.getMaterial() == net.minecraft.world.level.material.Material.SHULKER_SHELL) == true
+						|| ((world.getBlockState(new BlockPos(x, y, z))).getMaterial() == net.minecraft.world.level.material.Material.ICE_SOLID) == true
+						|| ((world.getBlockState(new BlockPos(x, y, z))).getMaterial() == net.minecraft.world.level.material.Material.SHULKER_SHELL) == true
 						|| ((world.getBlockState(new BlockPos(x, y, z))).getMaterial() == net.minecraft.world.level.material.Material.PISTON) == true)
 				&& !((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.BEDROCK)) {
 			if (entity instanceof LivingEntity _entity)
@@ -47,20 +44,13 @@ public class ElementearthPickaxeDestroyedWithToolProcedure {
 				for (int index1 = 0; index1 < (int) (3); index1++) {
 					for (int index2 = 0; index2 < (int) (3); index2++) {
 						if (itemstack.getOrCreateTag().getBoolean("stopMining") == false) {
-							if ((((world.getBlockState(new BlockPos(posX, posY, posZ)))
-									.getMaterial() == net.minecraft.world.level.material.Material.STONE) == true
-									|| ((world.getBlockState(new BlockPos(posX, posY, posZ)))
-											.getMaterial() == net.minecraft.world.level.material.Material.METAL) == true
-									|| ((world.getBlockState(new BlockPos(posX, posY, posZ)))
-											.getMaterial() == net.minecraft.world.level.material.Material.HEAVY_METAL) == true
-									|| ((world.getBlockState(new BlockPos(posX, posY, posZ)))
-											.getMaterial() == net.minecraft.world.level.material.Material.ICE) == true
-									|| ((world.getBlockState(new BlockPos(posX, posY, posZ)))
-											.getMaterial() == net.minecraft.world.level.material.Material.ICE_SOLID) == true
-									|| ((world.getBlockState(new BlockPos(posX, posY, posZ)))
-											.getMaterial() == net.minecraft.world.level.material.Material.SHULKER_SHELL) == true
-									|| ((world.getBlockState(new BlockPos(posX, posY, posZ)))
-											.getMaterial() == net.minecraft.world.level.material.Material.PISTON) == true)
+							if ((((world.getBlockState(new BlockPos(posX, posY, posZ))).getMaterial() == net.minecraft.world.level.material.Material.STONE) == true
+									|| ((world.getBlockState(new BlockPos(posX, posY, posZ))).getMaterial() == net.minecraft.world.level.material.Material.METAL) == true
+									|| ((world.getBlockState(new BlockPos(posX, posY, posZ))).getMaterial() == net.minecraft.world.level.material.Material.HEAVY_METAL) == true
+									|| ((world.getBlockState(new BlockPos(posX, posY, posZ))).getMaterial() == net.minecraft.world.level.material.Material.ICE) == true
+									|| ((world.getBlockState(new BlockPos(posX, posY, posZ))).getMaterial() == net.minecraft.world.level.material.Material.ICE_SOLID) == true
+									|| ((world.getBlockState(new BlockPos(posX, posY, posZ))).getMaterial() == net.minecraft.world.level.material.Material.SHULKER_SHELL) == true
+									|| ((world.getBlockState(new BlockPos(posX, posY, posZ))).getMaterial() == net.minecraft.world.level.material.Material.PISTON) == true)
 									&& !((world.getBlockState(new BlockPos(posX, posY, posZ))).getBlock() == Blocks.BEDROCK)) {
 								{
 									BlockPos _pos = new BlockPos(posX, posY, posZ);
@@ -73,8 +63,7 @@ public class ElementearthPickaxeDestroyedWithToolProcedure {
 											return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
 										} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
 											return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-													&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId())
-															.getGameMode() == GameType.CREATIVE;
+													&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 										}
 										return false;
 									}
@@ -89,19 +78,14 @@ public class ElementearthPickaxeDestroyedWithToolProcedure {
 									if ((itemstack).getDamageValue() == 0) {
 										if (world instanceof Level _level) {
 											if (!_level.isClientSide()) {
-												_level.playSound(null, new BlockPos(entity.getX(), entity.getY(), entity.getZ()),
-														ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.item.break")),
-														SoundSource.NEUTRAL, 1, (float) 0.9);
+												_level.playSound(null, new BlockPos(entity.getX(), entity.getY(), entity.getZ()), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.item.break")), SoundSource.NEUTRAL, 1, (float) 0.9);
 											} else {
-												_level.playLocalSound((entity.getX()), (entity.getY()), (entity.getZ()),
-														ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.item.break")),
-														SoundSource.NEUTRAL, 1, (float) 0.9, false);
+												_level.playLocalSound((entity.getX()), (entity.getY()), (entity.getZ()), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.item.break")), SoundSource.NEUTRAL, 1, (float) 0.9, false);
 											}
 										}
 										if (entity instanceof Player _player) {
 											ItemStack _stktoremove = itemstack;
-											_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
-													_player.inventoryMenu.getCraftSlots());
+											_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 										}
 										itemstack.getOrCreateTag().putBoolean("stopMining", (true));
 									}
