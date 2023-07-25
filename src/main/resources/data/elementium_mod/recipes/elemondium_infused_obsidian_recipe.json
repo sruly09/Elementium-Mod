@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:obsidian"
+  },
+  "addition": {
+    "item": "elementium_mod:elemondium"
+  },
+  "result": {
+    "item": "elementium_mod:elemondium_infused_obsidian"
+  }
+}

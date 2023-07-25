@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elementium_mod:blocks/obsidianinfusedelemodium",
+    "up": "elementium_mod:blocks/obsidianinfusedelemodium",
+    "north": "elementium_mod:blocks/obsidianinfusedelemodium",
+    "east": "elementium_mod:blocks/obsidianinfusedelemodium",
+    "south": "elementium_mod:blocks/obsidianinfusedelemodium",
+    "west": "elementium_mod:blocks/obsidianinfusedelemodium",
+    "particle": "elementium_mod:blocks/obsidianinfusedelemodium"
+  },
+  "render_type": "solid"
+}

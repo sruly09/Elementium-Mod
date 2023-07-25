@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "elementium_mod:block/elementium_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "elementium_mod:block/elementium_dimension_portal_ns"
+    }
+  }
+}
