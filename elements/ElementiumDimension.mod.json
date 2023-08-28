@@ -9,14 +9,14 @@
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.WARPED_HYPHAE"
+      "value": "Blocks.SANDSTONE#2"
     },
     "fluidBlock": {
       "value": "Blocks.VOID_AIR"
     },
     "canRespawnHere": false,
     "hasFog": false,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "BED_EXPLODES",
     "hasSkyLight": false,

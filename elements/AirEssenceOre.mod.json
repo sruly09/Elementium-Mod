@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "breakHarvestLevel": 3,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -125,9 +125,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 9,
-    "frequencyOnChunk": 6,
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 9,
     "minGenerateHeight": 25,
-    "maxGenerateHeight": 40
+    "maxGenerateHeight": 46
   }
 }

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "elementium_mod:items/fire_essence"
-  }
-}

@@ -1,8 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:warped_hyphae",
-    "minecraft:mycelium",
-    "minecraft:coarse_dirt"
+    "minecraft:cut_sandstone",
+    "minecraft:sandstone"
   ]
 }

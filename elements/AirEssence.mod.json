@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "air_essence",
+    "texture": "air_esssence",
     "customModelName": "Normal",
     "name": "Air Essence",
     "rarity": "UNCOMMON",
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "You feel wind in your hands..."
+      "(texture w.i.p)"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
@@ -35,8 +35,8 @@
       "name": "AirEssencePlayerFinishesUsingItem"
     },
     "isFood": true,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "nutritionalValue": 3,
+    "saturation": 0.6,
     "eatResultItem": {
       "value": ""
     },

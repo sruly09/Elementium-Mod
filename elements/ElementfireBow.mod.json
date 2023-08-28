@@ -23,10 +23,10 @@
     "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 1.0,
-    "bulletDamage": 4.7,
+    "bulletPower": 1.1,
+    "bulletDamage": 4.4,
     "bulletKnockback": 2,
-    "bulletParticles": true,
+    "bulletParticles": false,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {
       "value": "CUSTOM:FireEssence"

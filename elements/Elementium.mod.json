@@ -4,10 +4,10 @@
   "definition": {
     "name": "Elementium",
     "groundBlock": {
-      "value": "Blocks.MYCELIUM"
+      "value": "Blocks.SANDSTONE#2"
     },
     "undergroundBlock": {
-      "value": "Blocks.DIRT#1"
+      "value": "Blocks.SANDSTONE#0"
     },
     "underwaterBlock": {
       "value": ""
@@ -108,8 +108,8 @@
         },
         "minGroup": 3,
         "maxGroup": 4,
-        "weight": 14,
-        "spawnType": "misc"
+        "weight": 12,
+        "spawnType": "monster"
       }
     ]
   }

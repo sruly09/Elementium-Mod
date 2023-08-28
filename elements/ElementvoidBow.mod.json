@@ -12,7 +12,7 @@
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": "CUSTOM:VoidEssence"
+      "value": "Items.ARROW"
     },
     "shootConstantly": false,
     "usageCount": 9110,
@@ -24,10 +24,10 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.2,
-    "bulletDamage": 4.6000000000000005,
-    "bulletKnockback": 4,
+    "bulletDamage": 4.699999999999999,
+    "bulletKnockback": 3,
     "bulletParticles": true,
-    "bulletIgnitesFire": true,
+    "bulletIgnitesFire": false,
     "bulletItemTexture": {
       "value": "CUSTOM:VoidEssence"
     },

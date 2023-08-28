@@ -3,14 +3,14 @@ loaderVersion="[43,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="elementium_mod"
+modId="elementiummodpart1theelements"
 version="1.0.0"
-displayName="Elementium Mod"
+displayName="Elementium Mod Part One The Elements"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="sruly09"
 
-[[dependencies.elementium_mod]]
+[[dependencies.elementiummodpart1theelements]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"
