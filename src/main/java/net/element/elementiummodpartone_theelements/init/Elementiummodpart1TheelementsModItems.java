@@ -32,6 +32,7 @@ import net.element.elementiummodpartone_theelements.item.ElementvoidPickaxeItem;
 import net.element.elementiummodpartone_theelements.item.ElementvoidPaxelItem;
 import net.element.elementiummodpartone_theelements.item.ElementvoidBowItem;
 import net.element.elementiummodpartone_theelements.item.ElementvoidAxeItem;
+import net.element.elementiummodpartone_theelements.item.ElementvoidArmorItem;
 import net.element.elementiummodpartone_theelements.item.ElementshadowShovelItem;
 import net.element.elementiummodpartone_theelements.item.ElementnatureShovelItem;
 import net.element.elementiummodpartone_theelements.item.ElementnaturePickaxeItem;
@@ -118,6 +119,10 @@ public class Elementiummodpart1TheelementsModItems {
 	public static final RegistryObject<Item> ELEMENTWATER_CHESTPLATE = REGISTRY.register("elementwater_chestplate", () -> new ElementwaterItem.Chestplate());
 	public static final RegistryObject<Item> ELEMENTWATER_LEGGINGS = REGISTRY.register("elementwater_leggings", () -> new ElementwaterItem.Leggings());
 	public static final RegistryObject<Item> ELEMENTWATER_BOOTS = REGISTRY.register("elementwater_boots", () -> new ElementwaterItem.Boots());
+	public static final RegistryObject<Item> ELEMENTVOID_ARMOR_HELMET = REGISTRY.register("elementvoid_armor_helmet", () -> new ElementvoidArmorItem.Helmet());
+	public static final RegistryObject<Item> ELEMENTVOID_ARMOR_CHESTPLATE = REGISTRY.register("elementvoid_armor_chestplate", () -> new ElementvoidArmorItem.Chestplate());
+	public static final RegistryObject<Item> ELEMENTVOID_ARMOR_LEGGINGS = REGISTRY.register("elementvoid_armor_leggings", () -> new ElementvoidArmorItem.Leggings());
+	public static final RegistryObject<Item> ELEMENTVOID_ARMOR_BOOTS = REGISTRY.register("elementvoid_armor_boots", () -> new ElementvoidArmorItem.Boots());
 	public static final RegistryObject<Item> ELEMENTICE_ARMOR_HELMET = REGISTRY.register("elementice_armor_helmet", () -> new ElementiceArmorItem.Helmet());
 	public static final RegistryObject<Item> ELEMENTICE_ARMOR_CHESTPLATE = REGISTRY.register("elementice_armor_chestplate", () -> new ElementiceArmorItem.Chestplate());
 	public static final RegistryObject<Item> ELEMENTICE_ARMOR_LEGGINGS = REGISTRY.register("elementice_armor_leggings", () -> new ElementiceArmorItem.Leggings());
