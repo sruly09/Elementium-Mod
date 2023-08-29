@@ -1,0 +1,36 @@
+{
+  "group": "elementium_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "elementiummodpart1_theelements:fire_essence"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "elementiummodpart1_theelements:fire_essence"
+    },
+    "4": {
+      "item": "elementiummodpart1_theelements:elemondium"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "7": {
+      "item": "elementiummodpart1_theelements:fire_essence"
+    },
+    "8": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:elementfire_bow",
+    "count": 1
+  }
+}

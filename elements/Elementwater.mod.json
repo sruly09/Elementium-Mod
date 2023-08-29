@@ -1,0 +1,90 @@
+{
+  "_fv": 39,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "elementwater_helmet",
+    "enableBody": true,
+    "textureBody": "elementwater_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "elementwater_leggings",
+    "enableBoots": true,
+    "textureBoots": "elementwater_boots",
+    "onHelmetTick": {
+      "name": "ElementwaterHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "ElementwaterBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "ElementwaterLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "ElementwaterBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "armorTextureFile": "elementwater_",
+    "helmetName": "Water Elementium Helmet",
+    "bodyName": "Water Elementium Chestplate",
+    "leggingsName": "Water Elementium Leggings",
+    "bootsName": "Water Elementium Boots",
+    "helmetSpecialInfo": [
+      "protects you from the deepest part of the ocean."
+    ],
+    "bodySpecialInfo": [
+      "protects you from the deepest part of the ocean."
+    ],
+    "leggingsSpecialInfo": [
+      "protects you from the deepest part of the ocean."
+    ],
+    "bootsSpecialInfo": [
+      "protects you from the deepest part of the ocean."
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 43,
+    "damageValueHelmet": 10,
+    "damageValueBody": 6,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 18,
+    "toughness": 4.1,
+    "knockbackResistance": 0.3,
+    "equipSound": {
+      "value": "block.bubble_column.upwards_inside"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:WaterEssence"
+      }
+    ]
+  }
+}

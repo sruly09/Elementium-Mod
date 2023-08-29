@@ -1,0 +1,90 @@
+{
+  "_fv": 39,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "elementfirehelmet",
+    "enableBody": true,
+    "textureBody": "elementfirechestplate",
+    "enableLeggings": true,
+    "textureLeggings": "elementfireleggings",
+    "enableBoots": true,
+    "textureBoots": "elementfireboots",
+    "onHelmetTick": {
+      "name": "ElementfireArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "ElementfireArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "ElementfireArmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "ElementfireArmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "armorTextureFile": "elementfire_",
+    "helmetName": "Fire Elementium  Helmet",
+    "bodyName": "Fire Elementium Chestplate",
+    "leggingsName": "Fire Elementium Leggings",
+    "bootsName": "Fire Elementium Boots",
+    "helmetSpecialInfo": [
+      "this armor protects you from the hottest flames from the nether..."
+    ],
+    "bodySpecialInfo": [
+      "this armor protects you from the hottest flames from the nether..."
+    ],
+    "leggingsSpecialInfo": [
+      "this armor protects you from the hottest flames from the nether.."
+    ],
+    "bootsSpecialInfo": [
+      "this armor protects you from the hottest flames from the nether..."
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 42,
+    "damageValueHelmet": 9,
+    "damageValueBody": 7,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 4,
+    "enchantability": 18,
+    "toughness": 3.9999999999999996,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": "block.lava.ambient"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:FireEssence"
+      }
+    ]
+  }
+}

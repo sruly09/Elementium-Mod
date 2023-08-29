@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "elementiummodpart1_theelements:elementium_pickaxe"
+  },
+  "addition": {
+    "item": "elementiummodpart1_theelements:void_essence"
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:elementvoid_pickaxe"
+  }
+}

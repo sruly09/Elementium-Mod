@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "elementiummodpart1_theelements:elemondium_sword"
+  },
+  "addition": {
+    "item": "elementiummodpart1_theelements:water_essence"
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:elementwater_sword"
+  }
+}

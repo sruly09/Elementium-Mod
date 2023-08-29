@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "elementiummodpart1_theelements:elementium_axe"
+  },
+  "addition": {
+    "item": "elementiummodpart1_theelements:air_essence"
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:elementair_axe"
+  }
+}

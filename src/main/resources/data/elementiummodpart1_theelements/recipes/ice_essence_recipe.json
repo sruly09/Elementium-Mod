@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "elementiummodpart1_theelements:water_essence"
+  },
+  "addition": {
+    "item": "minecraft:powder_snow_bucket"
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:ice_essence"
+  }
+}

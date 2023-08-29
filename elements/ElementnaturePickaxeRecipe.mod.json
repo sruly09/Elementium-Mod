@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "elementium_mod",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ElementiumPickaxe"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:NatureEssence"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:ElementnaturePickaxe"
+    },
+    "name": "elementnature_pickaxe_recipe",
+    "namespace": "mod"
+  }
+}

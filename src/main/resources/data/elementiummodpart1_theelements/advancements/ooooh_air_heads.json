@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "elementiummodpart1_theelements:air_essence"
+    },
+    "title": {
+      "translate": "advancements.ooooh_air_heads.title"
+    },
+    "description": {
+      "translate": "advancements.ooooh_air_heads.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ooooh_air_heads": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "elementiummodpart1_theelements:air_essence"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "elementiummodpart1_theelements:do_ihearpeoplescreaming"
+}

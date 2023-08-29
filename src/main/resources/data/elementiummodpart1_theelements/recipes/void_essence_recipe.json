@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "elementiummodpart1_theelements:water_essence"
+  },
+  "addition": {
+    "item": "minecraft:wither_rose"
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:void_essence"
+  }
+}

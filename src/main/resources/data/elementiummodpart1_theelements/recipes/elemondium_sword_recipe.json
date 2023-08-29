@@ -1,0 +1,24 @@
+{
+  "group": "elementium_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "elementiummodpart1_theelements:elemondium"
+    },
+    "1": {
+      "item": "elementiummodpart1_theelements:elemondium"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:elemondium_sword",
+    "count": 1
+  }
+}

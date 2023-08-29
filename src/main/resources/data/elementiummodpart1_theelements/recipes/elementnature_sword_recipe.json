@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "elementiummodpart1_theelements:elemondium_sword"
+  },
+  "addition": {
+    "item": "elementiummodpart1_theelements:nature_essence"
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:elementnature_blade"
+  }
+}

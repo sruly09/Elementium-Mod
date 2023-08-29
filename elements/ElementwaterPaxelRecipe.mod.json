@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "elementium_mod",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ElementwaterAxe"
+      },
+      {
+        "value": "CUSTOM:ElementwaterPickaxe"
+      },
+      {
+        "value": "CUSTOM:ElementwaterShovel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ElementwaterPaxel"
+    },
+    "name": "elementwater_paxel_recipe",
+    "namespace": "mod"
+  }
+}

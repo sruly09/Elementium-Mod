@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elementiummodpart1_theelements:blocks/air_essence_ore",
+    "up": "elementiummodpart1_theelements:blocks/air_essence_ore",
+    "north": "elementiummodpart1_theelements:blocks/air_essence_ore",
+    "east": "elementiummodpart1_theelements:blocks/air_essence_ore",
+    "south": "elementiummodpart1_theelements:blocks/air_essence_ore",
+    "west": "elementiummodpart1_theelements:blocks/air_essence_ore",
+    "particle": "elementiummodpart1_theelements:blocks/air_essence_ore"
+  },
+  "render_type": "solid"
+}

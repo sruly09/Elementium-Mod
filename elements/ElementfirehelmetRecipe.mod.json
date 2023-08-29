@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "elementium_mod",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ElementiumArmor.helmet"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:FireEssence"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:ElementfireArmor.helmet"
+    },
+    "name": "elementfirehelmet_recipe",
+    "namespace": "mod"
+  }
+}

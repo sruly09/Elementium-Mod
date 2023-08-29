@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "elementium_mod",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ElementiumArmor.boots"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:FireEssence"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:ElementfireArmor.boots"
+    },
+    "name": "elementfire_boots_recipe",
+    "namespace": "mod"
+  }
+}

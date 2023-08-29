@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "elementiummodpart1_theelements:earth_essence"
+  },
+  "addition": {
+    "item": "minecraft:oak_leaves"
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:nature_essence"
+  }
+}

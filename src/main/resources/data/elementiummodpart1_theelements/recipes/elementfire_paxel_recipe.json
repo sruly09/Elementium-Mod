@@ -1,0 +1,22 @@
+{
+  "group": "elementium_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "elementiummodpart1_theelements:elementfire_axe"
+    },
+    "1": {
+      "item": "elementiummodpart1_theelements:elementfire_pickaxe"
+    },
+    "2": {
+      "item": "elementiummodpart1_theelements:elementfire_shovel"
+    }
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:elementfire_paxel",
+    "count": 1
+  }
+}
