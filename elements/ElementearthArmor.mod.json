@@ -1,0 +1,82 @@
+{
+  "_fv": 39,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "elementearthhelmet",
+    "enableBody": true,
+    "textureBody": "elementearthchestplate",
+    "enableLeggings": true,
+    "textureLeggings": "elementearthleggings",
+    "enableBoots": true,
+    "textureBoots": "elementearthboots",
+    "onHelmetTick": {
+      "name": "ElementearthArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "ElementearthArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "ElementearthArmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "ElementearthArmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ElementiumTab"
+    },
+    "armorTextureFile": "elementearth_",
+    "helmetName": "Earth Elementium Helmet",
+    "bodyName": "Earth Elementium Chestplate",
+    "leggingsName": "Earth Elementium Leggings",
+    "bootsName": "Earth Elementium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 48,
+    "damageValueHelmet": 10,
+    "damageValueBody": 10,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 10,
+    "enchantability": 18,
+    "toughness": 3.8000000000000003,
+    "knockbackResistance": 0.4,
+    "equipSound": {
+      "value": "block.moss.break"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:EarthEssence"
+      }
+    ]
+  }
+}
