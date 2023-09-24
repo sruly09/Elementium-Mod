@@ -32,7 +32,7 @@ public abstract class ElementearthArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{10, 10, 10, 10}[slot.getIndex()];
+				return new int[]{14, 14, 14, 14}[slot.getIndex()];
 			}
 
 			@Override

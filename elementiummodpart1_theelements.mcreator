@@ -19,7 +19,7 @@
     {
       "name": "ElementiumTab",
       "type": "tab",
-      "sortid": 77,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementium_tab",
@@ -60,7 +60,7 @@
     {
       "name": "ElementiumBlockRecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementium_block_recipe",
@@ -101,7 +101,7 @@
     {
       "name": "ElementiumDiamondRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementium_diamond_recipe",
@@ -114,7 +114,7 @@
     {
       "name": "ElementfireSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_sword_living_entity_is_hit_with_tool",
@@ -133,7 +133,7 @@
     {
       "name": "ElementiumOreBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementium_ore_block_destroyed_by_player",
@@ -152,7 +152,7 @@
     {
       "name": "ElementfireSword",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_sword",
@@ -166,7 +166,7 @@
     {
       "name": "ElementfireSwordRecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_sword_recipe",
@@ -179,7 +179,7 @@
     {
       "name": "PotionofImmortality",
       "type": "potion",
-      "sortid": 83,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potionof_immortality",
@@ -190,7 +190,7 @@
     {
       "name": "ElementfirePickaxeBlockDestroyedWithTool",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_pickaxe_block_destroyed_with_tool",
@@ -221,7 +221,7 @@
     {
       "name": "ElementfirePickaxe",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_pickaxe",
@@ -235,7 +235,7 @@
     {
       "name": "ElementfirePaxel",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_paxel",
@@ -249,7 +249,7 @@
     {
       "name": "ElementfireAxe",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_axe",
@@ -263,7 +263,7 @@
     {
       "name": "ElementfireAxeBlockDestroyedWithTool",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_axe_block_destroyed_with_tool",
@@ -294,7 +294,7 @@
     {
       "name": "ElementfireAxeRecipe",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_axe_recipe",
@@ -307,7 +307,7 @@
     {
       "name": "ElementfirePaxelRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_paxel_recipe",
@@ -320,7 +320,7 @@
     {
       "name": "ElementfireShovel",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_shovel",
@@ -334,7 +334,7 @@
     {
       "name": "ElementfirePaxelBlockDestroyedWithTool",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_paxel_block_destroyed_with_tool",
@@ -365,7 +365,7 @@
     {
       "name": "ElementlighningSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlighning_sword_living_entity_is_hit_with_tool",
@@ -404,7 +404,7 @@
     {
       "name": "ElementiumlightningSword",
       "type": "tool",
-      "sortid": 47,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementiumlightning_sword",
@@ -418,7 +418,7 @@
     {
       "name": "ElementiumlightningSwordRecipe",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementiumlightning_sword_recipe",
@@ -431,7 +431,7 @@
     {
       "name": "ElementiumSword",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elemondium_sword",
@@ -445,7 +445,7 @@
     {
       "name": "ElementiumPickaxe",
       "type": "tool",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementium_pickaxe",
@@ -459,7 +459,7 @@
     {
       "name": "ElementfirePickaxeRecipe",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_pickaxe_recipe",
@@ -472,7 +472,7 @@
     {
       "name": "DoIhearpeoplescreaming",
       "type": "achievement",
-      "sortid": 92,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "do_ihearpeoplescreaming",
@@ -485,7 +485,7 @@
     {
       "name": "ElementlightningPickaxe",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_pickaxe",
@@ -499,7 +499,7 @@
     {
       "name": "ElementlightningPickaxeRecipe",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_pickaxe_recipe",
@@ -512,7 +512,7 @@
     {
       "name": "ElementlightningAxe",
       "type": "tool",
-      "sortid": 51,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_axe",
@@ -526,7 +526,7 @@
     {
       "name": "ElementlightningShovel",
       "type": "tool",
-      "sortid": 52,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_shovel",
@@ -540,7 +540,7 @@
     {
       "name": "ElementlightningBow",
       "type": "rangeditem",
-      "sortid": 48,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_bow",
@@ -555,7 +555,7 @@
     {
       "name": "ElementlightningBowProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_bow_projectile_hits_living_entity",
@@ -586,7 +586,7 @@
     {
       "name": "ElementlightningPaxel",
       "type": "tool",
-      "sortid": 49,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_paxel",
@@ -600,7 +600,7 @@
     {
       "name": "ElementearthSword",
       "type": "tool",
-      "sortid": 59,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_sword",
@@ -614,7 +614,7 @@
     {
       "name": "ElementearthPickaxe",
       "type": "tool",
-      "sortid": 62,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_pickaxe",
@@ -628,7 +628,7 @@
     {
       "name": "ElementearthAxe",
       "type": "tool",
-      "sortid": 63,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_axe",
@@ -642,7 +642,7 @@
     {
       "name": "ElementearthShovel",
       "type": "tool",
-      "sortid": 64,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_shovel",
@@ -656,7 +656,7 @@
     {
       "name": "ElementfireBow",
       "type": "rangeditem",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_bow",
@@ -685,7 +685,7 @@
     {
       "name": "ElementearthPaxel",
       "type": "tool",
-      "sortid": 61,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_paxel",
@@ -699,7 +699,7 @@
     {
       "name": "ElementiumAxe",
       "type": "tool",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementium_axe",
@@ -713,7 +713,7 @@
     {
       "name": "ElementlightningAxeRecipe",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_axe_recipe",
@@ -726,7 +726,7 @@
     {
       "name": "ElementearthAxeRecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_axe_recipe",
@@ -739,7 +739,7 @@
     {
       "name": "ElementlightningPaxelRecipe",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_paxel_recipe",
@@ -752,7 +752,7 @@
     {
       "name": "ElementearthPaxelRecipe",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_paxel_recipe",
@@ -765,7 +765,7 @@
     {
       "name": "ElementiumShovel",
       "type": "tool",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementium_shovel",
@@ -779,7 +779,7 @@
     {
       "name": "ElementiceSword",
       "type": "tool",
-      "sortid": 53,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_sword",
@@ -793,7 +793,7 @@
     {
       "name": "ElementiceSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_sword_living_entity_is_hit_with_tool",
@@ -812,7 +812,7 @@
     {
       "name": "ElementicePickaxe",
       "type": "tool",
-      "sortid": 56,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_pickaxe",
@@ -826,7 +826,7 @@
     {
       "name": "ElementiceAxe",
       "type": "tool",
-      "sortid": 57,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_axe",
@@ -840,7 +840,7 @@
     {
       "name": "ElementiceSwordRecipe",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_sword_recipe",
@@ -853,7 +853,7 @@
     {
       "name": "ElementicePickaxeRecipe",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_pickaxe_recipe",
@@ -866,7 +866,7 @@
     {
       "name": "ElementiceAxeRecipe",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_axe_recipe",
@@ -879,7 +879,7 @@
     {
       "name": "ElementfirePickaxeBlockDestroyedWit2hTool",
       "type": "procedure",
-      "sortid": 103,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_pickaxe_block_destroyed_wit_2h_tool",
@@ -893,7 +893,7 @@
     {
       "name": "ElementearthPickaxeDestroyedWithTool",
       "type": "procedure",
-      "sortid": 104,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_pickaxe_destroyed_with_tool",
@@ -932,7 +932,7 @@
     {
       "name": "ElementiceShovel",
       "type": "tool",
-      "sortid": 58,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_shovel",
@@ -946,7 +946,7 @@
     {
       "name": "ElementiceShovelRecipe",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_shovel_recipe",
@@ -959,7 +959,7 @@
     {
       "name": "ElementearthSwordRecipe",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_sword_recipe",
@@ -972,7 +972,7 @@
     {
       "name": "ElementearthPickaxeRecipe",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_pickaxe_recipe",
@@ -985,7 +985,7 @@
     {
       "name": "ElementearthShovelRecipe",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_shovel_recipe",
@@ -998,7 +998,7 @@
     {
       "name": "ElementicePaxel",
       "type": "tool",
-      "sortid": 55,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_paxel",
@@ -1012,7 +1012,7 @@
     {
       "name": "ElementearthBow",
       "type": "rangeditem",
-      "sortid": 60,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_bow",
@@ -1027,7 +1027,7 @@
     {
       "name": "ElementiceBowProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 109,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_bow_projectile_hits_living_entity",
@@ -1046,7 +1046,7 @@
     {
       "name": "ElementiceBow",
       "type": "rangeditem",
-      "sortid": 54,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_bow",
@@ -1061,7 +1061,7 @@
     {
       "name": "ElementfireBowRecipe",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_bow_recipe",
@@ -1074,7 +1074,7 @@
     {
       "name": "ElementlightingBowRecipe",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlighting_bow_recipe",
@@ -1087,7 +1087,7 @@
     {
       "name": "ElementearthBowRecipe",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_bow_recipe",
@@ -1100,7 +1100,7 @@
     {
       "name": "ElementiceBowRecipe",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_bow_recipe",
@@ -1127,7 +1127,7 @@
     {
       "name": "AirEssencePlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "air_essence_player_finishes_using_item",
@@ -1146,7 +1146,7 @@
     {
       "name": "OooohAirHeads",
       "type": "achievement",
-      "sortid": 115,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ooooh_air_heads",
@@ -1159,7 +1159,7 @@
     {
       "name": "ElementairSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_sword_living_entity_is_hit_with_tool",
@@ -1178,7 +1178,7 @@
     {
       "name": "ElementairSword",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_sword",
@@ -1192,7 +1192,7 @@
     {
       "name": "ElementairPickaxe",
       "type": "tool",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_pickaxe",
@@ -1206,7 +1206,7 @@
     {
       "name": "ElementairAxe",
       "type": "tool",
-      "sortid": 39,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_axe",
@@ -1220,7 +1220,7 @@
     {
       "name": "ElementairSwordRecipe",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_sword_recipe",
@@ -1233,7 +1233,7 @@
     {
       "name": "ElementairPickaxeRecipe",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_pickaxe_recipe",
@@ -1246,7 +1246,7 @@
     {
       "name": "ElementairAxeRecipe",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_axe_recipe",
@@ -1259,7 +1259,7 @@
     {
       "name": "ElementairShovel",
       "type": "tool",
-      "sortid": 40,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_shovel",
@@ -1273,7 +1273,7 @@
     {
       "name": "ElementairBowProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_bow_projectile_hits_living_entity",
@@ -1292,7 +1292,7 @@
     {
       "name": "ElementairBow",
       "type": "rangeditem",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_bow",
@@ -1307,7 +1307,7 @@
     {
       "name": "ElementairShovelRecipe",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_shovel_recipe",
@@ -1320,7 +1320,7 @@
     {
       "name": "ElementairBowRecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_bow_recipe",
@@ -1347,7 +1347,7 @@
     {
       "name": "ElementairPaxel",
       "type": "tool",
-      "sortid": 37,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_paxel",
@@ -1361,7 +1361,7 @@
     {
       "name": "ElementwaterSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_sword_living_entity_is_hit_with_tool",
@@ -1380,7 +1380,7 @@
     {
       "name": "ElementwaterSword",
       "type": "tool",
-      "sortid": 41,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_sword",
@@ -1394,7 +1394,7 @@
     {
       "name": "ElementwaterPickaxe",
       "type": "tool",
-      "sortid": 44,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_pickaxe",
@@ -1408,7 +1408,7 @@
     {
       "name": "CAT",
       "type": "enchantment",
-      "sortid": 124,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cat",
@@ -1421,7 +1421,7 @@
     {
       "name": "ElementwaterAxe",
       "type": "tool",
-      "sortid": 45,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_axe",
@@ -1435,7 +1435,7 @@
     {
       "name": "ElementwaterShovel",
       "type": "tool",
-      "sortid": 46,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_shovel",
@@ -1449,7 +1449,7 @@
     {
       "name": "ElementwaterBow",
       "type": "rangeditem",
-      "sortid": 42,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_bow",
@@ -1464,7 +1464,7 @@
     {
       "name": "ElementwaterPaxel",
       "type": "tool",
-      "sortid": 43,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_paxel",
@@ -1492,7 +1492,7 @@
     {
       "name": "ElementnatureBladeLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 125,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_blade_living_entity_is_hit_with_tool",
@@ -1511,7 +1511,7 @@
     {
       "name": "ElementnatureBlade",
       "type": "tool",
-      "sortid": 65,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_blade",
@@ -1525,7 +1525,7 @@
     {
       "name": "ElementnaturePickaxe",
       "type": "tool",
-      "sortid": 68,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_pickaxe",
@@ -1539,7 +1539,7 @@
     {
       "name": "ElementnatureAxe",
       "type": "tool",
-      "sortid": 69,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_axe",
@@ -1553,7 +1553,7 @@
     {
       "name": "ElementnatureAxeRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_axe_rightclicked_on_block",
@@ -1592,7 +1592,7 @@
     {
       "name": "ElementnatureShovel",
       "type": "tool",
-      "sortid": 70,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_shovel",
@@ -1606,7 +1606,7 @@
     {
       "name": "ElementnatureBowProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 127,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_bow_projectile_hits_living_entity",
@@ -1625,7 +1625,7 @@
     {
       "name": "ElementnatureBow",
       "type": "rangeditem",
-      "sortid": 66,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_bow",
@@ -1640,7 +1640,7 @@
     {
       "name": "ElementnaturePaxel",
       "type": "tool",
-      "sortid": 67,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_paxel",
@@ -1668,7 +1668,7 @@
     {
       "name": "ElementvoidSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 128,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_sword_living_entity_is_hit_with_tool",
@@ -1687,7 +1687,7 @@
     {
       "name": "ElementvoidSword",
       "type": "tool",
-      "sortid": 71,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_sword",
@@ -1701,7 +1701,7 @@
     {
       "name": "ElementvoidPickaxe",
       "type": "tool",
-      "sortid": 74,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_pickaxe",
@@ -1715,7 +1715,7 @@
     {
       "name": "ElementvoidAxe",
       "type": "tool",
-      "sortid": 75,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_axe",
@@ -1729,7 +1729,7 @@
     {
       "name": "ElementairPaxelRecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_paxel_recipe",
@@ -1742,7 +1742,7 @@
     {
       "name": "ElementwaterSwordRecipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_sword_recipe",
@@ -1755,7 +1755,7 @@
     {
       "name": "ElementshadowShovel",
       "type": "tool",
-      "sortid": 76,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementshadow_shovel",
@@ -1769,7 +1769,7 @@
     {
       "name": "ElementvoidPaxel",
       "type": "tool",
-      "sortid": 73,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_paxel",
@@ -1783,7 +1783,7 @@
     {
       "name": "ElementvoidBowProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 131,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_bow_projectile_hits_living_entity",
@@ -1802,7 +1802,7 @@
     {
       "name": "ElementvoidBow",
       "type": "rangeditem",
-      "sortid": 72,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_bow",
@@ -1881,7 +1881,7 @@
     {
       "name": "ElemondiumSwordRecipe",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elemondium_sword_recipe",
@@ -1910,7 +1910,7 @@
     {
       "name": "ElemondiumInfusedObsidianRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elemondium_infused_obsidian_recipe",
@@ -1923,7 +1923,7 @@
     {
       "name": "Elementium",
       "type": "biome",
-      "sortid": 134,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementium",
@@ -1975,7 +1975,7 @@
     {
       "name": "LightningEssenceRecipe",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightning_essence_recipe",
@@ -1988,7 +1988,7 @@
     {
       "name": "IceEssenceRecipe",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_essence_recipe",
@@ -2001,7 +2001,7 @@
     {
       "name": "VoidEssenceRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_essence_recipe",
@@ -2014,7 +2014,7 @@
     {
       "name": "NatureEssenceRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nature_essence_recipe",
@@ -2027,7 +2027,7 @@
     {
       "name": "ElementfireShovelRecipe",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_shovel_recipe",
@@ -2040,7 +2040,7 @@
     {
       "name": "ElementwaterPickaxeRecipe",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_pickaxe_recipe",
@@ -2053,7 +2053,7 @@
     {
       "name": "ElementwaterAxeRecipe",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_axe_recipe",
@@ -2066,7 +2066,7 @@
     {
       "name": "ElementwaterShovelRecipe",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_shovel_recipe",
@@ -2079,7 +2079,7 @@
     {
       "name": "ElementwaterPaxelRecipe",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_paxel_recipe",
@@ -2092,7 +2092,7 @@
     {
       "name": "ElementwaterBowRecipe",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_bow_recipe",
@@ -2105,7 +2105,7 @@
     {
       "name": "ElementlightningShovelRecipe",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementlightning_shovel_recipe",
@@ -2118,7 +2118,7 @@
     {
       "name": "ElementicePaxelRecipe",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_paxel_recipe",
@@ -2131,7 +2131,7 @@
     {
       "name": "ElementvoidSwordRecipe",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_sword_recipe",
@@ -2144,7 +2144,7 @@
     {
       "name": "ElementvoidPickaxeRecipe",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_pickaxe_recipe",
@@ -2157,7 +2157,7 @@
     {
       "name": "ElementvoidAxeRecipe",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_axe_recipe",
@@ -2170,7 +2170,7 @@
     {
       "name": "ElementvoidShovelRecipe",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_shovel_recipe",
@@ -2183,7 +2183,7 @@
     {
       "name": "ElementvoidPaxelRecipe",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_paxel_recipe",
@@ -2196,7 +2196,7 @@
     {
       "name": "ElementvoidBowRecipe",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_bow_recipe",
@@ -2209,7 +2209,7 @@
     {
       "name": "ElementnatureSwordRecipe",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_sword_recipe",
@@ -2222,7 +2222,7 @@
     {
       "name": "ElementnaturePickaxeRecipe",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_pickaxe_recipe",
@@ -2235,7 +2235,7 @@
     {
       "name": "ElementnatureAxeRecipe",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_axe_recipe",
@@ -2248,7 +2248,7 @@
     {
       "name": "ElementnatureShovelRecipe",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_shovel_recipe",
@@ -2261,7 +2261,7 @@
     {
       "name": "ElementnaturePaxelRecipe",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_paxel_recipe",
@@ -2274,7 +2274,7 @@
     {
       "name": "ElementnatureBowRecipe",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_bow_recipe",
@@ -2287,7 +2287,7 @@
     {
       "name": "ElementfireArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 159,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_armor_body_tick_event",
@@ -2306,7 +2306,7 @@
     {
       "name": "PoisonResistanceEffectStartedapplied",
       "type": "procedure",
-      "sortid": 160,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "poison_resistance_effect_startedapplied",
@@ -2325,7 +2325,7 @@
     {
       "name": "ElementfireArmorHelmetTickEvent",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_armor_helmet_tick_event",
@@ -2344,7 +2344,7 @@
     {
       "name": "ElementfireArmorLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 162,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_armor_leggings_tick_event",
@@ -2363,7 +2363,7 @@
     {
       "name": "ElementfireArmorBootsTickEvent",
       "type": "procedure",
-      "sortid": 163,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_armor_boots_tick_event",
@@ -2416,7 +2416,7 @@
     {
       "name": "PoisonResistance",
       "type": "potioneffect",
-      "sortid": 164,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "poison_resistance",
@@ -2429,7 +2429,7 @@
     {
       "name": "PoisonResistanceOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 165,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "poison_resistance_on_effect_active_tick",
@@ -2448,7 +2448,7 @@
     {
       "name": "ElementfirehelmetRecipe",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfirehelmet_recipe",
@@ -2461,7 +2461,7 @@
     {
       "name": "ElementfireChestplateRecipe",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_chestplate_recipe",
@@ -2474,7 +2474,7 @@
     {
       "name": "ElementfireLeggingsRecipe",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_leggings_recipe",
@@ -2487,7 +2487,7 @@
     {
       "name": "ElementfireBootsRecipe",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementfire_boots_recipe",
@@ -2500,7 +2500,7 @@
     {
       "name": "ElementiumChestplateRecipe",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementium_chestplate_recipe",
@@ -2513,7 +2513,7 @@
     {
       "name": "ElementairArmorBootsTickEvent",
       "type": "procedure",
-      "sortid": 171,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_armor_boots_tick_event",
@@ -2532,7 +2532,7 @@
     {
       "name": "ElementairArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 172,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_armor_body_tick_event",
@@ -2551,7 +2551,7 @@
     {
       "name": "ElementairArmorLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 173,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_armor_leggings_tick_event",
@@ -2570,7 +2570,7 @@
     {
       "name": "ElementairArmorHelmetTickEvent",
       "type": "procedure",
-      "sortid": 174,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementair_armor_helmet_tick_event",
@@ -2623,7 +2623,7 @@
     {
       "name": "ElementwaterHelmetTickEvent",
       "type": "procedure",
-      "sortid": 175,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_helmet_tick_event",
@@ -2642,7 +2642,7 @@
     {
       "name": "ElementwaterBodyTickEvent",
       "type": "procedure",
-      "sortid": 176,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_body_tick_event",
@@ -2661,7 +2661,7 @@
     {
       "name": "ElementwaterLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 177,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_leggings_tick_event",
@@ -2680,7 +2680,7 @@
     {
       "name": "ElementwaterBootsTickEvent",
       "type": "procedure",
-      "sortid": 178,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementwater_boots_tick_event",
@@ -2699,7 +2699,7 @@
     {
       "name": "ElementnatureArmorHelmetTickEvent",
       "type": "procedure",
-      "sortid": 179,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_armor_helmet_tick_event",
@@ -2718,7 +2718,7 @@
     {
       "name": "ElementnatureArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 180,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_armor_body_tick_event",
@@ -2737,7 +2737,7 @@
     {
       "name": "ElementnatureArmorLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 181,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_armor_leggings_tick_event",
@@ -2756,7 +2756,7 @@
     {
       "name": "ElementnatureArmorBootsTickEvent",
       "type": "procedure",
-      "sortid": 182,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_armor_boots_tick_event",
@@ -2775,7 +2775,7 @@
     {
       "name": "ElementnatureArmor",
       "type": "armor",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementnature_armor",
@@ -2792,7 +2792,7 @@
     {
       "name": "ElementiceArmorHelmetTickEvent",
       "type": "procedure",
-      "sortid": 183,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_armor_helmet_tick_event",
@@ -2811,7 +2811,7 @@
     {
       "name": "ElementiceArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 184,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_armor_body_tick_event",
@@ -2830,7 +2830,7 @@
     {
       "name": "ElementiceArmorLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 185,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_armor_leggings_tick_event",
@@ -2849,7 +2849,7 @@
     {
       "name": "ElementiceArmorBootsTickEvent",
       "type": "procedure",
-      "sortid": 186,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_armor_boots_tick_event",
@@ -2868,7 +2868,7 @@
     {
       "name": "ElementiceArmor",
       "type": "armor",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementice_armor",
@@ -2885,7 +2885,7 @@
     {
       "name": "ElementvoidArmorHelmetTickEvent",
       "type": "procedure",
-      "sortid": 187,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_armor_helmet_tick_event",
@@ -2904,7 +2904,7 @@
     {
       "name": "ElementvoidArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 188,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_armor_body_tick_event",
@@ -2923,7 +2923,7 @@
     {
       "name": "ElementvoidArmorLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 189,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_armor_leggings_tick_event",
@@ -2942,7 +2942,7 @@
     {
       "name": "ElementvoidArmorBootsTickEvent",
       "type": "procedure",
-      "sortid": 190,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_armor_boots_tick_event",
@@ -2961,7 +2961,7 @@
     {
       "name": "ElementvoidArmor",
       "type": "armor",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementvoid_armor",
@@ -2978,7 +2978,7 @@
     {
       "name": "ElementiumBlockBlockIsPlacedBy",
       "type": "procedure",
-      "sortid": 191,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementium_block_block_is_placed_by",
@@ -3009,7 +3009,7 @@
     {
       "name": "ElementearthArmorHelmetTickEvent",
       "type": "procedure",
-      "sortid": 192,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_armor_helmet_tick_event",
@@ -3028,7 +3028,7 @@
     {
       "name": "ElementearthArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 193,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_armor_body_tick_event",
@@ -3047,7 +3047,7 @@
     {
       "name": "ElementearthArmorLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 194,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_armor_leggings_tick_event",
@@ -3066,7 +3066,7 @@
     {
       "name": "ElementearthArmorBootsTickEvent",
       "type": "procedure",
-      "sortid": 195,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_armor_boots_tick_event",
@@ -3085,7 +3085,7 @@
     {
       "name": "ElementearthArmor",
       "type": "armor",
-      "sortid": 196,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementearth_armor",
@@ -3114,8 +3114,8 @@
       "advancements.do_ihearpeoplescreaming.descr": "obtain earth essence",
       "item.elementiummod.elementlightning_pickaxe": "Elementium Pickaxe (Element:lightning)",
       "item.elementiummod_part1_the_elements.elementair_sword": "Elementium Sword (Element:air)",
-      "item.elementiummod.elementearth_bow": "Elementium Bow (Element:earth)",
       "item.elementiummodpart1_theelements.elementair_armor_boots": "Air Element Boots",
+      "item.elementiummod.elementearth_bow": "Elementium Bow (Element:earth)",
       "item.elementiummodpart1_theelements.elementair_axe": "Elementium Axe (Element:air)",
       "item.elementiummodpart1theelements.elementnature_axe": "Elementium Axe (Element:nature)",
       "item.elementium_mod.elementium_shovel": "Elementium Shovel",
@@ -3123,7 +3123,7 @@
       "item.elementiummod.elementair_armor_helmet": "Air Elementium Helmet",
       "item.elementiummod_part1_the_elements.elementfire_armor_leggings": "Fire Elementium Leggings",
       "item.elementiummodpart1theelements.elementium_dimension": "Flint and Elemondium",
-      "item.elementiummodpart1_theelements.elementnature_armor_helmet": "Nature Elementium  Helmet",
+      "item.elementiummodpart1_theelements.elementnature_armor_helmet": "Nature Elementium  Helmet CREATIVE ONLY (for now)",
       "item.elementiummod.void_essence": "Void Essence",
       "item.elementiummodpart1_theelements.elementearth_shovel": "Elementearth Shovel",
       "item.elementiummod.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
@@ -3133,24 +3133,24 @@
       "item.elementiummod_part1_the_elements.elementwater_boots": "Water Elementium Boots",
       "item.elementiummodpart1_theelements.elementwater_helmet": "Water Elementium Helmet",
       "item.elementium_mod.elementnature_paxel": "Elementium Paxel (Element:nature)",
-      "item.elementium_mod.void_essence": "Void Essence",
-      "item.elementiummodpart1theelements.elementlightning_pickaxe": "Elementium Pickaxe (Element:lightning)",
       "item.elementiummodpart1_theelements.elemondium_sword": "Elemondium Sword",
-      "block.elementium_mod.earth_essence_ore": "Earth Essence Ore",
+      "item.elementiummodpart1theelements.elementlightning_pickaxe": "Elementium Pickaxe (Element:lightning)",
+      "item.elementium_mod.void_essence": "Void Essence",
       "item.elementiummod.elementiumlightning_sword": " Elementium Sword (Element:lightning)",
+      "block.elementium_mod.earth_essence_ore": "Earth Essence Ore",
       "item.elementiummod_part1_the_elements.elementvoid_paxel": "Elementium Paxel (Element:void)",
       "item.elementium_mod.elementair_paxel": "Elementium Paxel (Element:air)",
       "item.elementiummodpart1theelements.elementice_sword": "Elementium Sword (Element:ice)",
-      "item.elementiummod_part1_the_elements.elementfire_shovel": "Elementfire Shovel",
       "item.elementium_mod.elementfire_armor_leggings": "Fire Elementium Leggings",
+      "item.elementiummod_part1_the_elements.elementfire_shovel": "Elementfire Shovel",
       "item.elementiummodpart1_theelements.elementium_armor_boots": "Elementium  Boots",
       "item.elementiummodpart1theelements.elementwater_bow": "Elementium Bow (Element:water)",
-      "block.elementium_mod.fire_essence_ore": "Fire Essence Ore",
       "item.elementiummodpart1_theelements.elementwater_axe": "Elementium Axe (Element:water)",
+      "block.elementium_mod.fire_essence_ore": "Fire Essence Ore",
       "item.elementiummodpart1_theelements.elementice_sword": "Elementium Sword (Element:ice)",
       "item.elementiummod_part1_the_elements.elementair_bow": "Elementium Bow (Element:air)",
-      "item.elementiummod.elementfire_armor_chestplate": "Fire Elementium Chestplate",
       "item.elementiummodpart1theelements.void_essence": "Void Essence",
+      "item.elementiummod.elementfire_armor_chestplate": "Fire Elementium Chestplate",
       "item.elementiummodpart1theelements.elemondium_sword": "Elemondium Sword",
       "item.elementiummod_part1_the_elements.elementlightning_axe": "Elementlightning Axe",
       "effect.elementiummodpart1_theelements.poison_resistance": "Poison Resistance",
@@ -3170,8 +3170,8 @@
       "item.elementiummod_part1_the_elements.nature_essence": "Nature Essence",
       "item.elementium_mod.elementfire_paxel": "Elementium Paxel (Element:fire)",
       "item.elementiummod.elementnature_axe": "Elementium Axe (Element:nature)",
-      "item.elementiummod.elementice_bow": "Elementium Bow (Element:ice)",
       "block.elementium_mod.air_essence_ore": "Air Essence Ore",
+      "item.elementiummod.elementice_bow": "Elementium Bow (Element:ice)",
       "item.elementium_mod.elementice_sword": "Elementium Sword (Element:ice)",
       "item.elementium_mod.elementnature_bow": "Elementium Bow (Element:nature)",
       "item.elementium_mod.elementvoid_axe": "Elementium Axe (Element:void)",
@@ -3206,14 +3206,14 @@
       "item.elementium_mod.elementair_armor_leggings": "Air Elementium Leggings ",
       "item.elementiummodpart1theelements.elementfire_armor_leggings": "Fire Elementium Leggings",
       "item.elementiummodpart1theelements.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
-      "item.elementiummod_part1_the_elements.elementvoid_axe": "Elementium Axe (Element:void)",
       "item.elementiummodpart1_theelements.elementice_bow": "Elementium Bow (Element:ice)",
+      "item.elementiummod_part1_the_elements.elementvoid_axe": "Elementium Axe (Element:void)",
       "item.elementium_mod.elementwater_axe": "Elementium Axe (Element:water)",
       "item.elementiummod.elementair_axe": "Elementium Axe (Element:air)",
       "item.elementiummod.lightning_essence": "Lightning Essence",
       "item.elementiummodpart1_theelements.elementearth_axe": "Elementium Axe (Element:earth)",
-      "item.elementiummod_part1_the_elements.elementvoid_pickaxe": "Elementium Pickaxe (Element:void)",
       "item.elementiummodpart1_theelements.elementnature_pickaxe": "Elementium Pickaxe (Element:nature)",
+      "item.elementiummod_part1_the_elements.elementvoid_pickaxe": "Elementium Pickaxe (Element:void)",
       "item.elementiummodpart1theelements.elementair_sword": "Elementium Sword (Element:air)",
       "item.elementiummod_part1_the_elements.elementice_bow": "Elementium Bow (Element:ice)",
       "item.elementiummod_part1_the_elements.elementair_armor_boots": "Air Element Boots",
@@ -3221,8 +3221,8 @@
       "item.elementiummodpart1_theelements.ice_essence": "Ice Essence",
       "item.elementium_mod.elementwater_pickaxe": "Elementium Pickaxe (Element:water)",
       "item.elementiummodpart1theelements.elementshadow_shovel": "Elementium Shovel (Element:shadow)",
-      "item.elementium_mod.elementearth_shovel": "Elementearth Shovel",
       "item.elementiummodpart1theelements.elementfire_sword": "Elementium Sword (Element:fire)  ",
+      "item.elementium_mod.elementearth_shovel": "Elementearth Shovel",
       "item.elementium_mod.air_essence": "Air Essence",
       "item.elementium_mod.elementwater_sword": "Elementium Sword (Element:water)",
       "item.elementiummodpart1_theelements.elementnature_shovel": "Elementium Shovel (Element:nature)",
@@ -3231,15 +3231,15 @@
       "item.elementiummod.elementwater_pickaxe": "Elementium Pickaxe (Element:water)",
       "item.elementium_mod.elementair_armor_boots": "Air Element Boots",
       "item.elementiummodpart1_theelements.elementwater_shovel": "Elementium Shovel (Element:water)",
+      "item.elementiummodpart1_theelements.elementnature_armor_leggings": "Nature Elementium   Leggings CREATIVE ONLY (for now)",
       "block.elementiummodpart1theelements.elemondium_infused_obsidian": "Obsidian Infused Elemondium",
-      "item.elementiummodpart1_theelements.elementnature_armor_leggings": "Nature Elementium   Leggings",
       "item.elementiummodpart1_theelements.elementlightning_shovel": "Elementlightning Shovel",
       "item.elementiummodpart1theelements.elementium_armor_chestplate": "Elementium Chestplate",
-      "item.elementium_mod.elementium_axe": "Elementium Axe",
       "block.elementiummodpart1theelements.elementium_block": "Elementium Block",
-      "item.elementium_mod.elementearth_paxel": "Elementium Paxel (Element:earth)",
-      "item.elementiummod.elementfire_paxel": "Elementium Paxel (Element:fire)",
+      "item.elementium_mod.elementium_axe": "Elementium Axe",
       "block.elementiummodpart1_theelements.water_essence_ore": "Water Essence Ore",
+      "item.elementiummod.elementfire_paxel": "Elementium Paxel (Element:fire)",
+      "item.elementium_mod.elementearth_paxel": "Elementium Paxel (Element:earth)",
       "item.elementium_mod.elementiumlightning_sword": " Elementium Sword (Element:lightning)",
       "item.elementiummodpart1_theelements.elementnature_blade": "Elementium Blade (Element:nature)",
       "item.elementiummod.elementium_dimension": "Flint and Elemondium",
@@ -3251,10 +3251,10 @@
       "item.elementiummod_part1_the_elements.elementnature_paxel": "Elementium Paxel (Element:nature)",
       "item.elementiummodpart1theelements.elementium_shovel": "Elementium Shovel",
       "item.elementiummod.elementice_sword": "Elementium Sword (Element:ice)",
-      "advancements.ooooh_air_heads.descr": "obtain Air Essence",
       "block.elementiummodpart1theelements.earth_essence_ore": "Earth Essence Ore",
+      "advancements.ooooh_air_heads.descr": "obtain Air Essence",
+      "item.elementiummodpart1_theelements.elementice_armor_boots": "Ice Elementium Boots W.I.P. CREATIVE ONLY (for now)",
       "item.elementiummod.elementfire_armor_helmet": "Fire Elementium  Helmet",
-      "item.elementiummodpart1_theelements.elementice_armor_boots": "Ice Elementium Boots W.I.P.",
       "item.elementiummodpart1_theelements.elementium_axe": "Elementium Axe",
       "block.elementiummodpart1_theelements.elemondium_infused_obsidian": "Obsidian Infused Elemondium",
       "item.elementiummod_part1_the_elements.elementwater_shovel": "Elementium Shovel (Element:water)",
@@ -3266,7 +3266,7 @@
       "item.elementiummod.elementlightning_paxel": "Elementium Paxel (Element:lightning)",
       "item.elementiummod.elementnature_pickaxe": "Elementium Pickaxe (Element:nature)",
       "item.elementium_mod.elementium_armor_chestplate": "Elementium Chestplate",
-      "item.elementiummodpart1_theelements.elementnature_armor_chestplate": "Nature Elementium  Body",
+      "item.elementiummodpart1_theelements.elementnature_armor_chestplate": "Nature Elementium  Chestplate CREATIVE ONLY (for now)",
       "item.elementiummod.elementearth_paxel": "Elementium Paxel (Element:earth)",
       "item.elementiummodpart1theelements.elementlightning_axe": "Elementlightning Axe",
       "item.elementiummodpart1_theelements.elementearth_bow": "Elementium Bow (Element:earth)",
@@ -3364,7 +3364,7 @@
       "item.elementiummodpart1_theelements.elementium_shovel": "Elementium Shovel",
       "item.elementium_mod.elementwater_shovel": "Elementium Shovel (Element:water)",
       "item.elementiummodpart1theelements.elementium_armor_leggings": "Elementium  Leggings",
-      "item.elementiummodpart1_theelements.elementvoid_armor_leggings": "Void Elementium  Leggings",
+      "item.elementiummodpart1_theelements.elementvoid_armor_leggings": "Void Elementium  Leggings CREATIVE ONLY (for now)",
       "item.minecraft.lingering_potion.effect.potionof_immortality": "Lingering Potion of  Immortality",
       "biome.elementiummodpart1_theelements.elementium": "Elementium",
       "item.elementiummodpart1theelements.elementice_axe": "Elementium Axe (Element:ice)",
@@ -3429,7 +3429,7 @@
       "item.elementiummod.elementlightning_shovel": "Elementlightning Shovel",
       "item.elementiummodpart1theelements.elementnature_bow": "Elementium Bow (Element:nature)",
       "effect.elementium_mod.poison_resistance": "Poison Resistance",
-      "item.elementiummodpart1_theelements.elementice_armor_helmet": "Ice Elementium Helmet W.I.P.",
+      "item.elementiummodpart1_theelements.elementice_armor_helmet": "Ice Elementium Helmet W.I.P. CREATIVE ONLY (for now)",
       "item.elementiummodpart1_theelements.elementfire_paxel": "Elementium Paxel (Element:fire)",
       "item.elementiummod_part1_the_elements.elementice_shovel": "Elementium Shovel (Element:ice)",
       "item.elementiummodpart1_theelements.elementair_sword": "Elementium Sword (Element:air)",
@@ -3438,7 +3438,7 @@
       "item.elementium_mod.elementlightning_pickaxe": "Elementium Pickaxe (Element:lightning)",
       "item.elementiummodpart1_theelements.elementice_pickaxe": "Elementium Pickaxe (Element:ice)",
       "item.elementiummodpart1_theelements.elementnature_bow": "Elementium Bow (Element:nature)",
-      "item.elementiummodpart1_theelements.elementnature_armor_boots": "Nature Elementium  Boots",
+      "item.elementiummodpart1_theelements.elementnature_armor_boots": "Nature Elementium  Boots CREATIVE ONLY (for now)",
       "item.elementiummod_part1_the_elements.elementwater_sword": "Elementium Sword (Element:water)",
       "block.elementium_mod.elemondium_infused_obsidian": "Obsidian Infused Elemondium",
       "item.elementium_mod.elementlightning_shovel": "Elementlightning Shovel",
@@ -3495,7 +3495,7 @@
       "block.elementiummodpart1_theelements.earth_essence_ore": "Earth Essence Ore",
       "item.elementiummod_part1_the_elements.elementwater_leggings": "Water Elementium Leggings",
       "item.elementiummodpart1_theelements.elementium_armor_chestplate": "Elementium Chestplate",
-      "item.elementiummodpart1_theelements.elementice_armor_chestplate": "Ice Elementium Chestplate W.I.P.",
+      "item.elementiummodpart1_theelements.elementice_armor_chestplate": "Ice Elementium Chestplate W.I.P. CREATIVE ONLY (for now)",
       "item.elementiummod_part1_the_elements.elementfire_armor_chestplate": "Fire Elementium Chestplate",
       "item.elementiummod.elementfire_sword": "Elementium Sword (Element:fire)  ",
       "item.elementiummod.elementwater_helmet": "Water Elementium Helmet",
@@ -3524,7 +3524,7 @@
       "item.elementium_mod.elementearth_sword": "Elementium Sword (Element:earth)",
       "block.elementiummodpart1theelements.fire_essence_ore": "Fire Essence Ore",
       "item.elementiummodpart1theelements.elementlightning_paxel": "Elementium Paxel (Element:lightning)",
-      "item.elementiummodpart1_theelements.elementvoid_armor_helmet": "Void Elementium Helmet",
+      "item.elementiummodpart1_theelements.elementvoid_armor_helmet": "Void Elementium Helmet CREATIVE ONLY (for now)",
       "block.elementiummod.elementium_block": "Elementium Block",
       "item.elementium_mod.water_essence": "Water Essence",
       "item.elementiummodpart1theelements.elementlightning_bow": "Elementium Bow (Element:lightning)",
@@ -3557,10 +3557,10 @@
       "item.elementium_mod.elementwater_paxel": "Elementium Paxel (Element:water)",
       "enchantment.elementiummod_part1_the_elements.cat": "CATEST",
       "item.elementiummodpart1theelements.water_essence": "Water Essence",
-      "item.elementiummodpart1_theelements.elementvoid_armor_boots": "Void Elementium  Boots",
+      "item.elementiummodpart1_theelements.elementvoid_armor_boots": "Void Elementium  Boots CREATIVE ONLY (for now)",
       "item.elementiummodpart1theelements.elementair_armor_boots": "Air Element Boots",
       "item.elementiummodpart1theelements.elementearth_pickaxe": "Elementium Pickaxe (Element:earth)",
-      "item.elementiummodpart1_theelements.elementvoid_armor_chestplate": "Void Elementium Chestplate ",
+      "item.elementiummodpart1_theelements.elementvoid_armor_chestplate": "Void Elementium Chestplate CREATIVE ONLY (for now)",
       "item.elementiummod_part1_the_elements.water_essence": "Water Essence",
       "item.elementiummod.elementwater_paxel": "Elementium Paxel (Element:water)",
       "item.elementiummodpart1_theelements.elementice_paxel": "Elementium Paxel (Element:ice)",

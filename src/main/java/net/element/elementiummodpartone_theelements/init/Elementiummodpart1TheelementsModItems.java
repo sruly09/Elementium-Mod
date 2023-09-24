@@ -120,6 +120,10 @@ public class Elementiummodpart1TheelementsModItems {
 	public static final RegistryObject<Item> ELEMENTWATER_CHESTPLATE = REGISTRY.register("elementwater_chestplate", () -> new ElementwaterItem.Chestplate());
 	public static final RegistryObject<Item> ELEMENTWATER_LEGGINGS = REGISTRY.register("elementwater_leggings", () -> new ElementwaterItem.Leggings());
 	public static final RegistryObject<Item> ELEMENTWATER_BOOTS = REGISTRY.register("elementwater_boots", () -> new ElementwaterItem.Boots());
+	public static final RegistryObject<Item> ELEMENTEARTH_ARMOR_HELMET = REGISTRY.register("elementearth_armor_helmet", () -> new ElementearthArmorItem.Helmet());
+	public static final RegistryObject<Item> ELEMENTEARTH_ARMOR_CHESTPLATE = REGISTRY.register("elementearth_armor_chestplate", () -> new ElementearthArmorItem.Chestplate());
+	public static final RegistryObject<Item> ELEMENTEARTH_ARMOR_LEGGINGS = REGISTRY.register("elementearth_armor_leggings", () -> new ElementearthArmorItem.Leggings());
+	public static final RegistryObject<Item> ELEMENTEARTH_ARMOR_BOOTS = REGISTRY.register("elementearth_armor_boots", () -> new ElementearthArmorItem.Boots());
 	public static final RegistryObject<Item> ELEMENTVOID_ARMOR_HELMET = REGISTRY.register("elementvoid_armor_helmet", () -> new ElementvoidArmorItem.Helmet());
 	public static final RegistryObject<Item> ELEMENTVOID_ARMOR_CHESTPLATE = REGISTRY.register("elementvoid_armor_chestplate", () -> new ElementvoidArmorItem.Chestplate());
 	public static final RegistryObject<Item> ELEMENTVOID_ARMOR_LEGGINGS = REGISTRY.register("elementvoid_armor_leggings", () -> new ElementvoidArmorItem.Leggings());
@@ -184,10 +188,6 @@ public class Elementiummodpart1TheelementsModItems {
 	public static final RegistryObject<Item> ELEMENTVOID_PICKAXE = REGISTRY.register("elementvoid_pickaxe", () -> new ElementvoidPickaxeItem());
 	public static final RegistryObject<Item> ELEMENTVOID_AXE = REGISTRY.register("elementvoid_axe", () -> new ElementvoidAxeItem());
 	public static final RegistryObject<Item> ELEMENTSHADOW_SHOVEL = REGISTRY.register("elementshadow_shovel", () -> new ElementshadowShovelItem());
-	public static final RegistryObject<Item> ELEMENTEARTH_ARMOR_HELMET = REGISTRY.register("elementearth_armor_helmet", () -> new ElementearthArmorItem.Helmet());
-	public static final RegistryObject<Item> ELEMENTEARTH_ARMOR_CHESTPLATE = REGISTRY.register("elementearth_armor_chestplate", () -> new ElementearthArmorItem.Chestplate());
-	public static final RegistryObject<Item> ELEMENTEARTH_ARMOR_LEGGINGS = REGISTRY.register("elementearth_armor_leggings", () -> new ElementearthArmorItem.Leggings());
-	public static final RegistryObject<Item> ELEMENTEARTH_ARMOR_BOOTS = REGISTRY.register("elementearth_armor_boots", () -> new ElementearthArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
