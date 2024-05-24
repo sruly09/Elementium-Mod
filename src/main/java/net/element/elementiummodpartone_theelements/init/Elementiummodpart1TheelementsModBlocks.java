@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.element.elementiummodpartone_theelements.block.WaterEssenceOreBlock;
+import net.element.elementiummodpartone_theelements.block.TheBlazingGrassBlockBlock;
 import net.element.elementiummodpartone_theelements.block.ObsidianInfusedElemondiumBlock;
 import net.element.elementiummodpartone_theelements.block.FireEssenceOreBlock;
 import net.element.elementiummodpartone_theelements.block.ElementiumOreBlock;
@@ -34,6 +35,7 @@ public class Elementiummodpart1TheelementsModBlocks {
 	public static final RegistryObject<Block> AIR_ESSENCE_ORE = REGISTRY.register("air_essence_ore", () -> new AirEssenceOreBlock());
 	public static final RegistryObject<Block> WATER_ESSENCE_ORE = REGISTRY.register("water_essence_ore", () -> new WaterEssenceOreBlock());
 	public static final RegistryObject<Block> EARTH_ESSENCE_ORE = REGISTRY.register("earth_essence_ore", () -> new EarthEssenceOreBlock());
+	public static final RegistryObject<Block> THE_BLAZING_GRASS_BLOCK = REGISTRY.register("the_blazing_grass_block", () -> new TheBlazingGrassBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -2,7 +2,8 @@
   "group": "elementium_mod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012"
+    "012",
+    " 4 "
   ],
   "key": {
     "0": {
@@ -13,6 +14,9 @@
     },
     "2": {
       "item": "elementiummodpart1_theelements:elementnature_shovel"
+    },
+    "4": {
+      "item": "minecraft:barrier"
     }
   },
   "result": {
