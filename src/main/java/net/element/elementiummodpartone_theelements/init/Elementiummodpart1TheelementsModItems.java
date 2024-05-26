@@ -190,6 +190,27 @@ public class Elementiummodpart1TheelementsModItems {
 	public static final RegistryObject<Item> ELEMENTSHADOW_SHOVEL = REGISTRY.register("elementshadow_shovel", () -> new ElementshadowShovelItem());
 	public static final RegistryObject<Item> THE_BLAZING_GRASS_BLOCK = block(Elementiummodpart1TheelementsModBlocks.THE_BLAZING_GRASS_BLOCK, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
 	public static final RegistryObject<Item> BLAZING_DIRT = block(Elementiummodpart1TheelementsModBlocks.BLAZING_DIRT, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_LOG_WOOD = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG_WOOD, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_LOG_LOG = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG_LOG, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_LOG_PLANKS = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG_PLANKS, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_LOG_STAIRS = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG_STAIRS, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_LOG_SLAB = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG_SLAB, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_LOG_FENCE = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLAZING_LOG_FENCE_GATE = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BLAZING_LOG_PRESSURE_PLATE = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BLAZING_LOG_BUTTON = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG_BUTTON, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_WOOD = block(Elementiummodpart1TheelementsModBlocks.BLAZING_WOOD, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_LOG = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_PLANKS = block(Elementiummodpart1TheelementsModBlocks.BLAZING_PLANKS, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_LEAVES = block(Elementiummodpart1TheelementsModBlocks.BLAZING_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLAZING_STAIRS = block(Elementiummodpart1TheelementsModBlocks.BLAZING_STAIRS, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_SLAB = block(Elementiummodpart1TheelementsModBlocks.BLAZING_SLAB, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> BLAZING_FENCE_GATE = block(Elementiummodpart1TheelementsModBlocks.BLAZING_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BLAZING_FENCE = block(Elementiummodpart1TheelementsModBlocks.BLAZING_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLAZING_PRESSURE_PLATE = block(Elementiummodpart1TheelementsModBlocks.BLAZING_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BLAZING_BUTTON = block(Elementiummodpart1TheelementsModBlocks.BLAZING_BUTTON, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> THE_BLAZING_LOG = block(Elementiummodpart1TheelementsModBlocks.THE_BLAZING_LOG, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
+	public static final RegistryObject<Item> THE_BLAZING_LEAVES = block(Elementiummodpart1TheelementsModBlocks.THE_BLAZING_LEAVES, Elementiummodpart1TheelementsModTabs.TAB_ELEMENTIUM_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

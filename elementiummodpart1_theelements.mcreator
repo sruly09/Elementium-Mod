@@ -3085,12 +3085,719 @@
       "name": "TheBlazingForest",
       "type": "biome",
       "sortid": 199,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "the_blazing_forest",
       "metadata": {
         "files": [
-          "src/main/java/net/element/elementiummodpartone_theelements/world/biome/TheBlazingForestBiome.java"
+          "src/main/java/net/element/elementiummodpartone_theelements/world/features/treedecorators/TheBlazingForestLeaveDecorator.java",
+          "src/main/java/net/element/elementiummodpartone_theelements/world/features/treedecorators/TheBlazingForestTrunkDecorator.java",
+          "src/main/java/net/element/elementiummodpartone_theelements/world/biome/TheBlazingForestBiome.java",
+          "src/main/java/net/element/elementiummodpartone_theelements/world/features/treedecorators/TheBlazingForestFruitDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogWood",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_log_wood.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_log_wood.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_wood.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLogWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogLog",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_log_log.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_log_log.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_log.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLogLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogPlanks",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_log_planks.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_log_planks.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_planks.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLogPlanksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogStairs",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_stairs_inner.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_stairs.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLogStairsBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_log_stairs.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_stairs_outer.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_log_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogSlab",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_log_slab.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_slab_full.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_log_slab.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLogSlabBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_slab_top.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogFence",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLogFenceBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_log_fence.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_log_fence.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_fence_inventory.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_fence.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_fence_post.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogFenceGate",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_fence_gate_wall_open.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_fence_gate.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_fence_gate_wall.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_log_fence_gate.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_log_fence_gate.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_fence_gate_open.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLogFenceGateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogPressurePlate",
+      "type": "block",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_pressure_plate.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_log_pressure_plate.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLogPressurePlateBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_log_pressure_plate.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_pressure_plate_down.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogButton",
+      "type": "block",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_log_button.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLogButtonBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_button_pressed.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_button.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log_button_inventory.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_log_button.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogItemsTag",
+      "type": "tag",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/blazinglog_log.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogWoodRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_log_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogPlanksRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_log_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogStairsRecipe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_log_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogSlabRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_log_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogFenceRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_log_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_log_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_log_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogButtonRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_log_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLogStickRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_log_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingWood",
+      "type": "block",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingWoodBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_wood.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_wood.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLog",
+      "type": "block",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_log.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_log.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLogBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_log.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingPlanks",
+      "type": "block",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingPlanksBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_planks.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_planks.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingLeaves",
+      "type": "block",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingLeavesBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_leaves.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_leaves.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingStairs",
+      "type": "block",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_stairs_inner.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingStairsBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_stairs_outer.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_stairs.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_stairs.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingSlab",
+      "type": "block",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_slab.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_slab.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_slab_full.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_slab.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingSlabBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingFence",
+      "type": "block",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_fence.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_fence.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_fence_inventory.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_fence_post.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_fence.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingFenceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlazingFenceGate",
+      "type": "block",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_fence_gate.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_fence_gate_wall_open.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingFenceGateBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_fence_gate_open.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_fence_gate.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_fence_gate_wall.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingPressurePlate",
+      "type": "block",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_pressure_plate.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_pressure_plate.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_pressure_plate_down.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_pressure_plate.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingPressurePlateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlazingButton",
+      "type": "block",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_button_pressed.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/blazing_button.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/blazing_button.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_button.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/BlazingButtonBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/blazing_button_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingItemsTag",
+      "type": "tag",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/blazing_log.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingWoodRecipe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingPlanksRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingStairsRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingSlabRecipe",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingFenceRecipe",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingButtonRecipe",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingStickRecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummodpart1_theelements/recipes/blazing_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/flowers.json"
+        ]
+      }
+    },
+    {
+      "name": "ArrowEntities",
+      "type": "tag",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/arrows.json"
+        ]
+      }
+    },
+    {
+      "name": "IsForestBiomes",
+      "type": "tag",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_forest_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "TheBlazingLog",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_blazing_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/the_blazing_log.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/TheBlazingLogBlock.java",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/the_blazing_log.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/the_blazing_log.json"
+        ]
+      }
+    },
+    {
+      "name": "TheBlazingLeavesBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_blazing_leaves_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummodpartone_theelements/procedures/TheBlazingLeavesBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheBlazingLeaves",
+      "type": "block",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_blazing_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elementiummodpart1_theelements/blockstates/the_blazing_leaves.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/block/the_blazing_leaves.json",
+          "src/main/resources/assets/elementiummodpart1_theelements/models/item/the_blazing_leaves.json",
+          "src/main/java/net/element/elementiummodpartone_theelements/block/TheBlazingLeavesBlock.java"
         ]
       }
     }
@@ -3101,6 +3808,8 @@
     "en_us": {
       "item.elementiummod.fire_essence": "Fire Essence",
       "item.elementiummod.elementvoid_pickaxe": "Elementium Pickaxe (Element:void)",
+      "block.elementiummodpart1_theelements.blazing_log_planks": "BlazingLog Planks",
+      "block.elementiummodpart1_theelements.blazing_button": "Blazing Button",
       "item.elementiummod.elementvoid_sword": "Elementium Sword (Element:void)",
       "item.elementiummodpart1_theelements.elementfire_axe": "Elementium Axe (Element:fire)",
       "item.elementium_mod.elementfire_shovel": "Elementfire Shovel",
@@ -3109,6 +3818,7 @@
       "advancements.do_ihearpeoplescreaming.descr": "obtain earth essence",
       "item.elementiummod.elementlightning_pickaxe": "Elementium Pickaxe (Element:lightning)",
       "item.elementiummod_part1_the_elements.elementair_sword": "Elementium Sword (Element:air)",
+      "block.elementiummodpart1_theelements.blazing_wood": "Blazing Wood",
       "item.elementiummodpart1_theelements.elementair_armor_boots": "Air Element Boots",
       "item.elementiummod.elementearth_bow": "Elementium Bow (Element:earth)",
       "item.elementiummodpart1_theelements.elementair_axe": "Elementium Axe (Element:air)",
@@ -3122,10 +3832,12 @@
       "item.elementiummod.void_essence": "Void Essence",
       "item.elementiummodpart1_theelements.elementearth_shovel": "Elementearth Shovel",
       "item.elementiummod.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
+      "block.elementiummodpart1_theelements.blazing_planks": "Blazing Planks",
       "item.elementiummod.elementwater_chestplate": "Water Elementium Chestplate",
       "item.elementiummodpart1theelements.elementfire_bow": "Elementium Bow (Element:fire)",
       "item.elementiummodpart1_theelements.elementvoid_axe": "Elementium Axe (Element:void)",
       "item.elementiummod_part1_the_elements.elementwater_boots": "Water Elementium Boots",
+      "block.elementiummodpart1_theelements.blazing_log_button": "BlazingLog Button",
       "item.elementiummodpart1_theelements.elementwater_helmet": "Water Elementium Helmet",
       "item.elementium_mod.elementnature_paxel": "Elementium Paxel (Element:nature)",
       "item.elementiummodpart1_theelements.elemondium_sword": "Elemondium Sword",
@@ -3153,6 +3865,7 @@
       "item.elementium_mod.elementlightning_bow": "Elementium Bow (Element:lightning)",
       "item.elementiummodpart1theelements.elementearth_axe": "Elementium Axe (Element:earth)",
       "item.elementiummodpart1_theelements.elemondium": "Elemondium",
+      "block.elementiummodpart1_theelements.blazing_log_slab": "BlazingLog Slab",
       "item.elementiummodpart1theelements.elementvoid_sword": "Elementium Sword (Element:void)",
       "item.elementiummodpart1_theelements.elementwater_sword": "Elementium Sword (Element:water)",
       "item.elementiummodpart1theelements.elementvoid_bow": "Elementium Bow (Element:void)",
@@ -3205,6 +3918,7 @@
       "item.elementiummod_part1_the_elements.elementvoid_axe": "Elementium Axe (Element:void)",
       "item.elementium_mod.elementwater_axe": "Elementium Axe (Element:water)",
       "item.elementiummod.elementair_axe": "Elementium Axe (Element:air)",
+      "block.elementiummodpart1_theelements.blazing_log_fence": "BlazingLog Fence",
       "item.elementiummod.lightning_essence": "Lightning Essence",
       "item.elementiummodpart1_theelements.elementearth_axe": "Elementium Axe (Element:earth)",
       "item.elementiummodpart1_theelements.elementnature_pickaxe": "Elementium Pickaxe (Element:nature)",
@@ -3212,6 +3926,7 @@
       "item.elementiummodpart1theelements.elementair_sword": "Elementium Sword (Element:air)",
       "item.elementiummod_part1_the_elements.elementice_bow": "Elementium Bow (Element:ice)",
       "item.elementiummod_part1_the_elements.elementair_armor_boots": "Air Element Boots",
+      "block.elementiummodpart1_theelements.blazing_log_pressure_plate": "BlazingLog Pressure Plate",
       "item.elementiummod.elementwater_sword": "Elementium Sword (Element:water)",
       "item.elementiummodpart1_theelements.ice_essence": "Ice Essence",
       "item.elementium_mod.elementwater_pickaxe": "Elementium Pickaxe (Element:water)",
@@ -3231,6 +3946,7 @@
       "block.elementiummodpart1theelements.elemondium_infused_obsidian": "Obsidian Infused Elemondium",
       "item.elementiummodpart1_theelements.elementlightning_shovel": "Elementlightning Shovel",
       "item.elementiummodpart1theelements.elementium_armor_chestplate": "Elementium Chestplate",
+      "block.elementiummodpart1_theelements.blazing_log": "Blazing Log",
       "block.elementiummodpart1theelements.elementium_block": "Elementium Block",
       "item.elementium_mod.elementium_axe": "Elementium Axe",
       "block.elementiummodpart1_theelements.water_essence_ore": "Water Essence Ore",
@@ -3280,6 +3996,7 @@
       "advancements.ooooh_air_heads.title": "Ooooh Air Heads",
       "item.elementiummodpart1_theelements.elementwater_chestplate": "Water Elementium Chestplate",
       "item.elementium_mod.elementfire_axe": "Elementium Axe (Element:fire)",
+      "block.elementiummodpart1_theelements.blazing_slab": "Blazing Slab",
       "item.elementiummod_part1_the_elements.elementair_pickaxe": "Elementium Pickaxe (Element:air)",
       "item.elementiummodpart1_theelements.elementvoid_paxel": "Elementium Paxel (Element:void)",
       "item.elementiummod_part1_the_elements.elementnature_blade": "Elementium Blade (Element:nature)",
@@ -3311,6 +4028,7 @@
       "item.elementiummod_part1_the_elements.elementearth_sword": "Elementium Sword (Element:earth)",
       "item.elementiummod.elementearth_axe": "Elementium Axe (Element:earth)",
       "item.elementiummod_part1_the_elements.elementwater_chestplate": "Water Elementium Chestplate",
+      "block.elementiummodpart1_theelements.the_blazing_log": "The Blazing Log",
       "item.elementiummod.elementice_axe": "Elementium Axe (Element:ice)",
       "item.elementiummod.elementium_pickaxe": "Elementium Pickaxe",
       "item.elementium_mod.elementium_dimension": "Flint and Elemondium",
@@ -3318,6 +4036,7 @@
       "item.elementium_mod.nature_essence": "Nature Essence",
       "item.elementiummodpart1theelements.elementium_pickaxe": "Elementium Pickaxe",
       "biome.elementiummodpart1theelements.elementium": "Elementium",
+      "block.elementiummodpart1_theelements.blazing_log_wood": "BlazingLog Wood",
       "item.elementiummod_part1_the_elements.elementfire_bow": "Elementium Bow (Element:fire)",
       "item.elementium_mod.elementium_armor_leggings": "Elementium  Leggings",
       "item.elementiummodpart1_theelements.elementfire_armor_chestplate": "Fire Elementium Chestplate",
@@ -3335,7 +4054,9 @@
       "item.elementiummodpart1theelements.elementnature_blade": "Elementium Blade (Element:nature)",
       "item.elementiummodpart1theelements.earth_essence": "Earth Essence",
       "item.elementiummodpart1_theelements.elementium_pickaxe": "Elementium Pickaxe",
+      "block.elementiummodpart1_theelements.blazing_fence": "Blazing Fence",
       "item.elementiummod_part1_the_elements.elementair_armor_helmet": "Air Elementium Helmet",
+      "block.elementiummodpart1_theelements.blazing_log_fence_gate": "BlazingLog Fence Gate",
       "item.elementiummod_part1_the_elements.elementair_axe": "Elementium Axe (Element:air)",
       "item.elementium_mod.elementnature_pickaxe": "Elementium Pickaxe (Element:nature)",
       "item.elementiummod.elementvoid_paxel": "Elementium Paxel (Element:void)",
@@ -3378,11 +4099,13 @@
       "item.elementiummodpart1theelements.elementearth_shovel": "Elementearth Shovel",
       "item.elementiummod_part1_the_elements.elementnature_bow": "Elementium Bow (Element:nature)",
       "item.elementiummod_part1_the_elements.elementium_armor_helmet": "Elementium  Helmet",
+      "block.elementiummodpart1_theelements.blazing_fence_gate": "Blazing Fence Gate",
       "item.elementiummod_part1_the_elements.elemondium_sword": "Elemondium Sword",
       "item.elementiummodpart1_theelements.elementium_armor_helmet": "Elementium  Helmet",
       "item.elementiummod.elementnature_blade": "Elementium Blade (Element:nature)",
       "item.elementiummod.elementshadow_shovel": "Elementium Shovel (Element:shadow)",
       "item.elementiummodpart1_theelements.elementfire_armor_helmet": "Fire Elementium  Helmet",
+      "block.elementiummodpart1_theelements.blazing_log_stairs": "BlazingLog Stairs",
       "item.elementiummodpart1theelements.elementwater_pickaxe": "Elementium Pickaxe (Element:water)",
       "item.elementiummod_part1_the_elements.elementfire_paxel": "Elementium Paxel (Element:fire)",
       "item.elementiummod_part1_the_elements.elementvoid_sword": "Elementium Sword (Element:void)",
@@ -3412,6 +4135,7 @@
       "item.elementiummodpart1theelements.elementwater_leggings": "Water Elementium Leggings",
       "item.elementiummodpart1theelements.elementwater_paxel": "Elementium Paxel (Element:water)",
       "item.elementiummodpart1_theelements.elementshadow_shovel": "Elementium Shovel (Element:shadow)",
+      "block.elementiummodpart1_theelements.blazing_log_log": "BlazingLog Log",
       "item.elementiummod.elementvoid_axe": "Elementium Axe (Element:void)",
       "enchantment.elementiummodpart1theelements.cat": "CATEST",
       "block.elementiummod_part1_the_elements.elementium_ore": "Elementium Ore",
@@ -3463,12 +4187,14 @@
       "item.elementiummodpart1_theelements.elementwater_paxel": "Elementium Paxel (Element:water)",
       "item.elementiummod.elementair_bow": "Elementium Bow (Element:air)",
       "item.elementiummod.elementium_armor_leggings": "Elementium  Leggings",
+      "block.elementiummodpart1_theelements.the_blazing_leaves": " Blazing Leaves",
       "item.elementiummod.elementfire_bow": "Elementium Bow (Element:fire)",
       "item.elementiummodpart1_theelements.earth_essence": "Earth Essence",
       "item.elementium_mod.elementium_armor_boots": "Elementium  Boots",
       "item.elementiummod_part1_the_elements.elementnature_axe": "Elementium Axe (Element:nature)",
       "enchantment.elementiummodpart1_theelements.cat": "CATEST",
       "item.elementiummod_part1_the_elements.elementwater_bow": "Elementium Bow (Element:water)",
+      "block.elementiummodpart1_theelements.blazing_pressure_plate": "Blazing Pressure Plate",
       "item.elementiummodpart1theelements.lightning_essence": "Lightning Essence",
       "block.elementiummodpart1theelements.water_essence_ore": "Water Essence Ore",
       "item.elementiummod.elementnature_shovel": "Elementium Shovel (Element:nature)",
@@ -3548,6 +4274,7 @@
       "item.elementiummod_part1_the_elements.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
       "item.elementiummod.elementair_armor_chestplate": "Air Elementium Chestplate ",
       "item.elementiummodpart1theelements.elementvoid_axe": "Elementium Axe (Element:void)",
+      "block.elementiummodpart1_theelements.blazing_stairs": "Blazing Stairs",
       "item.elementiummodpart1theelements.elementice_paxel": "Elementium Paxel (Element:ice)",
       "biome.elementium_mod.elementium": "Elementium",
       "item.elementiummodpart1_theelements.elementearth_armor_chestplate": "Earth Elementium Chestplate",

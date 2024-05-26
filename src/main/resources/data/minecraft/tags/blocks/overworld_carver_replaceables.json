@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "minecraft:cut_sandstone",
-    "minecraft:sandstone"
+    "minecraft:netherrack",
+    "elementiummodpart1_theelements:the_blazing_grass_block",
+    "elementiummodpart1_theelements:blazing_dirt"
   ]
 }

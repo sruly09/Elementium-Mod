@@ -4,22 +4,22 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:Elementium"
+        "value": "CUSTOM:TheBlazingForest"
       }
     ],
-    "worldGenType": "End like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.SANDSTONE#2"
+      "value": "Blocks.NETHERRACK"
     },
     "fluidBlock": {
-      "value": "Blocks.VOID_AIR"
+      "value": "Blocks.FLOWING_WATER"
     },
     "canRespawnHere": false,
     "hasFog": false,
     "isDark": true,
     "doesWaterVaporize": false,
-    "sleepResult": "BED_EXPLODES",
-    "hasSkyLight": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
       "value": "CUSTOM:ObsidianInfusedElemondium"

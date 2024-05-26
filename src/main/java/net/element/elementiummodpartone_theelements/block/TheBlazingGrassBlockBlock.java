@@ -22,7 +22,7 @@ import java.util.Collections;
 
 public class TheBlazingGrassBlockBlock extends Block {
 	public TheBlazingGrassBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.GRASS, MaterialColor.CRIMSON_NYLIUM).sound(SoundType.GRAVEL).strength(0.5f).noCollission());
+		super(BlockBehaviour.Properties.of(Material.GRASS, MaterialColor.CRIMSON_NYLIUM).sound(SoundType.GRAVEL).strength(0.5f));
 	}
 
 	@Override

@@ -10,20 +10,20 @@
       "value": "CUSTOM:BlazingDirt"
     },
     "underwaterBlock": {
-      "value": ""
+      "value": "CUSTOM:BlazingDirt"
     },
     "grassColor": {
       "value": -10092544,
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "ambient.crimson_forest.additions"
+      "value": "ambient.crimson_forest.loop"
     },
     "additionsSound": {
-      "value": "ambient.nether_wastes.loop"
+      "value": "ambient.crimson_forest.additions"
     },
     "music": {
-      "value": "ambient.crimson_forest.mood"
+      "value": "ambient.crimson_forest.loop"
     },
     "moodSound": {
       "value": "ambient.crimson_forest.mood"
@@ -35,8 +35,8 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
-    "temperature": 0.5,
-    "spawnBiome": true,
+    "temperature": 1.5,
+    "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
@@ -68,21 +68,21 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 1,
+    "treesPerChunk": 4,
     "vanillaTreeType": "Default",
-    "treeType": 0,
-    "minHeight": 7,
+    "treeType": 1,
+    "minHeight": 4,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:BlazingLogLog"
     },
     "treeBranch": {
-      "value": ""
+      "value": "CUSTOM:BlazingLogLeaves"
     },
     "treeVines": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "spawnStronghold": false,
     "spawnMineshaft": true,
@@ -106,8 +106,19 @@
     "spawnRuinedPortal": "NETHER",
     "defaultFeatures": [
       "Caves",
-      "Ores"
+      "Ores",
+      "ExtraGoldOre"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityHoglin"
+        },
+        "minGroup": 3,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
   }
 }
