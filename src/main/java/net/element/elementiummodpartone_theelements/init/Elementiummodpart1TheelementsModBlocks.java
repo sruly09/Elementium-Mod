@@ -22,6 +22,7 @@ import net.element.elementiummodpartone_theelements.block.ElementiumOreBlock;
 import net.element.elementiummodpartone_theelements.block.ElementiumDimensionPortalBlock;
 import net.element.elementiummodpartone_theelements.block.ElementiumBlockBlock;
 import net.element.elementiummodpartone_theelements.block.EarthEssenceOreBlock;
+import net.element.elementiummodpartone_theelements.block.BlazingDirtBlock;
 import net.element.elementiummodpartone_theelements.block.AirEssenceOreBlock;
 import net.element.elementiummodpartone_theelements.Elementiummodpart1TheelementsMod;
 
@@ -36,6 +37,7 @@ public class Elementiummodpart1TheelementsModBlocks {
 	public static final RegistryObject<Block> WATER_ESSENCE_ORE = REGISTRY.register("water_essence_ore", () -> new WaterEssenceOreBlock());
 	public static final RegistryObject<Block> EARTH_ESSENCE_ORE = REGISTRY.register("earth_essence_ore", () -> new EarthEssenceOreBlock());
 	public static final RegistryObject<Block> THE_BLAZING_GRASS_BLOCK = REGISTRY.register("the_blazing_grass_block", () -> new TheBlazingGrassBlockBlock());
+	public static final RegistryObject<Block> BLAZING_DIRT = REGISTRY.register("blazing_dirt", () -> new BlazingDirtBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

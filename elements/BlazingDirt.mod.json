@@ -3,22 +3,22 @@
   "_type": "block",
   "definition": {
     "texture": "blazing_dirt",
-    "textureTop": "blazing_grass_block",
-    "textureLeft": "blazing_grass_block_side",
-    "textureFront": "blazing_grass_block_side",
-    "textureRight": "blazing_grass_block_side",
-    "textureBack": "blazing_grass_block_side",
-    "renderType": 14,
-    "customModelName": "Grass block",
+    "textureTop": "blazing_dirt",
+    "textureLeft": "blazing_dirt",
+    "textureFront": "blazing_dirt",
+    "textureRight": "blazing_dirt",
+    "textureBack": "blazing_dirt",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "blazing_grass_block_side",
+    "particleTexture": "blazing_dirt",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "The Blazing Grass Block",
+    "name": "Blazing Dirt",
     "specialInfo": [],
     "hardness": 0.5,
     "resistance": 0.5,
@@ -44,17 +44,17 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:BlazingDirt"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": true,
+    "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
-      "value": "GRASS"
+      "value": "EARTH"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -63,7 +63,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "CRIMSON_NYLIUM",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
@@ -76,7 +76,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "GROUND"
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -117,11 +117,13 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:ElementiumDimension"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.DIRT#0"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

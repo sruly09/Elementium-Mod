@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
+import net.element.elementiummodpartone_theelements.world.features.ores.TheBlazingGrassBlockFeature;
 import net.element.elementiummodpartone_theelements.world.features.ores.FireEssenceOreFeature;
 import net.element.elementiummodpartone_theelements.Elementiummodpart1TheelementsMod;
 
@@ -18,4 +19,5 @@ import net.element.elementiummodpartone_theelements.Elementiummodpart1Theelement
 public class Elementiummodpart1TheelementsModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, Elementiummodpart1TheelementsMod.MODID);
 	public static final RegistryObject<Feature<?>> FIRE_ESSENCE_ORE = REGISTRY.register("fire_essence_ore", FireEssenceOreFeature::feature);
+	public static final RegistryObject<Feature<?>> THE_BLAZING_GRASS_BLOCK = REGISTRY.register("the_blazing_grass_block", TheBlazingGrassBlockFeature::feature);
 }

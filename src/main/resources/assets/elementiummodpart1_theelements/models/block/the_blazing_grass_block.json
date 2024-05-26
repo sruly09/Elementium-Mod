@@ -1,13 +1,11 @@
 {
-  "parent": "block/cube",
+  "parent": "block/grass_block",
   "textures": {
-    "down": "elementiummodpart1_theelements:blocks/blazing_grass_block",
-    "up": "elementiummodpart1_theelements:blocks/blazing_grass_block",
-    "north": "elementiummodpart1_theelements:blocks/blazing_grass_block_side",
-    "east": "elementiummodpart1_theelements:blocks/blazing_grass_block_side",
-    "south": "elementiummodpart1_theelements:blocks/blazing_grass_block_side",
-    "west": "elementiummodpart1_theelements:blocks/blazing_grass_block_side",
-    "particle": "elementiummodpart1_theelements:blocks/blazing_grass_block"
+    "bottom": "elementiummodpart1_theelements:blocks/blazing_dirt",
+    "top": "elementiummodpart1_theelements:blocks/blazing_grass_block",
+    "side": "elementiummodpart1_theelements:blocks/blazing_grass_block_side",
+    "overlay": "elementiummodpart1_theelements:blocks/blazing_grass_block_side",
+    "particle": "elementiummodpart1_theelements:blocks/blazing_grass_block_side"
   },
   "render_type": "solid"
 }
