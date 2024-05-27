@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "elementiummodpart1_theelements:blazing_log"
+    },
+    "1": {
+      "item": "elementiummodpart1_theelements:blazing_log"
+    },
+    "2": {
+      "item": "elementiummodpart1_theelements:blazing_log"
+    },
+    "3": {
+      "item": "elementiummodpart1_theelements:blazing_log"
+    }
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:blazing_wood",
+    "count": 3
+  }
+}

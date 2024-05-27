@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "elementiummodpart1_theelements:blocks/blazinglog_planks"
+  },
+  "render_type": "solid"
+}

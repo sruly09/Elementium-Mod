@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elementiummodpart1_theelements:blazing_planks"
+    },
+    "3": {
+      "item": "elementiummodpart1_theelements:blazing_planks"
+    },
+    "4": {
+      "item": "elementiummodpart1_theelements:blazing_planks"
+    },
+    "6": {
+      "item": "elementiummodpart1_theelements:blazing_planks"
+    },
+    "7": {
+      "item": "elementiummodpart1_theelements:blazing_planks"
+    },
+    "8": {
+      "item": "elementiummodpart1_theelements:blazing_planks"
+    }
+  },
+  "result": {
+    "item": "elementiummodpart1_theelements:blazing_stairs",
+    "count": 4
+  }
+}

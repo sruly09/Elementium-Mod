@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "elementiummodpart1_theelements:blocks/blazinglog_planks",
+    "particle": "elementiummodpart1_theelements:blocks/blazinglog_planks"
+  },
+  "render_type": "solid"
+}

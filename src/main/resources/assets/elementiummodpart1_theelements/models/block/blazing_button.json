@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "elementiummodpart1_theelements:blocks/blazing_planks"
+  },
+  "render_type": "solid"
+}

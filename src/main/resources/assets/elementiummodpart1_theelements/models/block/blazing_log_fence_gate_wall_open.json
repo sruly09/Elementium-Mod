@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall_open",
+  "textures": {
+    "texture": "elementiummodpart1_theelements:blocks/blazinglog_planks"
+  },
+  "render_type": "solid"
+}

@@ -36,7 +36,6 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.element.elementiummodpartone_theelements.world.features.treedecorators.TheBlazingForestTrunkDecorator;
 import net.element.elementiummodpartone_theelements.world.features.treedecorators.TheBlazingForestLeaveDecorator;
 import net.element.elementiummodpartone_theelements.world.features.treedecorators.TheBlazingForestFruitDecorator;
-import net.element.elementiummodpartone_theelements.init.Elementiummodpart1TheelementsModItems;
 import net.element.elementiummodpartone_theelements.init.Elementiummodpart1TheelementsModBlocks;
 
 import java.util.List;
@@ -54,7 +53,7 @@ public class TheBlazingForestBiome {
 				PlacementUtils.register("elementiummodpart1_theelements:tree_the_blazing_forest",
 						FeatureUtils.register("elementiummodpart1_theelements:tree_the_blazing_forest", Feature.TREE,
 								new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(Elementiummodpart1TheelementsModBlocks.BLAZING_LOG_LOG.get().defaultBlockState()), new StraightTrunkPlacer(4, 2, 0),
-										BlockStateProvider.simple(Elementiummodpart1TheelementsModItems.DELETED_MOD_ELEMENT.get().defaultBlockState()), new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1))
+										BlockStateProvider.simple(Elementiummodpart1TheelementsModBlocks.THE_BLAZING_LEAVES.get().defaultBlockState()), new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1))
 										.decorators(ImmutableList.of(TheBlazingForestLeaveDecorator.INSTANCE, TheBlazingForestTrunkDecorator.INSTANCE, TheBlazingForestFruitDecorator.INSTANCE)).build()),
 						List.of(CountPlacement.of(4), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0), PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING), BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register("elementiummodpart1_theelements:grass_the_blazing_forest", VegetationFeatures.PATCH_GRASS,

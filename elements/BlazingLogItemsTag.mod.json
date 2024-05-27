@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BlazingLogWood"
+      },
+      {
+        "value": "CUSTOM:BlazingLogLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "blazinglog_log",
+    "namespace": "forge"
+  }
+}
