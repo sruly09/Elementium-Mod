@@ -140,6 +140,7 @@ public class ElementiummodModTabs {
 				tabData.accept(ElementiummodModItems.ELEMENTWATER_BOW.get());
 				tabData.accept(ElementiummodModItems.ELEMENTNATURE_BOW.get());
 				tabData.accept(ElementiummodModItems.ELEMENTVOID_BOW.get());
+				tabData.accept(ElementiummodModItems.BLAZING_COW_SPAWN_EGG.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

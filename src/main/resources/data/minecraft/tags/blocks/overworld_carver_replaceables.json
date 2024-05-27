@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:stone",
     "elementiummod:blazing_dirt",
     "elementiummod:the_blazing_grass_block",
     "minecraft:netherrack"

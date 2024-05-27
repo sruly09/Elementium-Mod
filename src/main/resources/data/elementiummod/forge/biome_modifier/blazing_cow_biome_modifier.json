@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "elementiummod:the_blazing_forest",
+  "spawners": {
+    "type": "elementiummod:blazing_cow",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

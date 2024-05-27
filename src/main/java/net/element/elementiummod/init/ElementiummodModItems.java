@@ -7,6 +7,7 @@ package net.element.elementiummod.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -220,6 +221,7 @@ public class ElementiummodModItems {
 	public static final RegistryObject<Item> BLAZINGG_FENCE_GATE = block(ElementiummodModBlocks.BLAZINGG_FENCE_GATE);
 	public static final RegistryObject<Item> BLAZINGG_PRESSURE_PLATE = block(ElementiummodModBlocks.BLAZINGG_PRESSURE_PLATE);
 	public static final RegistryObject<Item> BLAZINGG_BUTTON = block(ElementiummodModBlocks.BLAZINGG_BUTTON);
+	public static final RegistryObject<Item> BLAZING_COW_SPAWN_EGG = REGISTRY.register("blazing_cow_spawn_egg", () -> new ForgeSpawnEggItem(ElementiummodModEntities.BLAZING_COW, -9105392, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -4154,6 +4154,22 @@
           "src/main/resources/data/elementiummod/recipes/blazingg_stick_recipe.json"
         ]
       }
+    },
+    {
+      "name": "BlazingCow",
+      "type": "livingentity",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_cow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elementiummod/forge/biome_modifier/blazing_cow_biome_modifier.json",
+          "src/main/java/net/element/elementiummod/client/renderer/BlazingCowRenderer.java",
+          "src/main/resources/assets/elementiummod/models/item/blazing_cow_spawn_egg.json",
+          "src/main/java/net/element/elementiummod/entity/BlazingCowEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4514,6 +4530,7 @@
       "item.elementiummod_part1_the_elements.elementium_axe": "Elementium Axe",
       "block.elementium_mod.elementium_block": "Elementium Block",
       "block.elementiummod.blazing_log_fence": "BlazingLog Fence",
+      "entity.elementiummod.blazing_cow": "The Blazing Cow",
       "item.elementiummodpart1_theelements.lightning_essence": "Lightning Essence",
       "item.elementium_mod.earth_essence": "Earth Essence",
       "item.elementiummodpart1theelements.elementwater_shovel": "Elementium Shovel (Element:water)",
@@ -4707,6 +4724,7 @@
       "item.elementiummod_part1_the_elements.elementearth_pickaxe": "Elementium Pickaxe (Element:earth)",
       "item.elementiummodpart1_theelements.elementfire_shovel": "Elementfire Shovel",
       "block.elementium_mod.elementium_ore": "Elementium Ore",
+      "item.elementiummod.blazing_cow_spawn_egg": "The Blazing Cow Spawn Egg",
       "item.elementiummod_part1_the_elements.elementvoid_bow": "Elementium Bow (Element:void)",
       "item.elementiummodpart1_theelements.elementice_axe": "Elementium Axe (Element:ice)",
       "item.elementiummod_part1_the_elements.elementium_armor_chestplate": "Elementium Chestplate",

@@ -11,6 +11,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.element.elementiummod.client.renderer.BlazingCowRenderer;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ElementiummodModEntityRenderers {
 	@SubscribeEvent
@@ -23,5 +25,6 @@ public class ElementiummodModEntityRenderers {
 		event.registerEntityRenderer(ElementiummodModEntities.ELEMENTWATER_BOW_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ElementiummodModEntities.ELEMENTNATURE_BOW_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ElementiummodModEntities.ELEMENTVOID_BOW_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ElementiummodModEntities.BLAZING_COW.get(), BlazingCowRenderer::new);
 	}
 }

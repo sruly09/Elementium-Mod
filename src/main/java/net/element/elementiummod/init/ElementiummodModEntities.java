@@ -7,7 +7,10 @@ package net.element.elementiummod.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
@@ -21,6 +24,7 @@ import net.element.elementiummod.entity.ElementiceBowProjectileEntity;
 import net.element.elementiummod.entity.ElementfireBowProjectileEntity;
 import net.element.elementiummod.entity.ElementearthBowProjectileEntity;
 import net.element.elementiummod.entity.ElementairBowProjectileEntity;
+import net.element.elementiummod.entity.BlazingCowEntity;
 import net.element.elementiummod.ElementiummodMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -50,8 +54,22 @@ public class ElementiummodModEntities {
 	public static final RegistryObject<EntityType<ElementvoidBowProjectileEntity>> ELEMENTVOID_BOW_PROJECTILE = register("elementvoid_bow_projectile",
 			EntityType.Builder.<ElementvoidBowProjectileEntity>of(ElementvoidBowProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(ElementvoidBowProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<BlazingCowEntity>> BLAZING_COW = register("blazing_cow", EntityType.Builder.<BlazingCowEntity>of(BlazingCowEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			.setUpdateInterval(3).setCustomClientFactory(BlazingCowEntity::new).fireImmune().sized(0.9f, 1.4f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
+	}
+
+	@SubscribeEvent
+	public static void init(FMLCommonSetupEvent event) {
+		event.enqueueWork(() -> {
+			BlazingCowEntity.init();
+		});
+	}
+
+	@SubscribeEvent
+	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(BLAZING_COW.get(), BlazingCowEntity.createAttributes().build());
 	}
 }
