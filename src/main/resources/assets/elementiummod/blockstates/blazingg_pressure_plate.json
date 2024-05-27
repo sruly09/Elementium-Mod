@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "elementiummod:block/blazingg_pressure_plate"
+    },
+    "powered=true": {
+      "model": "elementiummod:block/blazingg_pressure_plate_down"
+    }
+  }
+}

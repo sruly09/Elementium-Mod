@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "elementiummod:blazingg_planks"
+    }
+  ],
+  "result": {
+    "item": "elementiummod:blazingg_button",
+    "count": 1
+  }
+}

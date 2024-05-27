@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "elementiummod:block/blazinglog_planks",
+    "top": "elementiummod:block/blazinglog_planks",
+    "side": "elementiummod:block/blazinglog_planks"
+  },
+  "render_type": "solid"
+}

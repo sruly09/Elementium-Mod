@@ -1,18 +1,22 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "MultiTool",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementice_paxel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Paxel (Element:ice)",
-    "specialInfo": [
-      "freezes the block you mined....w.i.p."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "freezes the block you mined....w.i.p."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "MultiTool",
     "harvestLevel": 6,
     "efficiency": 10.4,
     "attackSpeed": 2.0,
@@ -20,7 +24,6 @@
     "damageVsEntity": 18.6,
     "usageCount": 1111,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:IceEssence"

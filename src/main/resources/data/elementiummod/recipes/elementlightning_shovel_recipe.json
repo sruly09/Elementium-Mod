@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "elementiummod:elementium_shovel"
+  },
+  "addition": {
+    "item": "elementiummod:lightning_essence"
+  },
+  "result": {
+    "item": "elementiummod:elementlightning_shovel"
+  }
+}

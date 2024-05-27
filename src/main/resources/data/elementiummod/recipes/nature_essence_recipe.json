@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "elementiummod:earth_essence"
+  },
+  "addition": {
+    "tag": "minecraft:leaves"
+  },
+  "result": {
+    "item": "elementiummod:nature_essence"
+  }
+}

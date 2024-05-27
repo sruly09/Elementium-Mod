@@ -1,20 +1,24 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "MultiTool",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementearth_paxel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Paxel (Element:earth)",
-    "specialInfo": [
-      "mines in a 3x3 area (stone: 3x3",
-      "wood: 1 or 4xdepends on how high the tree is",
-      "dirt: 3x3"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "mines in a 3x3 area (stone: 3x3",
+        "wood: 1 or 4xdepends on how high the tree is",
+        "dirt: 3x3"
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "MultiTool",
     "harvestLevel": 6,
     "efficiency": 1000.0,
     "attackSpeed": 1.0,
@@ -22,7 +26,6 @@
     "damageVsEntity": 44.4,
     "usageCount": 3355,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:EarthEssence"

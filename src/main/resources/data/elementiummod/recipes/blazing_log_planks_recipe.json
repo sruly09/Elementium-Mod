@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:blazinglog_log"
+    }
+  ],
+  "result": {
+    "item": "elementiummod:blazing_log_planks",
+    "count": 4
+  }
+}

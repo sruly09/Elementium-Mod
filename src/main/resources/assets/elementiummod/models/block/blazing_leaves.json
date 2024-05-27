@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "elementiummod:block/blazing_leaves",
+    "particle": "elementiummod:block/blazing_leaves"
+  }
+}

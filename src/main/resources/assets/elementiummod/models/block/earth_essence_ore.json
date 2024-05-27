@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elementiummod:block/earth_essence_ore",
+    "up": "elementiummod:block/earth_essence_ore",
+    "north": "elementiummod:block/earth_essence_ore",
+    "east": "elementiummod:block/earth_essence_ore",
+    "south": "elementiummod:block/earth_essence_ore",
+    "west": "elementiummod:block/earth_essence_ore",
+    "particle": "elementiummod:block/earth_essence_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "elementiummod:elementium_armor_chestplate"
+  },
+  "addition": {
+    "item": "elementiummod:fire_essence"
+  },
+  "result": {
+    "item": "elementiummod:elementfire_armor_chestplate"
+  }
+}

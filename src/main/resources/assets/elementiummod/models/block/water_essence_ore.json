@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elementiummod:block/water_essence_ore",
+    "up": "elementiummod:block/water_essence_ore",
+    "north": "elementiummod:block/water_essence_ore",
+    "east": "elementiummod:block/water_essence_ore",
+    "south": "elementiummod:block/water_essence_ore",
+    "west": "elementiummod:block/water_essence_ore",
+    "particle": "elementiummod:block/water_essence_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -30,18 +30,26 @@
     "bodyName": "Void Elementium Chestplate CREATIVE ONLY (for now)",
     "leggingsName": "Void Elementium  Leggings CREATIVE ONLY (for now)",
     "bootsName": "Void Elementium  Boots CREATIVE ONLY (for now)",
-    "helmetSpecialInfo": [
-      "you hear a eerie sound..where does it  come from."
-    ],
-    "bodySpecialInfo": [
-      "you hear a eerie sound..where does it  come from?"
-    ],
-    "leggingsSpecialInfo": [
-      "you hear a eerie sound..where does it  come from?"
-    ],
-    "bootsSpecialInfo": [
-      "you hear a eerie sound..where does it  come from?"
-    ],
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "you hear a eerie sound..where does it  come from."
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "you hear a eerie sound..where does it  come from?"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "you hear a eerie sound..where does it  come from?"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "you hear a eerie sound..where does it  come from?"
+      ]
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

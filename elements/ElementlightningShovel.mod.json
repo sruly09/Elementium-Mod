@@ -1,18 +1,22 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "Spade",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementlightningshovel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementlightning Shovel",
-    "specialInfo": [
-      "W.I.P."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "W.I.P."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Spade",
     "harvestLevel": 6,
     "efficiency": 9.9,
     "attackSpeed": 2.0,
@@ -20,7 +24,9 @@
     "damageVsEntity": 12.3,
     "usageCount": 2525,
     "blocksAffected": [],
-    "hasGlow": true,
+    "glowCondition": {
+      "fixedValue": true
+    },
     "repairItems": [
       {
         "value": "CUSTOM:LightningEssence"

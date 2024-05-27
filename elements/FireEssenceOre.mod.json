@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "fire_essence_ore",
@@ -34,9 +34,11 @@
       }
     ],
     "name": "Fire Essence Ore",
-    "specialInfo": [
-      "Is it magma or fire..."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "Is it magma or fire..."
+      ]
+    },
     "hardness": 1.6,
     "resistance": 13.0,
     "hasGravity": false,
@@ -119,9 +121,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Nether"
-    ],
+    "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "basalt_deltas"

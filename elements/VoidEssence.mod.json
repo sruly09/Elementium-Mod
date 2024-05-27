@@ -1,10 +1,12 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "void_essence",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Void Essence",
     "rarity": "RARE",
     "creativeTab": {
@@ -24,13 +26,16 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "you hear the eerie sound...where does it come from?"
-    ],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": [
+        "you hear the eerie sound...where does it come from?"
+      ]
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "elementium_mod",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "elementiummod:elementnature_axe"
+    },
+    "b": {
+      "item": "elementiummod:elementnature_pickaxe"
+    },
+    "c": {
+      "item": "elementiummod:elementnature_shovel"
+    },
+    "d": {
+      "item": "minecraft:barrier"
+    }
+  },
+  "result": {
+    "item": "elementiummod:elementnature_paxel",
+    "count": 1
+  }
+}

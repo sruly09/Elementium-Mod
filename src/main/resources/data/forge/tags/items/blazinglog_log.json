@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "elementiummodpart1_theelements:blazing_log_wood",
-    "elementiummodpart1_theelements:blazing_log_log"
+    "elementiummod:blazing_log_wood",
+    "elementiummod:blazing_log_log"
   ]
 }

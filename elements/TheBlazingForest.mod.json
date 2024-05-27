@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "biome",
   "definition": {
     "name": "The Blazing Forest",
@@ -35,7 +35,7 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
-    "temperature": 1.5,
+    "temperature": 1.8,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
@@ -59,15 +59,6 @@
       "min": -1.0,
       "max": 1.0
     },
-    "grassPerChunk": 1,
-    "seagrassPerChunk": 0,
-    "flowersPerChunk": 0,
-    "mushroomsPerChunk": 0,
-    "bigMushroomsChunk": 0,
-    "sandPatchesPerChunk": 0,
-    "gravelPatchesPerChunk": 0,
-    "reedsPerChunk": 0,
-    "cactiPerChunk": 0,
     "treesPerChunk": 4,
     "vanillaTreeType": "Default",
     "treeType": 1,
@@ -84,6 +75,12 @@
     "treeFruits": {
       "value": "Blocks.AIR"
     },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "ExtraGoldOre",
+      "ForestGrass"
+    ],
     "spawnStronghold": false,
     "spawnMineshaft": true,
     "spawnMineshaftMesa": false,
@@ -103,21 +100,16 @@
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
-    "spawnRuinedPortal": "NETHER",
-    "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "ExtraGoldOre"
-    ],
+    "spawnRuinedPortal": "NONE",
     "spawnEntries": [
       {
         "entity": {
           "value": "EntityHoglin"
         },
-        "minGroup": 3,
-        "maxGroup": 4,
+        "minGroup": 2,
+        "maxGroup": 3,
         "weight": 20,
-        "spawnType": "monster"
+        "spawnType": "creature"
       }
     ]
   }

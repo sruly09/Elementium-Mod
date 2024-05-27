@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -9,7 +9,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.NETHERRACK"
+      "value": "Blocks.STONE#0"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
@@ -31,7 +31,12 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
+    "enableIgniter": true,
     "igniterName": "Flint and Elemondium",
+    "igniterRarity": "UNCOMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
     "igniterTab": {
       "value": "CUSTOM:ElementiumTab"
     },

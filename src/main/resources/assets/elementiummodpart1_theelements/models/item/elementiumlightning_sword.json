@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "elementiummodpart1_theelements:items/lightning_sword"
-  }
-}

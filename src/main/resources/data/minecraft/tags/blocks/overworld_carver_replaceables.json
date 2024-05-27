@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "minecraft:netherrack",
-    "elementiummodpart1_theelements:the_blazing_grass_block",
-    "elementiummodpart1_theelements:blazing_dirt"
+    "elementiummod:blazing_dirt",
+    "elementiummod:the_blazing_grass_block",
+    "minecraft:netherrack"
   ]
 }

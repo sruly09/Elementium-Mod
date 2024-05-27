@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "elementium_block",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Elementium Block",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 2.1,
     "resistance": 12.0,
     "hasGravity": false,
@@ -120,11 +122,20 @@
     "onBlockPlayedBy": {
       "name": "ElementiumBlockBlockIsPlacedBy"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

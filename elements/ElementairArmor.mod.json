@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -30,18 +30,26 @@
     "bodyName": "Air Elementium Chestplate ",
     "leggingsName": "Air Elementium Leggings ",
     "bootsName": "Air Element Boots",
-    "helmetSpecialInfo": [
-      "Protects you from levitation..."
-    ],
-    "bodySpecialInfo": [
-      "Protects you even from the greatest falls."
-    ],
-    "leggingsSpecialInfo": [
-      "Protects you even from the greatest falls."
-    ],
-    "bootsSpecialInfo": [
-      "Protects you even from the greatest falls."
-    ],
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "Protects you from levitation..."
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "Protects you even from the greatest falls."
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "Protects you even from the greatest falls."
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "Protects you even from the greatest falls."
+      ]
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

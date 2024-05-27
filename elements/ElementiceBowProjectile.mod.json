@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.TIPPED_ARROW"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.snowball.throw"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 4.800000000000001,
+    "knockback": 4,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsEntity": {
+      "name": "ElementiceBowProjectileHitsLivingEntity"
+    }
+  }
+}

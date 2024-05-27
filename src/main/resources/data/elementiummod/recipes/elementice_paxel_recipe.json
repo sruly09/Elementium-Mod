@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "elementium_mod",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "elementiummod:elementice_axe"
+    },
+    "b": {
+      "item": "elementiummod:elementice_pickaxe"
+    },
+    "c": {
+      "item": "elementiummod:elementice_shovel"
+    }
+  },
+  "result": {
+    "item": "elementiummod:elementice_paxel",
+    "count": 1
+  }
+}

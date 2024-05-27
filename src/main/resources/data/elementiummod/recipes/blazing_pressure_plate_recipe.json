@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "elementiummod:blazing_planks"
+    }
+  },
+  "result": {
+    "item": "elementiummod:blazing_pressure_plate",
+    "count": 1
+  }
+}

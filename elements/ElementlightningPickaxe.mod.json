@@ -1,18 +1,22 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "Pickaxe",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementlightning_pickaxe",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Pickaxe (Element:lightning)",
-    "specialInfo": [
-      "w.i.p."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "w.i.p."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Pickaxe",
     "harvestLevel": 6,
     "efficiency": 10.5,
     "attackSpeed": 1.9000000000000001,
@@ -20,7 +24,6 @@
     "damageVsEntity": 19.6,
     "usageCount": 2750,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:LightningEssence"

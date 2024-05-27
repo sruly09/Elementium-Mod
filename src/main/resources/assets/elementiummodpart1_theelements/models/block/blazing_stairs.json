@@ -1,9 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "elementiummodpart1_theelements:blocks/blazing_planks",
-    "top": "elementiummodpart1_theelements:blocks/blazing_planks",
-    "side": "elementiummodpart1_theelements:blocks/blazing_planks"
-  },
-  "render_type": "solid"
-}

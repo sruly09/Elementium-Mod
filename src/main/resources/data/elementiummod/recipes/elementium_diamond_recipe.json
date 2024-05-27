@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "elementium_mod",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elementiummod:elementium_block"
+    }
+  ],
+  "result": {
+    "item": "elementiummod:elemondium",
+    "count": 9
+  }
+}

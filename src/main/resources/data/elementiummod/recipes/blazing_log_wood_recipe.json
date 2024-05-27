@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "elementiummod:blazing_log_log"
+    }
+  },
+  "result": {
+    "item": "elementiummod:blazing_log_wood",
+    "count": 3
+  }
+}

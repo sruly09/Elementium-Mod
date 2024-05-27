@@ -1,16 +1,20 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "MultiTool",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementnature_paxel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Paxel (Element:nature)",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "MultiTool",
     "harvestLevel": 6,
     "efficiency": 14.5,
     "attackSpeed": 6.0,
@@ -18,7 +22,6 @@
     "damageVsEntity": 12.0,
     "usageCount": 1212,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:NatureEssence"

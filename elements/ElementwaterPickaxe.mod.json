@@ -1,21 +1,25 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "Pickaxe",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementwater_pickaxe",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Pickaxe (Element:water)",
-    "specialInfo": [
-      "mines stone",
-      "cobblestone",
-      "granite",
-      "diorite 10% faster... w.i.p."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "mines stone",
+        "cobblestone",
+        "granite",
+        "diorite 10% faster... w.i.p."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Pickaxe",
     "harvestLevel": 6,
     "efficiency": 16.0,
     "attackSpeed": 5.0,
@@ -23,7 +27,6 @@
     "damageVsEntity": 10.1,
     "usageCount": 1566,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:WaterEssence"

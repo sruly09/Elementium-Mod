@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "elementium_mod",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "acb",
+    " ab"
+  ],
+  "key": {
+    "a": {
+      "item": "elementiummod:lightning_essence"
+    },
+    "b": {
+      "item": "minecraft:string"
+    },
+    "c": {
+      "item": "elementiummod:elemondium"
+    }
+  },
+  "result": {
+    "item": "elementiummod:elementlightning_bow",
+    "count": 1
+  }
+}

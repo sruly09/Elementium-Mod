@@ -1,12 +1,15 @@
 {
   "replace": false,
   "values": [
-    "elementiummodpart1_theelements:blazing_log_wood",
-    "elementiummodpart1_theelements:blazing_log_log",
-    "elementiummodpart1_theelements:blazing_log_planks",
-    "elementiummodpart1_theelements:blazing_wood",
-    "elementiummodpart1_theelements:blazing_log",
-    "elementiummodpart1_theelements:blazing_planks",
-    "elementiummodpart1_theelements:the_blazing_log"
+    "elementiummod:blazingg_planks",
+    "elementiummod:blazingg_log",
+    "elementiummod:blazingg_wood",
+    "elementiummod:the_blazing_log",
+    "elementiummod:blazing_planks",
+    "elementiummod:blazing_log",
+    "elementiummod:blazing_wood",
+    "elementiummod:blazing_log_planks",
+    "elementiummod:blazing_log_log",
+    "elementiummod:blazing_log_wood"
   ]
 }

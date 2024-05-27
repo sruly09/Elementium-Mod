@@ -1,18 +1,22 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "Axe",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementnatureaxe",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Axe (Element:nature)",
-    "specialInfo": [
-      "Chops  down  the whole tree..  w.i.p."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "Chops  down  the whole tree..  w.i.p."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Axe",
     "harvestLevel": 6,
     "efficiency": 15.0,
     "attackSpeed": 5.5,
@@ -20,7 +24,6 @@
     "damageVsEntity": 9.0,
     "usageCount": 1212,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:NatureEssence"

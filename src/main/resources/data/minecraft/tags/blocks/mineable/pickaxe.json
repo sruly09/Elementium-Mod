@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "elementiummodpart1_theelements:elementium_block",
-    "elementiummodpart1_theelements:elementium_ore",
-    "elementiummodpart1_theelements:fire_essence_ore",
-    "elementiummodpart1_theelements:air_essence_ore",
-    "elementiummodpart1_theelements:earth_essence_ore"
+    "elementiummod:earth_essence_ore",
+    "elementiummod:air_essence_ore",
+    "elementiummod:fire_essence_ore",
+    "elementiummod:elementium_ore",
+    "elementiummod:elementium_block"
   ]
 }

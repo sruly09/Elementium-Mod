@@ -1,21 +1,25 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "Spade",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementwatershovel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Shovel (Element:water)",
-    "specialInfo": [
-      "digs sand",
-      "dirt",
-      "snow",
-      "gravel 10% faster... w.i.p."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "digs sand",
+        "dirt",
+        "snow",
+        "gravel 10% faster... w.i.p."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Spade",
     "harvestLevel": 6,
     "efficiency": 14.5,
     "attackSpeed": 5.0,
@@ -23,7 +27,6 @@
     "damageVsEntity": 8.2,
     "usageCount": 1566,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:WaterEssence"

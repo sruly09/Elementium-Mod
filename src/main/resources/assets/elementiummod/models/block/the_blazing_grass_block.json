@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "elementiummod:block/blazing_dirt",
+    "top": "elementiummod:block/blazing_grass_block",
+    "side": "elementiummod:block/blazing_grass_block_side",
+    "overlay": "elementiummod:block/blazing_grass_block_side",
+    "particle": "elementiummod:block/blazing_grass_block_side"
+  },
+  "render_type": "solid"
+}

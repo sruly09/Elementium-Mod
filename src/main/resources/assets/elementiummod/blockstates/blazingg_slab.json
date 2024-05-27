@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elementiummod:block/blazingg_slab"
+    },
+    "type=top": {
+      "model": "elementiummod:block/blazingg_slab_top"
+    },
+    "type=double": {
+      "model": "elementiummod:block/blazingg_slab_full"
+    }
+  }
+}

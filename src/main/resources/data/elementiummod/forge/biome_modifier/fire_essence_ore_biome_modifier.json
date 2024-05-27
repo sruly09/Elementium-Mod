@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "basalt_deltas",
+    "soul_sand_valley"
+  ],
+  "features": "elementiummod:fire_essence_ore",
+  "step": "underground_ores"
+}

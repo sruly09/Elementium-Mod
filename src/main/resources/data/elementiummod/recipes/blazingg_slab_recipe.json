@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "elementiummod:blazingg_planks"
+    }
+  },
+  "result": {
+    "item": "elementiummod:blazingg_slab",
+    "count": 6
+  }
+}

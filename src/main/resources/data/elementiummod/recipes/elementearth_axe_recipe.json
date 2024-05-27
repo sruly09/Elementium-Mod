@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "elementiummod:elementium_axe"
+  },
+  "addition": {
+    "item": "elementiummod:earth_essence"
+  },
+  "result": {
+    "item": "elementiummod:elementearth_axe"
+  }
+}

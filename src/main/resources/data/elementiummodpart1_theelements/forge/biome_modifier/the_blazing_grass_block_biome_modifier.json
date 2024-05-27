@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "elementiummodpart1_theelements:the_blazing_grass_block",
-  "step": "underground_ores"
-}

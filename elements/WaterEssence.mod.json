@@ -1,10 +1,12 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "water_essence",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Water Essence",
     "rarity": "UNCOMMON",
     "creativeTab": {
@@ -24,14 +26,17 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Is water",
-      "wet...? w.i.p."
-    ],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": [
+        "Is water",
+        "wet...? w.i.p."
+      ]
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

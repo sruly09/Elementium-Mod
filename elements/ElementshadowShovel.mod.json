@@ -1,16 +1,20 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "Spade",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementvoidshovel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Shovel (Element:shadow)",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Spade",
     "harvestLevel": 1,
     "efficiency": 17.5,
     "attackSpeed": 2.0,
@@ -18,7 +22,6 @@
     "damageVsEntity": 8.0,
     "usageCount": 9110,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:VoidEssence"

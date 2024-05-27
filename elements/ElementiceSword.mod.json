@@ -1,18 +1,22 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "Sword",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementice_sword",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Sword (Element:ice)",
-    "specialInfo": [
-      "freezes enemies on hit..."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "freezes enemies on hit..."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Sword",
     "harvestLevel": 0,
     "efficiency": 4.0,
     "attackSpeed": 1.8,
@@ -20,7 +24,6 @@
     "damageVsEntity": 12.3,
     "usageCount": 1111,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:IceEssence"

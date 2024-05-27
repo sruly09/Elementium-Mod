@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "procedure",
   "definition": {
     "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable id=\"posX\" type=\"Number\">posX</variable><variable id=\"posY\" type=\"Number\">posY</variable><variable id=\"posZ\" type=\"Number\">posZ</variable></variables><block deletable=\"false\" type=\"event_trigger\" x=\"25\" y=\"-206\"><field name=\"trigger\">no_ext_trigger</field></block></xml>"

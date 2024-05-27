@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "elementiummod:blocks/blazing_log_fence_gate",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "elementiummod:blazing_log_fence_gate"
+        }
+      ]
+    }
+  ]
+}

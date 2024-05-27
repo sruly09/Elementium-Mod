@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "elementiummod:block/blazingg_planks",
+    "top": "elementiummod:block/blazingg_planks",
+    "side": "elementiummod:block/blazingg_planks"
+  },
+  "render_type": "solid"
+}

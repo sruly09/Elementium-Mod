@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -30,18 +30,26 @@
     "bodyName": "Water Elementium Chestplate",
     "leggingsName": "Water Elementium Leggings",
     "bootsName": "Water Elementium Boots",
-    "helmetSpecialInfo": [
-      "protects you from the deepest part of the ocean."
-    ],
-    "bodySpecialInfo": [
-      "protects you from the deepest part of the ocean."
-    ],
-    "leggingsSpecialInfo": [
-      "protects you from the deepest part of the ocean."
-    ],
-    "bootsSpecialInfo": [
-      "protects you from the deepest part of the ocean."
-    ],
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "protects you from the deepest part of the ocean."
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "protects you from the deepest part of the ocean."
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "protects you from the deepest part of the ocean."
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "protects you from the deepest part of the ocean."
+      ]
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

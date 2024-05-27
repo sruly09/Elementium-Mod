@@ -1,16 +1,20 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "Sword",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementearth_sword",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Sword (Element:earth)",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 0.4,
@@ -18,7 +22,6 @@
     "damageVsEntity": 45.0,
     "usageCount": 3355,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:EarthEssence"

@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlazinggLog"
+      },
+      {
+        "value": "CUSTOM:BlazinggLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlazinggLog"
+      },
+      {
+        "value": "CUSTOM:BlazinggLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlazinggWood"
+    },
+    "name": "blazingg_wood_recipe",
+    "namespace": "mod"
+  }
+}

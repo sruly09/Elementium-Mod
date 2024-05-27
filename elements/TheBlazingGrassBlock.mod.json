@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "blazing_dirt",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "The Blazing Grass Block",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 0.5,
     "resistance": 0.5,
     "hasGravity": false,
@@ -117,10 +119,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:ElementiumDimension"
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TheBlazingForest"
+      }
     ],
-    "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,

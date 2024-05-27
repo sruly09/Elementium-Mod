@@ -1,18 +1,22 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "Spade",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementairshovel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Shovel (Element:air)",
-    "specialInfo": [
-      "w.i.p."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "w.i.p."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "Spade",
     "harvestLevel": 6,
     "efficiency": 13.0,
     "attackSpeed": 1.2,
@@ -20,7 +24,6 @@
     "damageVsEntity": 7.5,
     "usageCount": 1122,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:AirEssence"

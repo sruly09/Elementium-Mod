@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "elementiummod:elemondium_sword"
+  },
+  "addition": {
+    "item": "elementiummod:air_essence"
+  },
+  "result": {
+    "item": "elementiummod:elementair_sword"
+  }
+}

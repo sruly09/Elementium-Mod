@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "elementiummod:block/blazinglog_planks",
+    "particle": "elementiummod:block/blazinglog_planks"
+  },
+  "render_type": "solid"
+}

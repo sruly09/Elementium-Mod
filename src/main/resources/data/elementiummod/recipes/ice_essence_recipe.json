@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "elementiummod:water_essence"
+  },
+  "addition": {
+    "item": "minecraft:powder_snow_bucket"
+  },
+  "result": {
+    "item": "elementiummod:ice_essence"
+  }
+}

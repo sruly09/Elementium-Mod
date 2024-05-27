@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:obsidian"
+  },
+  "addition": {
+    "item": "elementiummod:elemondium"
+  },
+  "result": {
+    "item": "elementiummod:elemondium_infused_obsidian"
+  }
+}

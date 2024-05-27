@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "elementiummod:elementium_axe"
+  },
+  "addition": {
+    "item": "elementiummod:water_essence"
+  },
+  "result": {
+    "item": "elementiummod:elementwater_axe"
+  }
+}

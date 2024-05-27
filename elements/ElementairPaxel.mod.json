@@ -1,18 +1,22 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "MultiTool",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementair_paxel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Paxel (Element:air)",
-    "specialInfo": [
-      "w.i.p."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "w.i.p."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "MultiTool",
     "harvestLevel": 6,
     "efficiency": 14.8,
     "attackSpeed": 1.2,
@@ -20,7 +24,6 @@
     "damageVsEntity": 10.2,
     "usageCount": 1122,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:AirEssence"

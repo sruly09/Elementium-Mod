@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elementiummod:block/elementium_block",
+    "up": "elementiummod:block/elementium_block",
+    "north": "elementiummod:block/elementium_block",
+    "east": "elementiummod:block/elementium_block",
+    "south": "elementiummod:block/elementium_block",
+    "west": "elementiummod:block/elementium_block",
+    "particle": "elementiummod:block/elementium_block"
+  },
+  "render_type": "solid"
+}

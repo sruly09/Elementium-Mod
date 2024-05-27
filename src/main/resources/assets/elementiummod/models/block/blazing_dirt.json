@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elementiummod:block/blazing_dirt",
+    "up": "elementiummod:block/blazing_dirt",
+    "north": "elementiummod:block/blazing_dirt",
+    "east": "elementiummod:block/blazing_dirt",
+    "south": "elementiummod:block/blazing_dirt",
+    "west": "elementiummod:block/blazing_dirt",
+    "particle": "elementiummod:block/blazing_dirt"
+  },
+  "render_type": "solid"
+}

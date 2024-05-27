@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "elementiummod:elemondium_sword"
+  },
+  "addition": {
+    "item": "elementiummod:lightning_essence"
+  },
+  "result": {
+    "item": "elementiummod:elementiumlightning_sword"
+  }
+}

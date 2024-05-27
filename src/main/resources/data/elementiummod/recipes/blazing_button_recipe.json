@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elementiummod:blazing_planks"
+    }
+  ],
+  "result": {
+    "item": "elementiummod:blazing_button",
+    "count": 1
+  }
+}

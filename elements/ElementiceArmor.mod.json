@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -30,18 +30,26 @@
     "bodyName": "Ice Elementium Chestplate W.I.P. CREATIVE ONLY (for now)",
     "leggingsName": "Ice Elementium Leggings W.I.P.",
     "bootsName": "Ice Elementium Boots W.I.P. CREATIVE ONLY (for now)",
-    "helmetSpecialInfo": [
-      "this armor keeps you warm and its hard like metal."
-    ],
-    "bodySpecialInfo": [
-      "this armor keeps you warm and its hard like metal."
-    ],
-    "leggingsSpecialInfo": [
-      "this armor keeps you warm even its hard like metal."
-    ],
-    "bootsSpecialInfo": [
-      "this armor keeps you warm and its hard like metal."
-    ],
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "this armor keeps you warm and its hard like metal."
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "this armor keeps you warm and its hard like metal."
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "this armor keeps you warm even its hard like metal."
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "this armor keeps you warm and its hard like metal."
+      ]
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

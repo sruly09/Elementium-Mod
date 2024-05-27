@@ -1,21 +1,25 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "tool",
   "definition": {
+    "toolType": "MultiTool",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "elementwater_paxel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Elementium Paxel (Element:water)",
-    "specialInfo": [
-      "mines stone",
-      "cobblestone",
-      "granite",
-      "diorite 10% faster... w.i.p."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "mines stone",
+        "cobblestone",
+        "granite",
+        "diorite 10% faster... w.i.p."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:ElementiumTab"
     },
-    "toolType": "MultiTool",
     "harvestLevel": 6,
     "efficiency": 17.0,
     "attackSpeed": 5.4,
@@ -23,7 +27,6 @@
     "damageVsEntity": 20.0,
     "usageCount": 1588,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:WaterEssence"

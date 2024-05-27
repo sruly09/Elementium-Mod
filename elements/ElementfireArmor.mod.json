@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 60,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -30,18 +30,26 @@
     "bodyName": "Fire Elementium Chestplate",
     "leggingsName": "Fire Elementium Leggings",
     "bootsName": "Fire Elementium Boots",
-    "helmetSpecialInfo": [
-      "this armor protects you from the hottest flames from the nether..."
-    ],
-    "bodySpecialInfo": [
-      "this armor protects you from the hottest flames from the nether..."
-    ],
-    "leggingsSpecialInfo": [
-      "this armor protects you from the hottest flames from the nether.."
-    ],
-    "bootsSpecialInfo": [
-      "this armor protects you from the hottest flames from the nether..."
-    ],
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "this armor protects you from the hottest flames from the nether..."
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "this armor protects you from the hottest flames from the nether..."
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "this armor protects you from the hottest flames from the nether.."
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "this armor protects you from the hottest flames from the nether..."
+      ]
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
