@@ -4170,6 +4170,66 @@
           "src/main/java/net/element/elementiummod/entity/BlazingCowEntity.java"
         ]
       }
+    },
+    {
+      "name": "BlazingSteak",
+      "type": "item",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_steak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/item/BlazingSteakItem.java",
+          "src/main/resources/assets/elementiummod/models/item/blazing_steak.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingSteakSpecialInformation",
+      "type": "procedure",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_steak_special_information",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/BlazingSteakSpecialInformationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlazingSteakPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_steak_property_value_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/element/elementiummod/procedures/BlazingSteakPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4280,25 +4340,25 @@
       "block.elementiummodpart1_theelements.blazing_log_button": "BlazingLog Button",
       "item.elementiummodpart1_theelements.elementwater_helmet": "Water Elementium Helmet",
       "item.elementium_mod.elementnature_paxel": "Elementium Paxel (Element:nature)",
-      "item.elementium_mod.void_essence": "Void Essence",
-      "item.elementiummodpart1theelements.elementlightning_pickaxe": "Elementium Pickaxe (Element:lightning)",
       "item.elementiummodpart1_theelements.elemondium_sword": "Elemondium Sword",
+      "item.elementiummodpart1theelements.elementlightning_pickaxe": "Elementium Pickaxe (Element:lightning)",
+      "item.elementium_mod.void_essence": "Void Essence",
       "block.elementiummod.blazingg_slab": "Blazingg Slab",
-      "block.elementium_mod.earth_essence_ore": "Earth Essence Ore",
       "item.elementiummod.elementiumlightning_sword": " Elementium Sword (Element:lightning)",
+      "block.elementium_mod.earth_essence_ore": "Earth Essence Ore",
       "item.elementiummod_part1_the_elements.elementvoid_paxel": "Elementium Paxel (Element:void)",
       "item.elementium_mod.elementair_paxel": "Elementium Paxel (Element:air)",
-      "item.elementiummodpart1theelements.elementice_sword": "Elementium Sword (Element:ice)",
       "block.elementiummod.blazing_pressure_plate": "Blazing Pressure Plate",
-      "item.elementiummod_part1_the_elements.elementfire_shovel": "Elementfire Shovel",
+      "item.elementiummodpart1theelements.elementice_sword": "Elementium Sword (Element:ice)",
       "item.elementium_mod.elementfire_armor_leggings": "Fire Elementium Leggings",
+      "item.elementiummod_part1_the_elements.elementfire_shovel": "Elementfire Shovel",
       "item.elementiummodpart1_theelements.elementium_armor_boots": "Elementium  Boots",
       "item.elementiummodpart1theelements.elementwater_bow": "Elementium Bow (Element:water)",
-      "block.elementium_mod.fire_essence_ore": "Fire Essence Ore",
       "item.elementiummodpart1_theelements.elementwater_axe": "Elementium Axe (Element:water)",
+      "block.elementium_mod.fire_essence_ore": "Fire Essence Ore",
       "item.elementiummodpart1_theelements.elementice_sword": "Elementium Sword (Element:ice)",
-      "item.elementiummod_part1_the_elements.elementair_bow": "Elementium Bow (Element:air)",
       "block.elementiummod.blazing_fence": "Blazing Fence",
+      "item.elementiummod_part1_the_elements.elementair_bow": "Elementium Bow (Element:air)",
       "block.elementiummod.blazingg_pressure_plate": "Blazingg Pressure Plate",
       "item.elementiummod.elementfire_armor_chestplate": "Fire Elementium Chestplate",
       "item.elementiummodpart1theelements.void_essence": "Void Essence",
@@ -4309,8 +4369,8 @@
       "item.elementiummodpart1_theelements.elementnature_paxel": "Elementium Paxel (Element:nature)",
       "item.elementium_mod.elementlightning_bow": "Elementium Bow (Element:lightning)",
       "item.elementiummodpart1theelements.elementearth_axe": "Elementium Axe (Element:earth)",
-      "block.elementiummodpart1_theelements.blazing_log_slab": "BlazingLog Slab",
       "item.elementiummodpart1_theelements.elemondium": "Elemondium",
+      "block.elementiummodpart1_theelements.blazing_log_slab": "BlazingLog Slab",
       "item.elementiummodpart1theelements.elementvoid_sword": "Elementium Sword (Element:void)",
       "item.elementiummodpart1_theelements.elementwater_sword": "Elementium Sword (Element:water)",
       "item.elementiummodpart1theelements.elementvoid_bow": "Elementium Bow (Element:void)",
@@ -4322,10 +4382,10 @@
       "item.elementiummodpart1_theelements.elementice_shovel": "Elementium Shovel (Element:ice)",
       "item.elementiummod_part1_the_elements.elementnature_shovel": "Elementium Shovel (Element:nature)",
       "item.elementiummod_part1_the_elements.nature_essence": "Nature Essence",
-      "item.elementiummod.elementnature_axe": "Elementium Axe (Element:nature)",
       "item.elementium_mod.elementfire_paxel": "Elementium Paxel (Element:fire)",
-      "item.elementiummod.elementice_bow": "Elementium Bow (Element:ice)",
+      "item.elementiummod.elementnature_axe": "Elementium Axe (Element:nature)",
       "block.elementium_mod.air_essence_ore": "Air Essence Ore",
+      "item.elementiummod.elementice_bow": "Elementium Bow (Element:ice)",
       "item.elementium_mod.elementice_sword": "Elementium Sword (Element:ice)",
       "item.elementium_mod.elementnature_bow": "Elementium Bow (Element:nature)",
       "item.elementium_mod.elementvoid_axe": "Elementium Axe (Element:void)",
@@ -4344,8 +4404,8 @@
       "item.elementiummodpart1_theelements.elementair_shovel": "Elementium Shovel (Element:air)",
       "item.elementiummod_part1_the_elements.elementwater_pickaxe": "Elementium Pickaxe (Element:water)",
       "item.elementiummodpart1theelements.elementfire_armor_chestplate": "Fire Elementium Chestplate",
-      "item.elementium_mod.elementvoid_sword": "Elementium Sword (Element:void)",
       "block.elementiummod.blazing_fence_gate": "Blazing Fence Gate",
+      "item.elementium_mod.elementvoid_sword": "Elementium Sword (Element:void)",
       "item.elementiummodpart1_theelements.void_essence": "Void Essence",
       "item.elementium_mod.elementearth_axe": "Elementium Axe (Element:earth)",
       "item.elementiummod.elementnature_armor_helmet": "Nature Elementium  Helmet CREATIVE ONLY (for now)",
@@ -4362,16 +4422,16 @@
       "item.elementium_mod.elementair_armor_leggings": "Air Elementium Leggings ",
       "item.elementiummodpart1theelements.elementfire_armor_leggings": "Fire Elementium Leggings",
       "item.elementiummodpart1theelements.elementfire_pickaxe": "Elementium Pickaxe (Element:fire) ",
-      "item.elementiummod_part1_the_elements.elementvoid_axe": "Elementium Axe (Element:void)",
       "item.elementiummodpart1_theelements.elementice_bow": "Elementium Bow (Element:ice)",
+      "item.elementiummod_part1_the_elements.elementvoid_axe": "Elementium Axe (Element:void)",
       "block.elementiummod.blazing_slab": "Blazing Slab",
       "item.elementium_mod.elementwater_axe": "Elementium Axe (Element:water)",
-      "block.elementiummodpart1_theelements.blazing_log_fence": "BlazingLog Fence",
       "item.elementiummod.elementair_axe": "Elementium Axe (Element:air)",
+      "block.elementiummodpart1_theelements.blazing_log_fence": "BlazingLog Fence",
       "item.elementiummod.lightning_essence": "Lightning Essence",
       "item.elementiummodpart1_theelements.elementearth_axe": "Elementium Axe (Element:earth)",
-      "item.elementiummod_part1_the_elements.elementvoid_pickaxe": "Elementium Pickaxe (Element:void)",
       "item.elementiummodpart1_theelements.elementnature_pickaxe": "Elementium Pickaxe (Element:nature)",
+      "item.elementiummod_part1_the_elements.elementvoid_pickaxe": "Elementium Pickaxe (Element:void)",
       "item.elementiummodpart1theelements.elementair_sword": "Elementium Sword (Element:air)",
       "item.elementiummod_part1_the_elements.elementice_bow": "Elementium Bow (Element:ice)",
       "item.elementiummod_part1_the_elements.elementair_armor_boots": "Air Element Boots",
@@ -4511,6 +4571,7 @@
       "item.elementiummod.elementvoid_armor_boots": "Void Elementium  Boots CREATIVE ONLY (for now)",
       "item.elementiummod_part1_the_elements.elementair_paxel": "Elementium Paxel (Element:air)",
       "item.elementiummodpart1_theelements.elementwater_boots": "Water Elementium Boots",
+      "item.elementiummod.blazing_steak": "Blazing Steak",
       "item.elementiummod.elementwater_axe": "Elementium Axe (Element:water)",
       "item.elementiummodpart1_theelements.elementvoid_pickaxe": "Elementium Pickaxe (Element:void)",
       "item.elementiummodpart1theelements.elementice_shovel": "Elementium Shovel (Element:ice)",
